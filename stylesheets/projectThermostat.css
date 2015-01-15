@@ -2,6 +2,7 @@
 /* CSS Document */
 
 /*@import "reset.css"*/
+
 /* === reset === */
 
 body,
@@ -51,8 +52,28 @@ h6 {
     font-weight: normal;
 }
 
+
 /* === mine == */
-    
+
+#mainbody_thermostat {
+    display: block;
+    width: 980px;
+    height: 1500px;
+    padding: 0px;
+    position: relative;
+    margin: auto;
+    z-index: 3;
+    border: 5px solid #000;
+    text-align: center;
+}
+
+#mainbody_thermostat h1{
+    font-family: 'Robot';
+    font-size: 40px;
+    font-weight: 600;
+    margin: 60px;
+}
+
 p {
     font-family: 'Century Gothic', sans-serif;
     line-height: 24px;
@@ -72,16 +93,7 @@ html body {
     text-align: center;
     border: 2px solid #0e0;
 }
-#mainbody {
-    display: block;
-    width: 980px;
-    height: 1500px;
-    padding: 0px;
-    position: relative;
-    margin: auto;
-    z-index: 3;
-    border: 5px solid #000;
-}
+
 .aboutme {
     margin-top: 10px;
     width: 450px;
@@ -288,3 +300,4 @@ span {
 	-webkit-filter: grayscale(0);
     
 }
+
