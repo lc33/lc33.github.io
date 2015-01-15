@@ -55,6 +55,9 @@ h6 {
 
 /* === mine == */
 
+html body {
+    background-color: #f5f4f3;
+}
 #mainbody_thermostat {
     display: block;
     width: 980px;
@@ -68,19 +71,18 @@ h6 {
 }
 
 #mainbody_thermostat h1{
-    font-family: 'Robot';
+    font-family: 'Roboto' serif;
     font-size: 40px;
     font-weight: 600;
     margin: 60px;
 }
 
 p {
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'Robot', sans-serif;
     line-height: 24px;
+    font-weight: 200;
 }
-html body {
-    background-color: #f5f4f3;
-}
+
 #logo {
     top: 60px;
     display: block;
