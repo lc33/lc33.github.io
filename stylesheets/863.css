@@ -1,0 +1,178 @@
+/*@charset "UTF-8";*/
+/* CSS Document */
+/*@import "reset.css"*/
+/* === reset === */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+input,
+textarea,
+p {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    border: 0
+}
+
+address,
+cite,
+em,
+strong {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+/* === mine == */
+
+h1 {
+    font-family: TeluguMN;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2 {
+    font: 600 24px TeluguMN;
+    margin: 0px 10px 35px 0px;
+}
+
+h3 {
+    font: 600 18px TeluguMN;
+    margin: 0px 0px 20px 0px;
+}
+
+p {
+    color: #323232；
+}
+
+p,
+ui,
+li {
+    font-family: 'Robot', sans-serif;
+    line-height: 24px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+ul.disc {
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+html body {
+    background-color: #fff;
+}
+
+/* === main === */
+#mainbody {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    position: relative;
+    margin: auto;
+    z-index: 3;
+    /*        border: 5px solid #000;*/
+    
+    text-align: center;
+}
+/* === top === */
+.topback {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #99cc00;
+}
+
+.title_text h1 {
+    margin-bottom: 15px;
+}
+
+.title_text p {
+    font: 18px LucidaSans;
+    line-height: 28px;
+}
+
+.title {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    /*    border:1px solid #000;*/
+}
+
+.title_text {
+    width: 700px;
+    float: left;
+    text-align: left;
+    color: #fff;
+    margin: 110px 0px 0px 120px;
+    /*    border: 1px solid #222;*/
+}
+
+.title_img {
+    float: left;
+    /*    border: 1px solid #000;*/
+    
+    margin: 70px 0px 0px 80px;
+}
+
+/* === content === */
+.content {
+    width: 1000px;
+    /*    height: 1860px;*/
+    
+    margin: auto;
+    /*    border: 1px solid #000;*/
+}
+
+/* === footer === */
+.footerback {
+    width: 100%;
+    height: 180px;
+    background-color: #99cc00;
+    margin: auto;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.footer {
+    margin: 80px 10px 10px 10px;
+    height: 80px;
+    /*    border: 1px solid #000;*/
+    
+    color: #f4f4f4;
+}
+
+.prototypeTest {
+    margin-top: 80px;
+}
