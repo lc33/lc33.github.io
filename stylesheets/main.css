@@ -66,11 +66,11 @@ a{
 /*    text-decoration: none;*/
 }
 a:link {
-        color: #144f9d；
+        color: #295a97;
 }
-a:visited {color: #1976d2}
+a:visited {color: #295a97}
 a:hover {color: #3a89eb}
-a:active {color: #1976d2}
+a:active {color: #295a97}
 
 .mianbody{
     width: 100%;
