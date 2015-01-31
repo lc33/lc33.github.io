@@ -61,18 +61,15 @@ p {
 html body {
     background-color: #f5f4f3;
 }
-.link{
-    color: #1976d2;
-    text-decoration: none;
-}
+
 a{ 
-    text-decoration: none;
+/*    text-decoration: none;*/
 }
 a:link {
-        color: #1976d2；
+        color: #144f9d；
 }
 a:visited {color: #1976d2}
-a:hover {color: #1976d2}
+a:hover {color: #3a89eb}
 a:active {color: #1976d2}
 
 .mianbody{
