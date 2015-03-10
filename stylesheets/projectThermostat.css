@@ -75,8 +75,8 @@ html body {
     position: relative;
     margin: auto;
     z-index: 3;
-/*    border: 5px solid #000;*/
     text-align: center;
+    background-color: #f1f1f1;
 }
 
 #mainbody_thermostat h1{

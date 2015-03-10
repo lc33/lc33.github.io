@@ -34,6 +34,9 @@
   margin: 0;
   padding: 0;
   list-style: none;
+    height: 100px;
+    background-color: #333;
+    border: 1px solid #edd;
 }
 .flex-pauseplay span {
   text-transform: capitalize;
@@ -90,7 +93,7 @@ html[xmlns] .flexslider .slides {
     
     width: 500px;
     margin: auto;
-    height: 400px;
+    height: 800px;
 }
 .flexslider .slides {
   zoom: 1;
