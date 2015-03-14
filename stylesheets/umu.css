@@ -57,7 +57,7 @@ h6 {
 
 h1 {
     font-family: TeluguMN;
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 600;
 }
 
@@ -117,12 +117,13 @@ html body {
 }
 
 .title_text h1 {
-    margin-bottom: 15px;
+    margin: 0px 0px 23px 85px;
 }
 
 .title_text p {
-    font: 18px LucidaSans;
-    line-height: 28px;
+    font: 100 16px LucidaSans;
+    line-height: 24px;
+    margin: 40px 0px;
 }
 
 .title {
@@ -133,11 +134,11 @@ html body {
 }
 
 .title_text {
-    width: 700px;
+    width:660px;
     float: left;
     text-align: left;
     color: #fff;
-    margin: 110px 0px 0px 120px;
+    margin: 120px 0px 0px 120px;
     /*    border: 1px solid #222;*/
 }
 
@@ -152,27 +153,30 @@ html body {
 .content {
     width: 1000px;
     /*    height: 1860px;*/
-    margin: auto;
-    border: 1px solid #000;
+    margin: 100px auto;
+/*    border: 1px solid #000;*/
 }
 
 .content p {
     margin: auto;
-    width: 780px;
+    width: 620px;
+/*    line-height: 30px;*/
 }
 
 
 .sectionDetail {
-    width: 1000px;
-    margin: auto;
+    width: 800px;
+    margin: 45px auto 0px auto;
+    padding-top:20px;
     text-align: left;
     /*    background-color: azure;*/
 }
 
 .sectionDetail h3 {
     position: relative;
-    left: 110px;
+    left: 88px;
 }
+
 
 .greyNote {
     /*    width: 3000px;*/
@@ -180,11 +184,15 @@ html body {
     font: 200 12px TeluguMN;
     color: #bcbcbc;
     font-weight: 100;
+    padding: 0px 0px 20px 0px;
+/*    border: 1px solid red;*/
+/*    background-color: red;*/
+    
 }
 
 .prototypeSlide {
     width: 650px;
-    margin: auto;
+    margin: 35px auto;
     text-align: center;
 /*    background-color: red;*/
 /*    overflow: auto;*/
@@ -198,6 +206,10 @@ html body {
 
 .prototypeTest {
     margin-top: 80px;
+}
+
+.intense {
+    cursor: url('../images/plus_cursor.png') 25 25, auto;
 }
 
 /* === footer === */
