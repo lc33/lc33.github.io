@@ -99,23 +99,25 @@ a:active {
 
 .header {
     width: 1000px;
-    height: 347px;
-    margin: auto;
-/*    overflow:hidden;*/
-    /*    border: 1px solid;*/
+/*    height: 347px;*/
+    margin: 80px auto 50px auto;
+    overflow:hidden;
+/*    border: 1px solid;*/
 }
 
 .headerLeft {
-    width: 700px;
+    width: 650px;
 /*    height: 347px;*/
     float: left;
-    /*    border: 1px solid;*/
+    padding-left: 50px;
+/*    border: 1px solid;*/
 }
 
 #imgMe {
     float: left;
     width: 94px;
-    margin: 140px 0px 105px 50px;
+/*    margin: 140px 0px 105px 50px;*/
+    margin: 20px;
 }
 
 #intro {
@@ -123,8 +125,11 @@ a:active {
     width: 450px;
     font: italic 18px LucidaSans;
     color: #323232;
+    margin-left: 15px;
+/*
     margin-left: 40px;
     margin-top: 125px;
+*/
 }
 
 #intro p {
@@ -139,10 +144,12 @@ a:active {
 .headerRight {
     width: 141px;
     float: left;
-    margin: 153px 0px 0px 60px;
+/*    margin: 153px 0px 0px 60px;*/
     line-height: 32px;
     font-size: 14px;
     font-style: italic;
+/*    border: 1px solid red;*/
+    margin-top: 25px;
 }
 
 .headerRight p {
@@ -153,7 +160,6 @@ a:active {
 .container {
     width: 1000px;
     /*    background-color: #edd;*/
-    
     margin: auto;
     overflow: auto;
 }
@@ -163,7 +169,7 @@ a:active {
     width: 450px;
     float: left;
     text-align: center;
-    margin: 0px 25px 50px 25px;
+    margin: 0px 25px 20px 25px;
     /*    background-color: #72f;*/
 }
 
@@ -208,7 +214,7 @@ a:active {
 .section{
     width: 1000px;
     height: 100%;
-    margin: 0px auto 60px auto;
+    margin: 80px auto;
     overflow: hidden;
     }
 .sectionLine {
