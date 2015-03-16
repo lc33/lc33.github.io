@@ -7,6 +7,10 @@
     <title>UMU</title>
     <link rel="stylesheet" href="stylesheets/umu.css">
 
+
+    <base target="_blank">
+    <!--opne in new window-->
+
     <!--   import jquery-->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -17,11 +21,16 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
 
     <!--    import lightbox-->
+    <!--
     <link rel="stylesheet" href="lightbox/css/lightbox.css">
     <script type="text/javascript" src="lightbox/js/lightbox.min.js"></script>
+-->
 
-    <!--    import intense img (zoom in)-->
-<!--    <script type="text/javascript" src="javascripts/intense.js"></script>-->
+    <!--    import easyroom (zoom in)-->
+    <!--
+    <link rel="stylesheet" type="text/css" href="stylesheets/easyzoom.css" />
+    <script type="text/javascript" src="javascripts/easyzoom.js"></script>
+-->
 
 
 </head>
@@ -41,8 +50,7 @@
                     <p>
                         UMU is a multiplatform interactive system that lets you engage and interacti with your audience. You could set the questions, votes, discussions and other interactive sessions. Your audience could give their feedback though their phones.
                         <br/>
-                        <br/>
-                        visit
+                        <br/> visit
                         <a href="umu.com" style="color: white"> umu.com</a>
                     </p>
                 </div>
@@ -66,20 +74,20 @@
             <p>This is a complicated system with many details. So I just demonstrate here some critical pages.</p>
 
             <div class="sectionDetail">
-                
+
                 <h3>Course Schedule</h3>
                 <p class="greyNote">Designed by Axure</p>
-                
+
                 <p>This is the mostly used core page. Users can check their schedulars and find entrance of adding/editing courses. The challenge here is to deal well the interaction among calendar, courses and function buttons.</p>
                 <div class="prototypeSlide">
                     <div>
-                        <img src="images/umu/umuP1.png" alt="">
+                        <img src="images/umu/umuP1.jpg" alt="">
                     </div>
                     <div>
-                        <img src="images/umu/umuP2.png" alt="">
+                        <img src="images/umu/umuP2.jpg" alt="">
                     </div>
                     <div>
-                        <img src="images/umu/umuP3.png" alt="">
+                        <img src="images/umu/umuP3.jpg" alt="">
                     </div>
 
                 </div>
@@ -91,13 +99,15 @@
                 <p>This is the mostly used core page. Users can check their schedulars and add/edit courses here. The challenge here is to deal well the interaction among calendar, courses and function buttons.</p>
                 <div class="prototypeSlide">
                     <div>
-                        <img src="images/umu/umuP4.png" alt="">
+                        <a href="images/umu/umuP4.png"><img src="images/umu/umuP4.png" alt="">
+                        </a>
                     </div>
                     <div>
-                        <img src="images/umu/umuP5.png" alt="">
+                        <a href="images/umu/umuP5.png"><img src="images/umu/umuP5.png" alt=""></a>
+                        
                     </div>
                     <div>
-                        <img src="images/umu/umuP6.png" alt="">
+                        <a href="images/umu/umuP6.png"><img src="images/umu/umuP6.png" alt=""></a>
                     </div>
 
                 </div>
@@ -113,11 +123,10 @@
                 <h3>Information Architecture</h3>
                 <p class="greyNote">Designed by Sketch</p>
                 <p>This is a brief app structure demonstrating the hierarchy. I tried to make the structure as flat as possible. We decided to use four tabs which are &#8220;Schedule&#8221;, &#8220;Template&#8221;, &#8220;Message&#8221; and &#8220;Me&#8221;.</p>
-                <div class="prototypeSlide">
-                    
-                <img src="images/umu/umuP7.png" alt="" style="width:500px;">
-            
-                </div>
+
+                <img src="images/umu/umuP7.png" alt="" style="margin: 50px 200px; width:400px;">
+
+
             </div>
 
             <div class="sectionDetail">
@@ -127,23 +136,21 @@
                 <div class="prototypeSlide">
 
                     <div>
-                        <a href="images/umu/umuP8.png" data-lightbox="roadTrip" data-title="Schedule"><img src="images/umu/umuP8.png">
+                        <a href="images/umu/umuP8.png"><img src="images/umu/umuP8.png" alt="" target="_blank">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="images/umu/umuP9.png"><img src="images/umu/umuP9Small.png" alt="" target="_blank">
                         </a>
                     </div>
                     <div>
-                        <a href="images/umu/umuP9.png" data-lightbox="roadTrip" data-title="Template"><img src="images/umu/umuP9.png" alt="">
+                        <a href="images/umu/umuP10.png"><img src="images/umu/umuP10Small.png" alt="" target="_blank">
                         </a>
-
                     </div>
                     <div>
-                        <a href="images/umu/umuP10.png" data-lightbox="roadTrip" data-title="Message"><img src="images/umu/umuP10.png" alt="">
+                        <a href="images/umu/umuP11.png"><img src="images/umu/umuP11Small.png" alt="" target="_blank">
                         </a>
-
-                    </div>
-                    <div>
-                        <a href="images/umu/umuP11.png" data-lightbox="roadTrip" data-title="Me"><img src="images/umu/umuP11.png" alt="">
-                        </a>
-
                     </div>
 
                 </div>
@@ -162,7 +169,7 @@
         </div>
     </div>
 
-    <!--   javascript -->
+    <!--   javascript begin-->
 
     <!--    slides-->
     <script type="text/javascript">
@@ -176,13 +183,13 @@
     </script>
 
     <!--    zoom in-->
-<!--
+    <!--
     <script>
-        window.onload = function () {
-            // Intensify all images with the 'intense' classname.
-            var elements = document.querySelectorAll('.intense');
-            Intense(elements);
-        }
+        // Instantiate EasyZoom plugin
+        var $easyzoom = $('.easyzoom').easyZoom();
+
+        // Get the instance API
+        var api = $easyzoom.data('easyZoom');
     </script>
 -->
 

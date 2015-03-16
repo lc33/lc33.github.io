@@ -92,7 +92,7 @@ a:active {
     width: 100%;
     height: 100%;
     margin: auto;
-    background-color: #f1f1f1;
+/*    background-color: #f5f4f3;*/
     display: block;
     position: relative；
 }
@@ -227,11 +227,13 @@ a:active {
     font: 200 18px Calibri;
     color: #c8c8c8;
     }
+
 .footer {
     width: 1000px;
     margin: auto;
+    padding-top: 100px;
     text-align: center;
-    /*    border: 1px solid;*/
+/*        border: 1px solid;*/
 }
 
 .social {
@@ -250,8 +252,8 @@ a:active {
     /*    width: 1000px;*/
     
     font-family: "Courier New", Courier, mono;
-    font-size: 12px;
-    margin: 90px 50px 80px 0px;
+    font-size: 10px;
+    margin: 80px 50px 30px 0px;
     color: #969696;
     /*    margin: auto;*/
     /*    border: 1px solid;*/

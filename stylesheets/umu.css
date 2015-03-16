@@ -90,7 +90,7 @@ ul.disc {
 }
 
 html body {
-    background-color: #f1f1f1;
+    background-color: #f5f4f3;
 }
 /* === main === */
 
@@ -153,8 +153,10 @@ html body {
 .content {
     width: 1000px;
     /*    height: 1860px;*/
-    margin: 100px auto;
+    margin: 150px auto;
 /*    border: 1px solid #000;*/
+/*    background-color: darkcyan;*/
+    
 }
 
 .content p {
@@ -167,9 +169,9 @@ html body {
 .sectionDetail {
     width: 800px;
     margin: 45px auto 0px auto;
-    padding-top:20px;
+    padding-top:50px;
     text-align: left;
-    /*    background-color: azure;*/
+/*    background-color: azure;*/
 }
 
 .sectionDetail h3 {
@@ -201,6 +203,7 @@ html body {
 .prototypeSlide img {
     width: 500px;
     margin: auto;
+    text-align: center;
 }
 
 
