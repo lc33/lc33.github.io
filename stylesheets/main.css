@@ -73,19 +73,19 @@ a {
 }
 
 a:link {
-    color: #295a97;
+    color: #9E9E9E;
 }
 
 a:visited {
-    color: #295a97
+    color: #9E9E9E;
 }
 
 a:hover {
-    color: #3a89eb
+    color: #d50000;
 }
 
 a:active {
-    color: #295a97
+    color: #d50000;
 }
 
 .mianbody {
@@ -123,7 +123,7 @@ a:active {
 #intro {
     float: left;
     width: 450px;
-    font: italic 18px LucidaSans;
+    font: normal 18px LucidaSans;
     color: #323232;
     margin-left: 15px;
 /*
@@ -147,14 +147,15 @@ a:active {
 /*    margin: 153px 0px 0px 60px;*/
     line-height: 32px;
     font-size: 14px;
-    font-style: italic;
+    font-style: normal;
 /*    border: 1px solid red;*/
     margin-top: 25px;
 }
 
 .headerRight p {
     line-height: 32px;
-    color: #969696;
+    color: #9E9E9E;
+
 }
 
 .container {
