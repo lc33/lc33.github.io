@@ -106,7 +106,7 @@ html body {
 }
 /* === top === */
 
-.topback {
+#calendarTopBack {
     position: relative;
     width: 100%;
     height: 400px;
@@ -116,6 +116,15 @@ html body {
     background-size: cover;
 }
 
+#blogTopBack{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #666666;
+    background-image: url(../images/blog/topBack.png);
+    background-repeat: no-repeat center top;
+    background-size: cover;
+    }
 
 
 .title {
@@ -193,6 +202,10 @@ html body {
     
     }
 
+.imgTitle {
+    margin: 30px auto;
+    }
+
 .greyNote {
     /*    width: 3000px;*/
     
@@ -224,9 +237,7 @@ html body {
     margin-top: 80px;
 }
 
-.intense {
-    cursor: url('../images/plus_cursor.png') 25 25, auto;
-}
+
 
 /* === footer === */
 
@@ -238,6 +249,10 @@ html body {
     margin-top: 200px;
     position: absolute;
 }
+#blogFooterBack {
+    background-color: rgb(251, 177,61);
+    }
+
 .footer {
     margin: 80px 10px 10px 10px;
     height: 80px;
