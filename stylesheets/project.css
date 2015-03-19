@@ -78,10 +78,10 @@ p {
 p,
 ui,
 li {
-    font-family: 'Robot', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     line-height: 24px;
-    font-weight: 200;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 ul.disc {
@@ -92,6 +92,7 @@ ul.disc {
 html body {
     background-color: #f5f4f3;
 }
+
 /* === main === */
 
 #mainbody {
@@ -147,8 +148,8 @@ html body {
 }
 
 .title_text p {
-    width: 386px;
-    font: 100 16px LucidaSans;
+    width: 400px;
+    font: 400 20px 'Josefin Sans';
     line-height: 24px;
     margin: 40px 0px;
 }

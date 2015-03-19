@@ -78,10 +78,10 @@ p {
 p,
 ui,
 li {
-    font-family: 'Robot', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     line-height: 24px;
-    font-weight: 200;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 ul.disc {
@@ -121,7 +121,7 @@ html body {
 }
 
 .title_text p {
-    font: 100 16px LucidaSans;
+    font: 400 20px 'Josefin Sans';
     line-height: 24px;
     margin: 40px 0px;
 }
@@ -183,10 +183,9 @@ html body {
 .greyNote {
     /*    width: 3000px;*/
     
-    font: 200 12px TeluguMN;
-    color: #bcbcbc;
-    font-weight: 100;
-    padding: 0px 0px 20px 0px;
+    font: 200 12px 'Quicksand';
+    color: #888888;
+    padding: 5px 0px 20px 0px;
 /*    border: 1px solid red;*/
 /*    background-color: red;*/
     
