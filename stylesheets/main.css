@@ -1,5 +1,11 @@
 /*@charset "UTF-8";*/
 /* CSS Document */
+/*Import Fonts*/
+@font-face {
+    font-family: Josefin Sans;
+    src: url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic);
+}
+
 /*@import "reset.css"*/
 /* === reset === */
 
@@ -57,10 +63,16 @@ h6 {
 h2 {
     font: 400 30px TeluguMN;
 }
+
+
+
+
+
 /* === mine == */
 
 p {
-    font-family: 'Century Gothic', sans-serif;
+/*    font-family: 'Century Gothic', sans-serif;*/
+    font-family: 'Josefin Sans';
     line-height: 24px;
 }
 
@@ -117,44 +129,40 @@ a:active {
     float: left;
     width: 94px;
 /*    margin: 140px 0px 105px 50px;*/
-    margin: 20px;
+    margin: 15px;
 }
 
 #intro {
     float: left;
     width: 450px;
-    font: normal 18px LucidaSans;
+    font-size: 20px;
     color: #323232;
     margin-left: 15px;
-/*
-    margin-left: 40px;
-    margin-top: 125px;
-*/
+
+}
+#intro h2 {
+/*        font: 400 48px LucidaSans;*/
+    color: #696969;
 }
 
 #intro p {
     line-height: 32px;
 }
 
-#intro h2 {
-    font: 400 48px LucidaSans;
-    color: #969696;
-}
+
 
 .headerRight {
     width: 141px;
     float: left;
-/*    margin: 153px 0px 0px 60px;*/
-    line-height: 32px;
-    font-size: 14px;
-    font-style: normal;
-/*    border: 1px solid red;*/
-    margin-top: 25px;
+    margin-top: 21px;
 }
 
 .headerRight p {
     line-height: 32px;
     color: #9E9E9E;
+    font-family: 'Quicksand';
+    font-size: 14px;  
+    font-weight: 200;
 
 }
 
@@ -206,9 +214,9 @@ a:active {
 
 .box p {
 /*    width: 400px;*/
-    font: 200 16px Roboto;
-    line-height: 24px;
-    color: #969696;
+    font: 400 14px 'Quicksand';
+    line-height: 20px;
+    color: #7c7c7c;
     margin: 20px 40px;
 /*    background-color: black;*/
 }
@@ -222,7 +230,7 @@ a:active {
     float: left;
     width: 425px;
     height: 1px;
-    margin: 10px auto;
+    margin: 30px auto;
     background-color: #e2e2e2;
     overflow: hidden;
 }
@@ -231,7 +239,7 @@ a:active {
     float: left;
     text-align: center;
     margin: auto;
-    font: 200 18px Calibri;
+    font: 200 34px 'Josefin Sans';
     color: #c8c8c8;
     }
 
@@ -258,8 +266,9 @@ a:active {
 #copyright {
     /*    width: 1000px;*/
     
-    font-family: "Courier New", Courier, mono;
-    font-size: 10px;
+/*    font-family: "Courier New", Courier, mono;*/
+    font-family: 'Quicksand';
+    font-size: 12px;
     margin: 80px 0px 30px 0px;
     color: #969696;
     /*    margin: auto;*/
