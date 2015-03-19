@@ -78,7 +78,7 @@ p {
 p,
 ui,
 li {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Slab', sans-serif;
     line-height: 24px;
     font-weight: 400;
     font-size: 16px;
@@ -121,7 +121,7 @@ html body {
 }
 
 .title_text p {
-    font: 400 20px 'Josefin Sans';
+    font: 400 20px 'Josefin Slab';
     line-height: 24px;
     margin: 40px 0px;
 }

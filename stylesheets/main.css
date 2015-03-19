@@ -68,7 +68,7 @@ h2 {
 
 p {
 /*    font-family: 'Century Gothic', sans-serif;*/
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Slab';
     line-height: 24px;
 }
 
@@ -235,7 +235,7 @@ a:active {
     float: left;
     text-align: center;
     margin: auto;
-    font: 200 34px 'Josefin Sans';
+    font: 200 34px 'Josefin Slab';
     color: #c8c8c8;
     }
 
