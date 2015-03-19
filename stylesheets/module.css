@@ -1,3 +1,22 @@
+a {
+    /*    text-decoration: none;*/
+}
+
+a:link {
+    color: #9E9E9E;
+}
+
+a:visited {
+    color: #9E9E9E;
+}
+
+a:hover {
+    color: #d50000;
+}
+
+a:active {
+    color: #d50000;
+}
 
 /* === footer === */
 
