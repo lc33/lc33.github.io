@@ -92,7 +92,6 @@ ul.disc {
 html body {
     background-color: #f5f4f3;
 }
-
 /* === main === */
 
 #mainbody {
@@ -107,26 +106,28 @@ html body {
 }
 /* === top === */
 
-#calendarTopBack {
+#calendarTopBack,
+#umuTopBack,
+#blogTopBack {
     position: relative;
     width: 100%;
     height: 400px;
     background-color: #666666;
-    background-image: url(../images/calendar/topBack.png);
     background-repeat: no-repeat center top;
     background-size: cover;
 }
 
-#blogTopBack{
-    position: relative;
-    width: 100%;
-    height: 400px;
-    background-color: #666666;
-    background-image: url(../images/blog/topBack.png);
-    background-repeat: no-repeat center top;
-    background-size: cover;
-    }
+#calendarTopBack {
+    background-image: url(../images/calendar/topBack.png);
+}
 
+#umuTopBack {
+    background-image: url(../images/umu/umuBackground.png);
+}
+
+#blogTopBack {
+    background-image: url(../images/blog/topBack.png);
+}
 
 .title {
     width: 1000px;
@@ -136,15 +137,16 @@ html body {
 }
 
 .title_text {
-    width:660px;
+    width: 660px;
     float: left;
     text-align: left;
     color: #fff;
     margin: 120px 0px 0px 120px;
-/*    border: 1px solid #222;*/
+    /*    border: 1px solid #222;*/
 }
+
 .title_text h1 {
-/*    margin: 0px 0px 23px 85px;*/
+    /*    margin: 0px 0px 23px 85px;*/
 }
 
 .title_text p {
@@ -165,47 +167,47 @@ html body {
 .content {
     width: 1000px;
     /*    height: 1860px;*/
-    margin: 150px auto;
-/*    border: 1px solid #000;*/
-/*    background-color: darkcyan;*/
     
+    margin: 150px auto;
+    /*    border: 1px solid #000;*/
+    /*    background-color: darkcyan;*/
 }
 
 .content p {
     margin: auto;
     width: 750px;
-/*    line-height: 30px;*/
-/*    background-color: red;*/
+    /*    line-height: 30px;*/
+    /*    background-color: red;*/
 }
-
 
 .sectionDetail {
     width: 800px;
     margin: 80px auto 0px auto;
-    padding-top:0px;
+    padding-top: 0px;
     text-align: left;
-/*    background-color: azure;*/
+    /*    background-color: azure;*/
 }
 
 .sectionDetail h3 {
     position: relative;
-/*    left: 88px;*/
+    /*    left: 88px;*/
 }
-.sectionDetail p{
-    width:750px;
+
+.sectionDetail p {
+    width: 750px;
     margin-left: 0px;
     padding-bottom: 30px;
-/*    text-align: center;*/
+    /*    text-align: center;*/
 }
-.sectionDetail img{
-    width:800px;
+
+.sectionDetail img {
+    width: 800px;
     margin: auto;
-    
-    }
+}
 
 .imgTitle {
     margin: 30px auto;
-    }
+}
 
 .greyNote {
     /*    width: 3000px;*/
@@ -214,17 +216,16 @@ html body {
     color: #bcbcbc;
     font-weight: 100;
     padding: 0px 0px 20px 0px;
-/*    border: 1px solid red;*/
-/*    background-color: red;*/
-    
+    /*    border: 1px solid red;*/
+    /*    background-color: red;*/
 }
 
 .prototypeSlide {
     width: 650px;
     margin: 35px auto;
     text-align: center;
-/*    background-color: red;*/
-/*    overflow: auto;*/
+    /*    background-color: red;*/
+    /*    overflow: auto;*/
 }
 
 .prototypeSlide img {
@@ -233,11 +234,9 @@ html body {
     text-align: center;
 }
 
-
 .prototypeTest {
     margin-top: 80px;
 }
-
 
 a.textLink:link {
     color: #797979;
@@ -249,6 +248,4 @@ a.textLink:visited {
 
 a.textLink:hover {
     color: #d50000;
-}
-
-
+}    
