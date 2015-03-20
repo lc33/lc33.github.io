@@ -63,7 +63,7 @@ h1 {
 
 h2 {
     font: 600 24px TeluguMN;
-    margin: 0px 10px 35px 0px;
+    margin: auto 10px 35px auto;
 }
 
 h3 {
@@ -92,6 +92,11 @@ ul.disc {
 html body {
     background-color: #f5f4f3;
 }
+
+img{
+    margin: auto;
+    display: block;
+    }
 /* === main === */
 
 #mainbody {
@@ -142,20 +147,20 @@ html body {
 
 
 
-#umuTtitle{
+#umuTitle{
     width: 200px;
     margin: auto;
 /*    background-color: aqua;*/
     
     }
 
-#umuTitle, img{
+#umuTitle img{
     width: 65px;
-    float:left;
+    float: left;
     }
 
 #umuTitle, h1{
-    padding: 10px 0px 10px 100px;
+    padding: 10px 0px 10px 10px;
 }
 
 /* === content === */
@@ -164,6 +169,7 @@ html body {
     width: 1000px;
     /*    height: 1860px;*/
     margin: 150px auto;
+    text-align: center;
 /*    border: 1px solid #000;*/
 /*    background-color: darkcyan;*/
     
@@ -178,11 +184,13 @@ html body {
 
 .sectionDetail {
     width: 800px;
-    margin: 45px auto 0px auto;
+/*    margin: 45px auto 0px auto;*/
+    margin: auto;
     padding-top:50px;
     text-align: left;
 /*    background-color: azure;*/
-}
+/*    position: relative;*/
+    }
 
 .sectionDetail h3 {
     position: relative;

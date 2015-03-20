@@ -173,7 +173,7 @@ html body {
     width: 750px;
     text-align: center;
     /*    line-height: 30px;*/
-    /*    background-color: red;*/
+/*        background-color: red;*/
 }
 
 .sectionDetail {
@@ -193,7 +193,7 @@ html body {
     width: 750px;
     margin-left: 0px;
     padding-bottom: 30px;
-        text-align: left;
+    text-align: left;
 }
 
 .sectionDetail img {
