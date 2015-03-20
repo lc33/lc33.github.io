@@ -104,7 +104,8 @@ html body {
     z-index: 3;
     text-align: center;
 }
-/* === top === */
+
+/* === topBack === */
 
 #calendarTopBack,
 #umuTopBack,
@@ -116,6 +117,7 @@ html body {
     background-repeat: no-repeat center top;
     background-size: cover;
 }
+
 
 #calendarTopBack {
     background-image: url(../images/calendar/topBack.png);
@@ -129,39 +131,32 @@ html body {
     background-image: url(../images/blog/topBack.png);
 }
 
+/* === End of topBack == */
+
 .title {
     width: 1000px;
     height: 400px;
     margin: auto;
-    /*    border:1px solid #000;*/
+    overflow: auto;
 }
 
 .title_text {
-    width: 660px;
-    float: left;
-    text-align: left;
+    text-align: center;
     color: #fff;
-    margin: 120px 0px 0px 120px;
-    /*    border: 1px solid #222;*/
-}
-
-.title_text h1 {
-    /*    margin: 0px 0px 23px 85px;*/
+/*    margin: auto;*/
+/*    margin: 120px 0px 0px 120px;*/
+    margin-top: 130px;
+/*        border: 1px solid #222;*/
 }
 
 .title_text p {
-    width: 400px;
+/*    width: 400px;*/
     font: 400 20px 'Josefin Slab';
     line-height: 24px;
-    margin: 40px 0px;
+    margin: 30px auto;
+/*    border: 1px solid red;*/
 }
 
-.title_img {
-    float: left;
-    /*    border: 1px solid #000;*/
-    
-    margin: 70px 0px 0px 80px;
-}
 /* === content === */
 
 .content {
@@ -176,6 +171,7 @@ html body {
 .content p {
     margin: auto;
     width: 750px;
+    text-align: center;
     /*    line-height: 30px;*/
     /*    background-color: red;*/
 }
@@ -197,7 +193,7 @@ html body {
     width: 750px;
     margin-left: 0px;
     padding-bottom: 30px;
-    /*    text-align: center;*/
+        text-align: left;
 }
 
 .sectionDetail img {
