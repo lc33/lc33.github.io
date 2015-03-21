@@ -53,21 +53,24 @@ h6 {
     font-size: 100%;
     font-weight: normal;
 }
+
+
+
 /* === mine == */
 
 h1 {
-    font-family: TeluguMN;
+    font-family: 'Quicksand';
     font-size: 46px;
     font-weight: 600;
 }
 
 h2 {
-    font: 600 24px TeluguMN;
+    font: 600 20px 'Quicksand';
     margin: auto 10px 35px auto;
 }
 
 h3 {
-    font: 400 18px TeluguMN;
+    font: 400 16px 'Quicksand';
     margin: auto;
 }
 
@@ -78,10 +81,10 @@ p {
 p,
 ui,
 li {
-    font-family: 'Josefin Slab', sans-serif;
+    font-family: 'Quicksand', serif;
     line-height: 24px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 ul.disc {
@@ -97,6 +100,7 @@ img{
     margin: auto;
     display: block;
     }
+
 /* === main === */
 
 #mainbody {
@@ -133,7 +137,7 @@ img{
 }
 
 .title_text p {
-    font: 400 20px 'Josefin Slab';
+    font: 400 20px 'Quicksand';
     line-height: 24px;
     margin: 40px 0px;
 }

@@ -56,18 +56,18 @@ h6 {
 /* === mine == */
 
 h1 {
-    font-family: TeluguMN;
+    font-family: 'Quicksand' ;
     font-size: 48px;
     font-weight: 600;
 }
 
 h2 {
-    font: 600 24px TeluguMN;
+    font: 600 24px Quicksand;
     margin: 0px 10px 35px 0px;
 }
 
 h3 {
-    font: 600 18px TeluguMN;
+    font: 600 18px Quicksand;
     margin: 0px 0px 20px 0px;
 }
 
@@ -78,7 +78,7 @@ p {
 p,
 ui,
 li {
-    font-family: 'Josefin Slab', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 24px;
     font-weight: 400;
     font-size: 16px;
@@ -120,7 +120,7 @@ html body {
 
 .title_text p {
     
-    font: 400 20px 'Josefin Slab';
+    font: 400 20px 'Quicksand';
     line-height: 24px;
 
 }

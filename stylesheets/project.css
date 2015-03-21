@@ -53,21 +53,22 @@ h6 {
     font-size: 100%;
     font-weight: normal;
 }
+
 /* === mine == */
 
 h1 {
-    font-family: TeluguMN;
+    font-family: Quicksand;
     font-size: 46px;
     font-weight: 600;
 }
 
 h2 {
-    font: 600 24px TeluguMN;
+    font: 600 24px Quicksand;
     margin: 0px 10px 35px 0px;
 }
 
 h3 {
-    font: 400 18px TeluguMN;
+    font: 400 18px Quicksand;
     margin: auto;
 }
 
@@ -78,8 +79,8 @@ p {
 p,
 ui,
 li {
-    font-family: 'Josefin Slab', sans-serif;
-    line-height: 24px;
+    font-family: 'Quicksand', serif;
+    line-height: 2em;
     font-weight: 400;
     font-size: 16px;
 }
@@ -92,6 +93,9 @@ ul.disc {
 html body {
     background-color: #f5f4f3;
 }
+
+
+
 /* === main === */
 
 #mainbody {
@@ -141,18 +145,19 @@ html body {
 }
 
 .title_text {
+    width: 80%;
     text-align: center;
     color: #fff;
-/*    margin: auto;*/
-/*    margin: 120px 0px 0px 120px;*/
+    margin: auto;
     margin-top: 130px;
-/*        border: 1px solid #222;*/
 }
 
 .title_text p {
 /*    width: 400px;*/
-    font: 400 20px 'Josefin Slab';
-    line-height: 24px;
+/*    font: 400 20px 'Josefin Slab';*/
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5em;
     margin: 30px auto;
 /*    border: 1px solid red;*/
 }
@@ -208,7 +213,7 @@ html body {
 .greyNote {
     /*    width: 3000px;*/
     
-    font: 200 12px TeluguMN;
+    font: 200 12px Quicksand;
     color: #bcbcbc;
     font-weight: 100;
     padding: 0px 0px 20px 0px;

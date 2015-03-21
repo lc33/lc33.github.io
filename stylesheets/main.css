@@ -57,7 +57,7 @@ h6 {
 }
 
 h2 {
-    font: 400 30px TeluguMN;
+    font: 400 30px Sans-serif;
 }
 
 
@@ -68,7 +68,7 @@ h2 {
 
 p {
 /*    font-family: 'Century Gothic', sans-serif;*/
-    font-family: 'Josefin Slab';
+    font-family: 'Quicksand';
     line-height: 24px;
 }
 
@@ -154,7 +154,7 @@ a:active {
 }
 
 .headerRight p {
-    line-height: 32px;
+    line-height: 30px;
     color: #9E9E9E;
     font-family: 'Quicksand';
     font-size: 14px;  
@@ -235,7 +235,7 @@ a:active {
     float: left;
     text-align: center;
     margin: auto;
-    font: 200 34px 'Josefin Slab';
+    font: 200 34px 'Quicksand';
     color: #c8c8c8;
     }
 
