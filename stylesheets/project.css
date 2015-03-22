@@ -57,18 +57,18 @@ h6 {
 /* === mine == */
 
 h1 {
-    font-family: Quicksand;
+    font-family: Raleway;
     font-size: 46px;
     font-weight: 600;
 }
 
 h2 {
-    font: 600 24px Quicksand;
+    font: 600 24px Raleway;
     margin: 0px 10px 35px 0px;
 }
 
 h3 {
-    font: 400 18px Quicksand;
+    font: 400 18px Raleway;
     margin: auto;
 }
 
@@ -79,7 +79,7 @@ p {
 p,
 ui,
 li {
-    font-family: 'Quicksand', serif;
+    font-family: 'Raleway', serif;
     line-height: 2em;
     font-weight: 400;
     font-size: 16px;
@@ -213,7 +213,7 @@ html body {
 .greyNote {
     /*    width: 3000px;*/
     
-    font: 200 12px Quicksand;
+    font: 200 12px 'Raleway';
     color: #bcbcbc;
     font-weight: 100;
     padding: 0px 0px 20px 0px;

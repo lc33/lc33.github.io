@@ -56,11 +56,11 @@ h6 {
 
 /* === mine == */
 h2 {
-    font: 600 24px Quicksand;
+    font: 600 24px 'Raleway';
     margin: 0px 10px 35px 0px;
 }
 h3{
-    font: 600 18px Quicksand;
+    font: 600 18px 'Raleway';
     margin: 0px 0px 20px 0px;
 }
 
@@ -80,13 +80,13 @@ html body {
 }
 
 #mainbody_thermostat h1{
-    font-family: Quicksand;
+    font-family: 'Raleway';
     font-size: 48px;
     font-weight: 600;
 }
 
 p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 24px;
     font-weight: 400;
     font-size: 16px;
@@ -105,7 +105,8 @@ p {
 }
 
 .title_text p {
-    font: 400 20px 'Quicksand';
+/*    font: 400 20px 'Quicksand';*/
+    font-size: 20px;
     line-height: 24px;
 }
 
@@ -173,7 +174,7 @@ p {
 }
 #nest{
     font-style: italic;
-    color: #adadad;
+    color: rgb(150, 150, 150);
     font-size: 14px;
     font-family: Quicksand;
     margin: 40px;

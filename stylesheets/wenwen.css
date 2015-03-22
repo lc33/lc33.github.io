@@ -56,18 +56,18 @@ h6 {
 /* === mine == */
 
 h1 {
-    font-family: Quicksand;
+    font-family: 'Raleway';
     font-size: 48px;
     font-weight: 600;
 }
 
 h2 {
-    font: 600 24px Quicksand;
+    font: 600 24px 'Raleway';
     margin: 0px 10px 35px 0px;
 }
 
 h3 {
-    font: 600 18px Quicksand;
+    font: 600 18px 'Raleway';
     margin: 0px 0px 20px 0px;
 }
 
@@ -78,7 +78,7 @@ p {
 p,
 ui,
 li {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 24px;
     font-weight: 400;
     font-size: 16px;
@@ -119,7 +119,8 @@ html body {
 }
 
 .title_text p {
-    font: 400 20px 'Quicksand';
+/*    font: 400 20px 'Quicksand';*/
+    font-size: 20px;
     line-height: 24px;
 }
 
