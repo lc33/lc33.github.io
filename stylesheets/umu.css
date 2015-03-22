@@ -60,7 +60,7 @@ h6 {
 
 h1 {
     font-family: 'Quicksand';
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -70,7 +70,7 @@ h2 {
 }
 
 h3 {
-    font: 400 16px 'Quicksand';
+    font: 600 14px 'Quicksand';
     margin: auto;
 }
 
@@ -159,7 +159,7 @@ img{
     }
 
 #umuTitle img{
-    width: 65px;
+    width: 55px;
     float: left;
     }
 
