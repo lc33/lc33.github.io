@@ -84,7 +84,7 @@ li {
     font-family: 'Quicksand', serif;
     line-height: 24px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 ul.disc {
@@ -206,7 +206,7 @@ img{
     /*    width: 3000px;*/
     
     font: 200 12px 'Quicksand';
-    color: #888888;
+    color: rgb(100, 100, 100);
     padding: 5px 0px 20px 0px;
 /*    border: 1px solid red;*/
 /*    background-color: red;*/

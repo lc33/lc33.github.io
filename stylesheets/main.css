@@ -81,11 +81,11 @@ a {
 }
 
 a:link {
-    color: #9E9E9E;
+    color: rgb(100, 100, 100);
 }
 
 a:visited {
-    color: #9E9E9E;
+    color: rgb(100, 100, 100);
 }
 
 a:hover {
@@ -132,13 +132,13 @@ a:active {
     float: left;
     width: 450px;
     font-size: 20px;
-    color: #323232;
+    color: rgb(50, 50, 50);
     margin-left: 15px;
 
 }
 #intro h2 {
 /*        font: 400 48px LucidaSans;*/
-    color: #c4c4c4;
+    color: rgb(150, 150, 150);
 }
 
 #intro p {
@@ -155,7 +155,7 @@ a:active {
 
 .headerRight p {
     line-height: 30px;
-    color: #9E9E9E;
+    color: rgb(100, 100, 100);
     font-family: 'Quicksand';
     font-size: 14px;  
     font-weight: 200;
@@ -212,7 +212,7 @@ a:active {
 /*    width: 400px;*/
     font: 400 14px 'Quicksand';
     line-height: 20px;
-    color: #7c7c7c;
+    color: rgb(50, 50, 50);
     margin: 20px 40px;
 /*    background-color: black;*/
 }

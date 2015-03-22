@@ -47,7 +47,7 @@ a:active {
 .footerText p {
     font-family: 'Quicksand', serif;
     font-size: 10px;
-    color: #989898;
+    color: rgb(100, 100, 100);
     line-height: 2em;
     margin: 20px;
 }
