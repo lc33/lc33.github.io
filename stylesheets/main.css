@@ -254,6 +254,10 @@ a:active {
 /*    background-color: blanchedalmond;*/
 }
 
+.social a{
+    text-decoration: none;
+    }
+
 .socialmediaicon {
     width: 50px;
     margin: 10px 30px;
@@ -271,3 +275,31 @@ a:active {
     /*    margin: auto;*/
     /*    border: 1px solid;*/
 }
+#copyright a{
+    color: #969696;
+    }
+
+#copyright a:hover{
+    color: #d50000;
+}
+
+.button{
+    text-align: center;
+    display: block;
+    width: 120px;
+    padding: 2px 30px;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(196, 196, 196, 0.8);
+/*    margin: 100px auto;*/
+/*    background:url(../images/allow.png) no-repeat 130px center;*/
+}
+
+.button:hover{
+    border: 1px solid rgb(213, 0, 0);
+    transition: ease 0.4s;
+/*    background-color: rgba(123,345,223,0.3);*/
+    
+    }
