@@ -64,7 +64,8 @@ h6 {
 }
 
 h1 {
-    font-family: 'Raleway-Light';
+    font-family: 'Raleway';
+    font-weight: 200;
     font-size: 24px;
     line-height: 30px;
 }
@@ -156,7 +157,8 @@ a:active {
 #introText {
     margin: auto;
     width: 430px;
-    font-family: 'Raleway-Light';
+    font-family: 'Raleway';
+    font-weight: 300;
     font-size: 16px;
     line-height: 35px;
     color: rgb(50, 50, 50);
@@ -182,7 +184,8 @@ a:active {
 }
 
 .introPic p {
-    font-family: 'Raleway-ExtraLight';
+    font-family: 'Raleway';
+    font-weight: 200;
     font-size: 14px;
 }
 
@@ -225,7 +228,8 @@ header {
 }
 
 .workDescription {
-    font-family: 'Raleway-Light';
+    font-family: 'Raleway';
+    font-weight: 300;
     font-size: 14px;
     color: white;
     line-height: 20x;
@@ -264,14 +268,16 @@ header {
 }
 
 .workName {
-    font-family: 'Raleway-Light';
+    font-family: 'Raleway';
+    font-weight: 300;
     font-size: 18px;
     margin-bottom: 10px;
     /*    padding: 2px;*/
 }
 
 .workCategory {
-    font-family: 'Raleway-Light';
+    font-family: 'Raleway';
+    font-weight: 300;
     font-size: 12px;
     line-height: 20px;
     /*    padding: 2px;*/
