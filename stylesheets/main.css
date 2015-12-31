@@ -174,7 +174,7 @@ a:active {
 
 .introPic {
     width: 121px;
-    margin: 50px 39px;
+    margin: 50px 39px 30px 39px;
     float: left;
 }
 
@@ -190,7 +190,7 @@ a:active {
 }
 
 header {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 
