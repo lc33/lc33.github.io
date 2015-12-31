@@ -26,7 +26,7 @@ a:active {
 
 .footer {
     width: 100%;
-    margin: 150px auto 80px auto;
+    margin: 150px auto 0px auto;
 /*    background-color: aqua;*/
     text-align: center;
     width: 500px;
@@ -42,7 +42,7 @@ a:active {
 }
 
 .footerText {
-    margin-top: 80px;
+    margin: 80px auto 50px auto;
 }
 
 .footerText p {
@@ -51,4 +51,87 @@ a:active {
     color: rgb(100, 100, 100);
     line-height: 2em;
     margin: 20px;
+}
+
+/* More Projects */
+.work.box {
+    width: 764px;
+    padding-top: 30px;
+    margin: auto;
+    /*        border: 1px solid;*/
+    overflow: hidden;
+}
+
+
+
+.workImg {
+    width: 320px;
+    /*    height: 180px;*/
+    /*    height: inherit;*/
+    border: 1px solid;
+    border-color: rgb(200, 200, 200);
+    margin: 25px 30px;
+    float: left;
+    padding: 45px 0px 50px 0px;
+    position: relative;
+    z-index: 3;
+    background-color: white;
+}
+
+.workDescription {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    line-height: 20x;
+    width: 200px;
+    height: 79px;
+    padding: 45px 60px;
+    /*    background-color: aqua;*/
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    opacity: 0;
+}
+
+.workImg:hover {
+    background-color: #555;
+    /*    cursor: pointer;*/
+    /*
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+    */
+}
+
+.workName {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+/*    color: black;*/
+    /*    padding: 2px;*/
+}
+
+.workCategory {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+/*    color: black;*/
+    /*    padding: 2px;*/
+    /*    color: aquamarine;*/
+}
+
+
+.workDescription:hover {
+    opacity: 100;
+    /*    cursor: pointer;*/
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
 }
