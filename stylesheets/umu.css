@@ -1,38 +1,88 @@
-/* === mine == */
+/* === reset === */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+input,
+textarea,
+p {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    border: 0
+}
+
+address,
+cite,
+em,
+strong {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+
+/* ======   import fonts    ====== */
+
+
+/* Raleway Quicksand Josefin */
+
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Josefin+Slab:300,400,600|Raleway:400,100,200,300,500,600,700);
+
+/* === COMPONENTS == */
 
 h1 {
-    font-family: 'Raleway';
-    font-size: 50px;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    font-weight: 500;
 }
 
 h2 {
-    font: 600 20px 'Raleway';
-    margin: auto 10px 35px auto;
-}
-
-h3 {
-    font: 600 14px 'Raleway';
+    font: 300 26px 'Raleway', sans-serif;
     margin: auto;
 }
 
-p,
-ui,
-li {
-    font-family: 'Raleway', serif;
-    line-height: 24px;
-    font-weight: 400;
-    font-size: 14px;
-    color: #555;
+h3 {
+    font: 300 18px 'Raleway';
+    width: 620px;
+    margin: 50px auto 10px auto;
+    line-height: 22px;
+    text-align: left;
 }
 
-ul.disc {
-    list-style-type: disc;
-    margin-left: 25px;
-}
-
-html body {
-    background-color: #fff;
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 img {
@@ -40,140 +90,186 @@ img {
     display: block;
 }
 
+a:link {
+    color: rgb(100, 100, 100);
+}
 
-/* === main === */
+a:visited {
+    color: rgb(100, 100, 100);
+}
 
-#mainbody {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-    position: relative;
-    margin: auto;
-    z-index: 3;
-    text-align: center;
+a:hover {
+    color: #ff6060;
+}
+
+a:active {
+    /*    color: #d50000;*/
 }
 
 
-/* === top === */
+/* =========================================================
+============================================================
+============   GENERAL STRUCTURE   =========================
+============================================================
+===========================================================*/
 
-#umuTopBack {
-    /*    position: relative;*/
-    width: 100%;
-    height: 400px;
-    background-color: #fd833e;
-    /*    background-image: url(../images/umu/umuBackground.png);*/
+
+/* === HEADER === */
+
+.header {
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    letter-spacing: 1px;
+    /*  ---adding background img---
+    background-image: url(../images/umu/umuBackground.png);
     background-repeat: no-repeat center top;
     background-size: cover;
+*/
 }
 
-.title_text {
-    width: 660px;
-    /*    float: left;*/
-    text-align: center;
-    color: #fff;
-    /*    margin: 80px auto 0px auto;*/
-    margin: auto;
-    /*    border: 1px solid #222;*/
-    padding-top: 65px;
+.header img {
+    width: 28px;
+    margin-bottom: 70px;
+}
+.project_title {
+    color: white;
 }
 
-.title_text p {
-    font: 300 20px 'Raleway';
-    line-height: 30px;
-    margin: 40px 0px;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
-.title {
-    width: 1000px;
-    height: 400px;
-    margin: auto;
-    /*    border:1px solid #000;*/
-}
-
-#umuTitle {
-    width: 200px;
-    margin: auto;
-    /*    background-color: aqua;*/
-}
-
-#umuTitle img {
-    width: 55px;
-    float: left;
-}
-
-#umuTitle,
-h1 {
-    padding: 10px 0px 10px 10px;
+.project_description {
+    width: 480px;
+    margin: 30px auto 0px auto;
+    color: white;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
 }
 
 
-/* === content === */
+/* === CONTENT === */
 
 .content {
-    width: 1000px;
-    /*    height: 1860px;*/
-    margin: 150px auto;
+    width: 100%;
+    margin: 100px auto 0px auto;
     text-align: center;
     /*    border: 1px solid #000;*/
     /*    background-color: darkcyan;*/
 }
 
+.title_line {
+    width: 180px;
+    height: 1px;
+    margin: 20px auto 50px auto;
+    background-color: rgb(150, 150, 150);
+    overflow: hidden;
+}
+
 .content p {
-    margin: auto;
+    line-height: 28px;
+    font-weight: 200;
+    color: rgb(100, 100, 100);
+    letter-spacing: 0px;
+    margin: 10px auto 0px auto;
     width: 620px;
+    text-align: left;
     /*    line-height: 30px;*/
 }
 
-.sectionDetail {
-    width: 800px;
-    /*    margin: 45px auto 0px auto;*/
-    margin: auto;
-    padding-top: 50px;
-    text-align: left;
-    /*    background-color: azure;*/
-    /*    position: relative;*/
-}
-
-.sectionDetail h3 {
-    position: relative;
-    left: 88px;
-}
-
-.greyNote {
-    /*    width: 3000px;*/
-    font: 200 12px 'Raleway';
-    color: rgb(100, 100, 100);
-    padding: 5px 0px 20px 0px;
-    /*    border: 1px solid red;*/
-    /*    background-color: red;*/
+.content img {
+    width: 650px;
+    margin: 30px auto 50px auto;
 }
 
 .prototypeSlide {
-    width: 800px;
-    margin: 35px auto;
+    width: 700px;
+    margin: 25px auto;
     text-align: center;
-    /*    background-color: red;*/
-    /*    overflow: auto;*/
 }
 
 .prototypeSlide img {
-    width: 700px;
-    margin: auto;
+    width: 650px;
+    margin: 0px auto 50px auto;
     text-align: center;
 }
 
 #umuDetailMobi {
-    width: 100%;
+    width: 650px;
     margin: 150px auto;
 }
 
-.prototypeTest {
-    margin-top: 80px;
+.afterwords {
+    margin: 100px auto;
+    width: 600px;
+    color: #969696;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 28px;
+    text-align: center;
 }
 
-.intense {
-    cursor: url('../images/plus_cursor.png') 25 25, auto;
+
+/* === footer === */
+
+.footer {
+    width: 100%;
+    margin: 30px auto 0px auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footerText {
+    margin: 0px auto 100px auto;
+}
+
+.footerText p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: white;
+    line-height: 2em;
+    margin-top: 20px;
+}
+
+.footerText a {
+    color: white;
+}
+
+
+.bottom_navi {
+    width: 100%;
+    height: 60px;
+
+}
+.pre{
+    margin-left: 100px;
+    float: left;
+}
+
+.next{
+    margin-right: 100px;
+    float: right;
+}
+
+.pre, .next {
+    font-family: Quicksand, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color:#fff;
+/*    margin-top: 100px;*/
+}
+
+/* ========================================================
+========================================================
+================         UMU         ====================
+========================================================
+========================================================*/
+
+.umu_background {
+    background-color: #DF5A49;
+}
+
+.content h2 {
+    color: #DF5A49;
 }
