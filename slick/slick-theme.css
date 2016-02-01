@@ -120,7 +120,8 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
+/*    margin: 20px auto 30px auto;*/
+    bottom: 10px;
 
     display: block;
 
