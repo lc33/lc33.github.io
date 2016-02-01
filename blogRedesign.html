@@ -5,9 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Blogs Page Redesign</title>
-
-    <!--  import fonts  -->
-
     <link rel="stylesheet" href="stylesheets/umu.css">
 
 
@@ -17,8 +14,6 @@
     <!--   import jquery-->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-
 </head>
 
 <body>
@@ -64,43 +59,31 @@
     <div class="content blog">
         <h2>ANALYSIS</h2>
         <div class="title_line"></div>
-        <div class="sectionDetail">
-            <h3>Original Page <a class="textLink" href="http://interactions.acm.org/blog">http://interactions.acm.org/blog</a>
-            </h3>
-            <img src="images/blog/1original.png" alt="">
-        </div>
-
-        <div class="sectionDetail">
-            <p>Problems:</p>
-            <img src="images/blog/2problems.png" alt="">
+        <h3>Original Page </h3>
+        <p>By analysing <a href="http://interactions.acm.org/blog">current blog</a>, I find four major problems as showed below. (hover on the picture)</p>
+        <div class="img_hover">
+            <img id="blog_analysis_bottom" src="images/blog/1original.png" alt="">
+            <img id="blog_analysis_top" src="images/blog/2problems.png" alt="">
         </div>
     </div>
 
     <div class="content blog">
-        <h2>Redesign</h2>
-        <div>
-            <h3 style=" width:800px; text-align:left;  margin:70px auto 15px auto;">Goals</h3>
-            <p style="width:800px; text-align:left;">
-                1. Providing most valuable and updated articles.
-                <br>
-                2. Smooth browsing experience.
-                <br>
-                3. Easy to find desired articles.
-            </p>
-        </div>
+        <h2>REDESIGN</h2>
+        <div class="title_line"></div>
+        <h3>Goals</h3>
+        <p>
+            1. Providing most valuable and updated articles.
+            <br> 2. Smooth browsing experience.
+            <br> 3. Easy to find desired articles.
+        </p>
 
-        <div class="sectionDetail">
-            <h3 class="imgTitle">New Design</h3>
-            <img src="images/blog/3newDesign.jpg" alt="">
-        </div>
+        <h3>New Design</h3>
+        <img src="images/blog/3newDesign.jpg" alt="">
 
-        <div class="sectionDetail">
-            <h3 class="imgTitle">What&#8217;s new</h3>
-            <img src="images/blog/4newElements.png" alt="">
-        </div>
+        <h3>What&#8217;s new</h3>
+        <img src="images/blog/4newElements.png" alt="">
 
     </div>
-
 
     <!--   Footer    -->
     <div class="footer blog_background">
@@ -114,10 +97,14 @@
                 <br> Photoshop
             </p>
         </div>
-        
+
         <div class="bottom_navi">
-            <a href="index.html"><p class="pre">Previous</p></a>
-            <a href=""><p class="next">Next</p></a>
+            <a href="index.html">
+                <p class="pre">Previous</p>
+            </a>
+            <a href="">
+                <p class="next">Next</p>
+            </a>
         </div>
     </div>
     <!--  End of Footer    -->
