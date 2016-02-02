@@ -300,9 +300,10 @@ a:active {
 
 .img_hover {
     position: relative;
-    width: 700px;
+    width: 620px;
     height: 630px;
     margin: 0px auto 50px auto;
+    text-align: center;
 }
 
 #blog_analysis_bottom {
@@ -310,6 +311,7 @@ a:active {
     position: absolute;
 }
 #blog_analysis_top {
+
     position: absolute;
     z-index: 3;
     opacity: 0;
@@ -320,8 +322,6 @@ a:active {
     opacity: 1;
     transition: all 0.5s ease-in-out;
 }
-<<<<<<< HEAD
-
 
 
 /* ========================================================
@@ -335,5 +335,3 @@ a:active {
     color: #42ACE5;
 }
 
-=======
->>>>>>> origin/master
