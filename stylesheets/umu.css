@@ -298,19 +298,6 @@ a:active {
     color: #E27A3F;
 }
 
-<<<<<<< HEAD
-/* ========================================================
-================         DIRECTORY         ====================
-========================================================*/
-.directory_background {
-    background-color: #42ACE5;
-}
-
-.directory h2 {
-    color: #42ACE5;
-}
-
-=======
 .img_hover {
     position: relative;
     width: 700px;
@@ -333,4 +320,15 @@ a:active {
     opacity: 1;
     transition: all 0.5s ease-in-out;
 }
->>>>>>> origin/master
+
+
+/* ========================================================
+================         DIRECTORY         ====================
+========================================================*/
+.directory_background {
+    background-color: #42ACE5;
+}
+
+.directory h2 {
+    color: #42ACE5;
+}
