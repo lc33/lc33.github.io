@@ -213,7 +213,7 @@ a:active {
 }
 
 .content img {
-    width: 650px;
+    width: 700px;
     margin: 30px auto 50px auto;
 }
 
@@ -353,3 +353,13 @@ a:active {
     color: #42ACE5;
 }
 
+/* ========================================================
+================         WENWEN         ====================
+========================================================*/
+.wenwen_background {
+    background-color: #42ACE5;
+}
+
+.wenwen h2 {
+    color: #42ACE5;
+}
