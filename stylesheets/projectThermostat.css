@@ -55,6 +55,34 @@ h6 {
 
 
 /* === mine == */
+.back_home {
+    display: inline;
+    width: 24px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.top_pre {
+    float: left;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.top_next {
+    float: right;
+    margin-right: 100px;
+    text-align: right;
+}
+
+.top_next, .top_pre {
+    width: 200px;
+    font-family: Quicksand, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 20px;
+}
+
 h2 {
     font: 600 24px 'Raleway';
     margin: 0px 10px 35px 0px;
@@ -79,10 +107,10 @@ html body {
 /*    background-color: #f1f1f1;*/
 }
 
-#mainbody_thermostat h1{
-    font-family: 'Raleway';
-    font-size: 48px;
-    font-weight: 600;
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    font-weight: 500;
 }
 
 p {
@@ -105,9 +133,14 @@ p {
 }
 
 .title_text p {
-/*    font: 400 20px 'Quicksand';*/
-    font-size: 20px;
+    width: 480px;
+    margin: 30px auto 0px auto;
+    color: white;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    font-weight: 300;
     line-height: 24px;
+    letter-spacing: 1px;
 }
 
 .title {
@@ -122,14 +155,14 @@ p {
     float: left;
     text-align: left;
     color: #eeeeee;
-    margin: 120px 0px 0px 120px;
+    margin: 20px 0px 0px 120px;
 /*    border: 1px solid #222;*/
 }
 
 .title_img {
     float:left;
 /*    border: 1px solid #000;*/
-    margin: 70px 0px 0px 80px;
+    margin: -20px 0px 0px 80px;
 }
 
 
