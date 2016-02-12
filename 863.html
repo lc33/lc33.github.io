@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Virtual Reality Robot</title>
-    <link rel="stylesheet" href="stylesheets/fonts.css">
-    <link rel="stylesheet" href="stylesheets/module.css">
-    <link rel="stylesheet" href="stylesheets/863.css">
+    <link rel="stylesheet" href="stylesheets/umu.css">
+
 </head>
 
 <body>
@@ -32,63 +31,133 @@
         })(window, document, 'script', 'dataLayer', 'GTM-NHXMX6');
     </script>
     <!-- End Google Tag Manager -->
-    <!--mainbody-->
-    <div id="mainbody">
 
-        <!--Title-->
-        <div class="topback">
-            <div class="title">
-                <div class="title_text">
-                    <h1>Virtual Reality</h1>
-                    <p>
-                    This project is supported by the National High-tech R&D program (863), China. The system is developed for the purpose of testing of robot telecontrol with binocular vision in a enhanced reality environment.
-                    </p>
-                </div>
-<!--
-                <div class="title_img">
-                    <img src="images/1password.png" alt="1Password Logo" width="260px">
-                </div>
--->
-            </div>
-        </div>
+    <!--Title-->
+    <div class="header vr_background">
 
-       <div class="content">
-           <img src="images/863-2.png" alt="" width="1000px">
-           <img src="images/863-3.png" alt="" width="1000px">
-           <img src="images/863-4.png" alt="" width="1000px">
-           <img src="images/863-5.png" alt="" width="1000px">
-           <img src="images/863-6.png" alt="" width="1000px">
-       </div>
-        
-        
-        <!--   Footer    -->
-        <div class="footer">
-            <!-- dashline -->
-            <div class="dashLine"></div>
-            <div class="footerText">
+        <a href="projectThermostat.html">
+            <p class="top_pre">Previous - Thermostat</p>
+        </a>
+        <a href="umu.html">
+            <p class="top_next">Next - UMU</p>
+        </a>
+        <a href="index.html" target="_self"><img src="images/icon_liang_white.png" alt=""></a>
 
-                <p>
-                    <b>TIME:</b>
-                    <br> Jan. 2008 - Dec. 2009
-                </p>
-                <p>
-                    <b>Director:</b>
-                    <br>
-Chensheng Wang
-                </p>
-                <p>
-                    <b>COLLABORATORS:</b>
-                    <br>
-                    <a>Cong Zhang, Wangpeng Zhang</a>
-                </p>
-                <p><b>Tools:</b>
-                    <br> Visual Studio 2005 | <a href="https://bitbucket.org/Coin3D/coin/wiki/Home">Coin3D</a>
-                </p>
-            </div>
-        </div>
-        <!--  End of Footer    -->
-        
+        <h1 class="project_title">Virtual Reality</h1>
+        <p class="project_description">This project is supported by the National High-tech R&D program, China. It is a robot telecontrol system based on enhanced reality environment.</p>
+
     </div>
+
+    <div class="content vr">
+        <h2>BACKGROUND</h2>
+        <div class="title_line"></div>
+        <P>This is a research project I did during my graduate study in China. It is a robot telecontrol system with binocular vision in an enhanced reality environment. The enhanced reality environment is to mimic the remote environment where the robot is. The operator could manipulate a virtual robot in this enhanced reality environment and then send the instruction to the real remote robot.</P>
+        <p>By manipulating the virtual robot in a virtual reality (VR) environment which is a copy of the real working environment, the operator could repeat a certain task as many times as he/she wants until he/she finds the optimal way.
+        </p>
+        <p>I designed and developed the virtual reality environment by using Photoshop, 3ds MAX, C++ and Coin3D.
+        </p>
+    </div>
+
+    <div class="content vr">
+        <h2>SYSTEM ARCHITECTURE</h2>
+        <div class="title_line"></div>
+        <P>Our system has three main modules, the robot module, the robot control and video server module, and the control terminal.</P>
+        <img src="images/vr/system.png" alt="system architecture">
+
+        <p>The binocular vision camera equipped on the remote robot transfers binocular video information to the control terminal. A VR environment is built on this binocular video. A virtual robot, 1:1 scale of the real robot, will be trained to implement specific tasks, like grasping an object. Once the virtual robot correctly grasps the object of interest, its action parameters will be recorded and then sent to the real robot at the remote site where a real grasp action will be carried out.</p>
+    </div>
+
+    <div class="content vr">
+        <h2>INFORMATION ARCHITECTURE</h2>
+        <div class="title_line"></div>
+        <P>I classified all the information into four categories: Basic Manipulation, Object-level Manipulation, Dual Video Information and Auxiliary Information. Then I designed the layout of user interface which contains six parts shown below.</P>
+        <img src="images/vr/info_architecture.png" alt="information architecture">
+        <h3>Basic Manipulation</h3>
+        <p>The most fundamental and system-level operations such as system initialization, camera control, database management and so on.</p>
+
+        <h3>Object-level Manipulation</h3>
+        <p>Object-level Manipulation especially used for operating virtual objects. We can precisely control the behavior of the virtual object and manage enhanced information such as color, volume and so on.
+        </p>
+
+        <h3>Binocular Video Information</h3>
+        <p>It provides the real world images as the background of the virtual-reality environment.</p>
+
+        <h3>Auxiliary Information</h3>
+        <p>Used for control robot, dual camera and manage database.</p>
+    </div>
+
+    <div class="content vr">
+        <h2>WORK FLOWS</h2>
+        <div class="title_line"></div>
+        <P>Having the main framework finished, I began to design the working flows of the key functions. Below shows one of 20 core working flows.</P>
+        <h4>Operation Flow of Moving Object</h4>
+        <img src="images/vr/flow.png" alt="system architecture">
+
+    </div>
+    <div class="content vr">
+        <h2>USER INTERFACE</h2>
+        <div class="title_line"></div>
+        <P>When information architecture been confirmed, I put all efforts on the user interface design and coding work. I used photoshop to design the interface and realized it with the Microsoft Foundation Class Library (MFC).
+        </P>
+        <img src="images/vr/interface.png" alt="">
+
+    </div>
+
+    <div class="content vr">
+        <h2>OBJECT RECOGNITION AND OPERATION</h2>
+        <div class="title_line"></div>
+        <P>To simulating object operation in remote real environment, we need first replace the real object with a virtual one by selecting target object in the video stream.</P>
+
+        <h3>Object Recognition</h3>
+        <p>With the help of the binocular vision video, we could obtain the coordinates of the real object and then replace it with the same virtual one from our object repertoire. </p>
+        <img src="images/vr/object_recognition.png" alt="">
+
+        <h3>Object Manipulation</h3>
+        <p>Once a virtual object is introduced in VR, it could be operated by moving, rotating, zooming and so on.
+        </p>
+        <img src="images/vr/object_manipulation.png" alt="">
+
+        <h3>Enhanced Information</h3>
+        <p>By selecting the virtual object, we could see enhanced information including the value of color, height, width, material, coordinates and so on.
+        </p>
+        <img src="images/vr/enhanced_info.png" alt="">
+
+    </div>
+
+    <!--   Footer    -->
+    <div class="footer vr_background">
+        <div class="footerText">
+
+            <p>
+                TIME:
+                <br> Jan. 2008 - Dec. 2009
+            </p>
+            <p>
+                PROFESSOR:
+                <br> Chensheng Wang
+            </p>
+            <p>
+                COLLABORATORS:
+                <br>
+                <a>Cong Zhang, Wangpeng Zhang</a>
+            </p>
+            <p>TOOLS:
+                <br> Visual Studio 2005 | <a href="https://bitbucket.org/Coin3D/coin/wiki/Home">Coin3D</a>
+            </p>
+        </div>
+
+        <div class="bottom_navi">
+            <a href="projectThermostat.html">
+                <p class="pre">Previous - Thermostat</p>
+            </a>
+            <a href="umu.html">
+                <p class="next">Next - UMU</p>
+            </a>
+        </div>
+    </div>
+    <!--  End of Footer    -->
+
+
 
 </body>
 
