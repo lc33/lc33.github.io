@@ -172,23 +172,35 @@ a:active {
     overflow: hidden;
 }
 
+.face_icon {
+    width: 990px;
+    padding-top: 50px;
+}
+
 .introPic {
-    width: 121px;
-    margin: 50px 39px 30px 39px;
+    width: 310px;
+/*    margin: 50px 60px 30px 60px;*/
+    margin: 50px 10px 0px 10px;
+    
     float: left;
 }
 
 .introPic img {
     width: 42px;
-    margin-bottom: 5px;
 }
 
 .introPic p {
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 14px;
+    margin-top: 20px;
 }
 
+.face_text{
+    color: #969696;
+    font-size: 12px;
+    
+}
 header {
     margin-top: 50px;
     margin-bottom: 15px;
