@@ -231,7 +231,8 @@ header {
 /*    height: 180px;*/
     /*    height: inherit;*/
     border: 1px solid;
-    border-color: black;
+/*    border-color: #DF5A49;*/
+    border-bottom: 1px solid;
     margin: 25px 30px;
     float: left;
     padding: 45px 0px 50px 0px;
@@ -417,4 +418,10 @@ header {
 /*    overflow: hidden;*/
     border-bottom: 1px solid hsl(0, 100%, 50%);
     -webkit-animation: rainbow 5s infinite alternate;
+}
+
+
+.umu {
+/*    border-bottom-color: #DF5A49;*/
+/*    color: #DF5A49;*/
 }

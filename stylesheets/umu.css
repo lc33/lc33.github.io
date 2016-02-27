@@ -182,6 +182,21 @@ a:active {
     line-height: 24px;
 }
 
+.btn{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 
 /* === CONTENT === */
 
@@ -299,8 +314,20 @@ a:active {
     background-color: #DF5A49;
 }
 
+.umubtn{
+    background-color: #DF5A49;
+    color: white; 
+    border: 1px solid rgb(240, 240, 240);
+    margin: 40px 2px 0px 2px;
+}
+.umubtn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-color: #DF5A49;
+}
 .umu h2 {
     color: #DF5A49;
+
 }
 
 
