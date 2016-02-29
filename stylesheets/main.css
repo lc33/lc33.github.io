@@ -64,14 +64,17 @@ h6 {
 }
 
 h1 {
-    font-family: 'Raleway';
+    font-family: Raleway, Georgia, Serif;
     font-weight: 200;
     font-size: 24px;
     line-height: 30px;
 }
 
 h2 {
-    font: 400 30px Sans-serif;
+    font-family: Raleway, Georgia, Serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 
@@ -79,13 +82,13 @@ h2 {
 
 p {
     /*    font-family: 'Century Gothic', sans-serif;*/
-    font-family: 'Raleway';
+    font-family: Raleway, Georgia, Serif;
     line-height: 24px;
     font-size: 1em;
 }
 
 html body {
-    background-color: #fff;
+    background-color: #FAFAFA;
 }
 
 a {
@@ -192,13 +195,13 @@ a:active {
 
 .introPic p {
     font-family: 'Raleway';
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
     margin-top: 20px;
 }
 
 .face_text{
-    color: #969696;
+    color: #646464;
     font-size: 12px;
     
 }
@@ -219,96 +222,61 @@ header {
 }
 
 .work.box {
-    width: 764px;
+    width: 915px;
     padding-top: 20px;
     margin: auto;
     /*        border: 1px solid;*/
     overflow: hidden;
 }
 
-.workImg {
-    width: 320px;
-/*    height: 180px;*/
-    /*    height: inherit;*/
-    border: 1px solid;
-/*    border-color: #DF5A49;*/
-    border-bottom: 1px solid;
-    margin: 25px 30px;
-    float: left;
-    padding: 45px 0px 50px 0px;
-    position: relative;
-    z-index: 3;
-    background-color: white;
-
+.projectcover h2{
+    margin-left: 35px;
+/*    margin-top: 0px;*/
+    letter-spacing: 1px;
 }
 
-.workDescription {
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 14px;
-    color: white;
-    line-height: 20x;
-    width: 200px;
-    height: 79px;
-    padding: 45px 60px;
-    /*    background-color: aqua;*/
-    position: absolute;
-    top: 0px;
-    z-index: 0;
-    opacity: 0;
-}
-
-.workImg:hover {
-    background-color: black;
-    /*    cursor: pointer;*/
-    /*
-    -webkit-transition: background-color .3s ease-in-out;
-    -moz-transition: background-color .3s ease-in-out;
-    -o-transition: background-color .3s ease-in-out;
-    -ms-transition: background-color .3s ease-in-out;
-    transition: background-color .3s ease-in-out;
-*/
-}
-
-.workImgRight:hover {
-    background-color: black;
-    /*    cursor: pointer;*/
-    /*
-    -webkit-transition: background-color .3s ease-in-out;
-    -moz-transition: background-color .3s ease-in-out;
-    -o-transition: background-color .3s ease-in-out;
-    -ms-transition: background-color .3s ease-in-out;
-    transition: background-color .3s ease-in-out;
-*/
-}
-
-.workName {
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 10px;
-    /*    padding: 2px;*/
-}
-
-.workCategory {
-    font-family: 'Raleway';
-    font-weight: 400;
+.projectcover p{
+    margin-left: 35px;
     font-size: 12px;
-    line-height: 20px;
-    /*    padding: 2px;*/
-    /*    color: aquamarine;*/
+    color: #646464;
+/*    letter-spacing: 1px;*/
+    font-weight: 300;
+    width: 220px;
+    line-height: 16px;
 }
 
-.workDescription:hover {
+/*Hover change image*/
+
+.projectcover {
+/*    border: 1px solid;*/
+    text-align: left;
+    margin: 25px 25px;
+    float: left;
+    position: relative;
+    z-index: 0;
+/*    padding: 45px 0px 50px 0px;*/
+}
+.imgblack {
+    width: 250px;
+}
+
+.imgcolor {
+    width: 250px;
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 3;
+}
+
+.imgcolor:hover {
     opacity: 100;
-    /*    cursor: pointer;*/
     -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out;
     -ms-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
 }
-
 
 /*Contact Me*/
 
@@ -422,6 +390,6 @@ header {
 
 
 .umu {
-/*    border-bottom-color: #DF5A49;*/
+    border-bottom-color: #DF5A49;
 /*    color: #DF5A49;*/
 }
