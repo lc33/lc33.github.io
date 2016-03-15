@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio">
-    
-    
+    <meta name="description" content="Liang's Portfolio">
+
+
     <title>Liang Chen</title>
 
+    <!-- CSS  -->
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
 
     <!--  import fonts  -->
     <link rel="stylesheet" href="stylesheets/fonts.css">
-    <link rel="stylesheet" href="stylesheets/main.css">
-    <base target="_blank">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" />
@@ -23,283 +24,205 @@
 
 <body>
 
-    <!-- Google Tag Manager -->
-    <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NHXMX6" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-NHXMX6');
+    <!-- Navigation -->
+    <nav id="menu" class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Liang</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="LiangChenResume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center" name="home">
+
+        <img id="whale_icon" class="img-responsive" src="images/homepage/whale.png" alt="">
+        <div class="intro-text">
+            <h1>An UX&amp;UI desinger </h1>
+            <p>with passion and empathy</p>
+
+        </div>
+
+    </header>
+
+    <!-- portfolio section -->
+    <section id="portfolio">
+
+        <div class="col-md-12 section-title">
+            <h2>PROJECTS</h2>
+        </div>
+
+        <div class="container">
+            <!--project categories-->
+            <div class="col-md-12 categories">
+                <button class="filter" data-filter="all">ALL</button>
+                <button class="filter" data-filter=".web">Web Design</button>
+                <button class="filter" data-filter=".mobile">Mobile Design</button>
+                <button class="filter" data-filter=".product">Product Design</button>
+            </div>
+
+
+            <div id="project_list" class="row">
+
+                <div class="col-md-4 col-sm-6 mix web mobile">
+                    <div class="project-cover">
+                        <a href="umu.html">
+                            <img class="img-responsive" src="images/homepage/umu.png" class="img-responsive" alt="">
+                            <img class="img-hover img-responsive" src="images/homepage/umuhover.png" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mix web ">
+                    <div class="project-cover">
+                        <a href="blogRedesign.html">
+                            <img class="img-responsive" src="images/homepage/blog.png" class="img-responsive" alt="">
+                            <img class="img-hover img-responsive" src="images/homepage/bloghover.png" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mix web ">
+                    <div class="project-cover">
+                        <a href="webdirectory.html">
+                            <img class="img-responsive" src="images/homepage/directory.png" class="img-responsive" alt="">
+                            <img class="img-hover img-responsive" src="images/homepage/directoryhover.png" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mix mobile ">
+                    <div class="project-cover">
+                        <a href="wenwen.html">
+                            <img class="img-responsive" src="images/homepage/wenwen.png" class="img-responsive" alt="">
+                            <img class="img-hover img-responsive" src="images/homepage/wenwenhover.png" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mix product ">
+                    <div class="project-cover">
+                        <a href="projectThermostat.html">
+                            <img class="img-responsive" src="images/homepage/thermostat.png" class="img-responsive" alt="">
+                            <img class="img-hover img-responsive" src="images/homepage/thermostathover.png" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mix product">
+                    <div class="project-cover">
+                        <a href="863.html">
+                            <img class="img-responsive" src="images/homepage/vr.png" class="img-responsive" alt="">
+                            <img class="img-hover img-responsive" src="images/homepage/vrhover.png" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="gray">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12 section-title">
+                   <h2>CONTACT</h2>
+                   <div class="contact-box">
+                       <div class="box-contact">
+                           <a href="LiangChenResume.pdf">
+                               <div class="contact-info">
+                                   <img src="images/icon_Resume.png" alt="Resume">
+                                   <p> Resume </p>
+                               </div>
+                           </a>
+                           <div class="contact-info">
+                               <img src="images/icon_Phone.png" alt="Mobile Phone Number">
+                               <p> (812) 369 0680 </p>
+                           </div>
+                       </div>
+                       <div class="box-contact">
+                           <a href="https://www.linkedin.com/pub/liang-chen/20/588/63b">
+                               <div class="contact-info">
+                                   <img src="images/icon_Linkedin.png" alt="LinkedIn">
+                                   <p> LinkedIn </p>
+                               </div>
+                           </a>
+                           <div class="contact-info">
+                               <img src="images/icon_Email.png" alt="Email Adress">
+                               <p> buptchen@gmail.com </p>
+                           </div>
+                       </div>
+                   </div>
+                   
+                   
+               </div>
+           </div>
+            
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer id="footer" class="blue">
+      <div class="container text-center">
+          <div class="row">
+              <div class="col-md-12">
+                  <p id="copyright">
+                      Designed and coded by Liang
+                      <br> Tools: <a href="http://brackets.io/">Brackets</a> Photoshop &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Fonts: Raleway Quicksand (by Google Fonts)
+                      <br> Copyright © Liang CHEN 2015 All Rights Reserved
+                  </p>
+              </div>
+          </div>
+      </div>
+       
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#project_list').mixItUp();
+        });
     </script>
-    <!-- End Google Tag Manager -->
-
-
-    <div class="mianbody">
-
-        <div id="headTop"></div>
-
-        <div class="head">
-
-            <img id="icon_Liang" src="images/icon_liang_black.png" alt="Liang CHEN">
-            <div class="topLine"></div>
-
-        </div>
-
-        <!-- Introduction of me -->
-        <div class="container">
-            <div id="introText">
-                <section>
-                    Hi, I’m Liang Chen,
-                    <br> an experienced interaction designer (I.D.), a product manager (P.M.) and learning to be a front-end web developer (W.D.).</section>
-
-            </div>
-
-            <div class="box face_icon">
-                <div class="introPic">
-                    <img class="headImg" src="images/img_ID.png" alt="Interaction Designer">
-                    <p>INTERACTION DESIGNER</p>
-                    <p class="face_text">I enjoy thinking creatively as well as logically, creating simple, elegant design to make a better world.
-                    </p>
-                </div>
-                <div class="introPic">
-                    <img src="images/img_PM.png" alt="Product Manager">
-                    <p>PRODUCT MANAGER</p>
-                    <p class="face_text">I believe a good interaction designer should also be able to think like a product manager, balancing all interests, pushing the team moving forward and seeing the whole picture.</p>
-                </div>
-                <div class="introPic"><img class="headImg" src="images/img_WD.png" alt="Web Developer">
-                    <p>WEB DEVELOPER</p>
-                    <p class="face_text">Coding adds wings to design. I enjoy playing with code and making my design happen, like this website.</p>
-                </div>
-            </div>
-        </div>
 
 
 
-        <!--Work projects-->
-        <div class="container">
-            <div class="box">
-                <header>
-                    <h1>WORK</h1>
-                    <div id="workLine"></div>
-                </header>
-            </div>
-
-            <div class="work box">
-                <div class="projectcover">
-                    <a href="umu.html">
-                        <img class="imgblack" src="images/homepage/umu.png" alt="">
-                        <img class="imgcolor" src="images/homepage/umuhover.png" alt="">
-                    </a>
-                    <h2>UMU</h2>
-                    <p>Web & Mobile Design  /  Prototyping</p>
-                </div>
-
-                <div class="projectcover">
-                    <a href="webdirectory.html">
-                        <img class="imgblack" src="images/homepage/directory.png" alt="">
-                        <img class="imgcolor" src="images/homepage/directoryhover.png" alt="">
-                    </a>
-                    <h2>WEB DIRECTORY</h2>
-                    <p>User Research / Web Design / Grid Design</p>
-                </div>
-                
-                <div class="projectcover">
-                    <a href="blogRedesign.html">
-                        <img class="imgblack" src="images/homepage/blog.png" alt="">
-                        <img class="imgcolor" src="images/homepage/bloghover.png" alt="">
-                    </a>
-                    <h2>BLOG REDESIGN</h2>
-                    <p>Web Design / Wireframing / Visual Design</p>
-                </div>
-                
-                <div class="projectcover">
-                    <a href="wenwen.html">
-                        <img class="imgblack" src="images/homepage/wenwen.png" alt="">
-                        <img class="imgcolor" src="images/homepage/wenwenhover.png" alt="">
-                    </a>
-                    <h2>WENWEN</h2>
-                    <p>Web & Mobile Design / Cores and Paths Approach / User Research / Prototyping</p>
-                </div>
-                <div class="projectcover">
-                    <a href="projectThermostat.html">
-                        <img class="imgblack" src="images/homepage/thermostat.png" alt="">
-                        <img class="imgcolor" src="images/homepage/thermostathover.png" alt="">
-                    </a>
-                    <h2>THERMOSTAT</h2>
-                    <p>User Research / Product Interface / Paper Prototyping / Wirefram</p>
-                </div>
-                <div class="projectcover">
-                    <a href="863.html">
-                        <img class="imgblack" src="images/homepage/vr.png" alt="">
-                        <img class="imgcolor" src="images/homepage/vrhover.png" alt="">
-                    </a>
-                    <h2>VR ROBOT</h2>
-                    <p>Academic Research / Virtual Reality / Desktop Software Interface</p>
-                </div>
-                
-                <!--
-                <div class="workImg umu">
-                    <p class="workName">UMU</p>
-                    <p class="workCategory"> Web & Mobile Design
-                        <br> 2014 - 15</p>
-                    <a href="umu.html">
-                        <p class="workDescription">
-                            UMU is an interactive teaching platform that engages every participant in real-time.
-                        </p>
-                    </a>
-                </div>
-
-
-                <div class="workImg">
-                    <p class="workName">WEB DIRECTORY</p>
-                    <p class="workCategory">Web & Mobile Design
-                        <br> May - Dec. 2011 </p>
-                    <a href="webdirectory.html">
-                        <p class="workDescription">
-                            A website directory with the best and most popular Chinese websites.
-                        </p>
-                    </a>
-                </div>
-                <div class="workImg">
-                    <p class="workName"> BLOG REDESIGN </p>
-                    <p class="workCategory"> Web Design
-                        <br> Jan. 2015 </p>
-                    <a href="blogRedesign.html">
-                        <p class="workDescription">
-                            Interactions magazine web blogs list page redesign.
-                        </p>
-                    </a>
-                </div>
-
-                <div class="workImg">
-                    <p class="workName">SOSO WENWEN</p>
-                    <p class="workCategory">Web & Mobile Design
-                        <br> March 2012 - March 2013</p>
-                    <a href="wenwen.html">
-                        <p class="workDescription">
-                            One of the largest online Q&A communities in China with more than 40 million users.
-                        </p>
-                    </a>
-                </div>
--->
-
-                <!--
-                <div class="workImg">
-                    <p class="workName">GOOGLE CALENDAR</p>
-                    <p class="workCategory"> Web Design
-                        <br> Feb. 2015</p>
-                    <a href="calendar.html">
-                        <p class="workDescription">
-                            Redesign a page of Google Calendar by only changing size and position of elements.
-                        </p>
-                    </a>
-                </div>-->
-
-                <!--
-                <div class="workImg">
-                    <p class="workName">THERMOSTAT</p>
-                    <p class="workCategory"> Product Design
-                        <br> Sept. 2014</p>
-                    <a href="projectThermostat.html">
-                        <p class="workDescription">
-                            A thermostat that helps people saving energy by encouraging good using habit.
-                        </p>
-                    </a>
-                </div>
--->
-
-                <!-- <div class="workImg">
-                    <p class="workName">1PASSWORD</p>
-                    <p class="workCategory"> Interface Design
-                        <br> Sept. 2014</p>
-                    <a href="1Password.html">
-                        <p class="workDescription">
-                            1Password helps people manage their passwords and secure information. </p>
-                    </a>
-                </div>
-                -->
-
-                <!--
-                <div class="workImg">
-                    <p class="workName">VIRTUAL REALITY</p>
-                    <p class="workCategory"> Academic Research
-                        <br> Jan. 2008 - Dec. 2009 </p>
-                    <a href="863.html">
-                        <p class="workDescription">
-                            A robot telecontrol system based on enhanced reality.
-                        </p>
-                    </a>
-                </div>
--->
-
-            </div>
-        </div>
-
-        <div class="container">
-
-            <div class="box">
-                <header>
-                    <h1>CONTACT ME</h1>
-                    <div id="contactLine"></div>
-                </header>
-            </div>
-
-            <div class="box contact">
-                <div class="boxContact">
-                    <a href="LiangChenResume.pdf">
-                        <div class="contactInfo">
-                            <img src="images/icon_Resume.png" alt="Resume">
-                            <p> Resume </p>
-                        </div>
-                    </a>
-                    <div class="contactInfo">
-                        <img src="images/icon_Phone.png" alt="Mobile Phone Number">
-                        <p> (812) 369 0680 </p>
-                    </div>
-                </div>
-                <div class="boxContact">
-                    <a href="https://www.linkedin.com/pub/liang-chen/20/588/63b">
-                        <div class="contactInfo">
-                            <img src="images/icon_Linkedin.png" alt="LinkedIn">
-                            <p> LinkedIn </p>
-                        </div>
-                    </a>
-                    <div class="contactInfo">
-                        <img src="images/icon_Email.png" alt="Email Adress">
-                        <p> buptchen@gmail.com </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="footer">
-
-            <div>
-                <p id="copyright">
-                    Designed and coded by Liang
-                    <br> Tools: <a href="http://brackets.io/">Brackets</a> Photoshop &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Fonts: Raleway Quicksand (by Google Fonts)
-                    <br> Copyright © Liang CHEN 2015 All Rights Reserved
-                </p>
-            </div>
-
-        </div>
-
-
-    </div>
 </body>
 
 </html>
