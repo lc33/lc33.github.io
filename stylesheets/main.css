@@ -155,15 +155,28 @@ a:hover, a:focus {
     color: #fff;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #eaeaea;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #eaeaea;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #3887b9;
+}
 /* Header */
 header {
-    background: url(../images/homepage/bg-header.png) no-repeat bottom center;
+/*    background: url(../images/homepage/bg-header.png) no-repeat bottom center;*/
     background-size: cover;
-    background-color: #6CC5FE;
+    background-color: #43A4E2;
+/*    background-attachment: fixed;*/
+    background-position: center;
     color: #fff;
     position: relative;
     height: 100%;
-    padding-bottom: 180px;
+    padding-bottom: 50px;
 }
 header p {
     color: #fff;
@@ -279,7 +292,7 @@ header p {
 
 /* contact */
 .gray{
-/*    background-color: #fff;*/
+    background-color: rgb(51, 51, 51);
 }
 .contact-box{
 /*    margin: auto;*/
