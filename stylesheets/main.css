@@ -138,10 +138,10 @@ a:hover, a:focus {
 
 #menu a.navbar-brand {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
     color: #fafafa;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 #menu.navbar-default .navbar-nav > li > a {
@@ -166,6 +166,15 @@ a:hover, a:focus {
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
     background-color: #3887b9;
 }
+
+#icon-liang{
+    width: 22px;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-right: 10px;
+}
+
+
 /* Header */
 header {
 /*    background: url(../images/homepage/bg-header.png) no-repeat bottom center;*/
@@ -311,9 +320,18 @@ header p {
     color: #333;
 }
 
+.box-contact a p {
+/*    border-bottom: 1px #333 dotted;*/
+}
+
 .box-contact a:hover{
     color: #43A4E2;
 }
+
+.box-contact a:hover p{
+/*    border-bottom: 1px #43A4E2 dotted;*/
+}
+
 .contact-info img {
     width: 16px;
     float: left;
@@ -347,6 +365,8 @@ header p {
 
 #copyright a {
     color: #eaeaea;
+    border-bottom: 1px #fff dotted;
+    
 }
 
 #copyright a:hover {
