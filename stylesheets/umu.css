@@ -76,13 +76,6 @@ h2 {
     font: 300 18px 'Raleway', sans-serif;
 }
 
-h3 {
-
-}
-
-h4 {
-    
-}
 
 p {
     font-family: 'Raleway', sans-serif;
@@ -101,10 +94,13 @@ a:active,
 a.active {
     outline: 0;
     color: #333333;
-    text-decoration: none;
+/*    text-decoration: none;*/
+    border-bottom: 1px #333333 dotted; 
 }
 
-
+a:hover {
+    text-decoration: none;
+}
 
 /* =========================================================
 ============================================================
@@ -165,7 +161,7 @@ header .content-block {
     font-size: 14px;
     font-weight: 200;
     color: #eaeaea;
-
+    border-bottom: none; 
 }
 
 .top-nav a:hover {
@@ -192,7 +188,6 @@ header .btn-default {
     color: #eaeaea;
     border: 1px solid #eaeaea;
     margin-top: 50px;
-    margin-bottom: 100px;
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 10px;
@@ -211,7 +206,7 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 }
 
 #project-info {
-/*    margin-top: 80px;*/
+    margin-top: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #969696;
@@ -457,6 +452,7 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 
 .umu a:hover {
     color: #DF5A49;
+    border-bottom: 1px #DF5A49 dotted; 
 }
 
 
@@ -474,6 +470,8 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 
 .blog a:hover {
     color: #E27A3F;
+    border-bottom: 1px #E27A3F dotted; 
+    
 }
 
 .img_hover {
@@ -530,10 +528,15 @@ h2.strong {
     background-color: #5995E1;
 }
 
-.wenwen h2 {
+.wenwen h2, .wenwen h1 {
     color: #5995E1;
 }
 
+.wenwen a:hover {
+    color: #5995E1;
+    border-bottom: 1px #5995E1 dotted; 
+
+}
 
 /* ========================================================
 ================         VR         ====================
@@ -543,6 +546,11 @@ h2.strong {
     background-color: #E09641;
 }
 
-.vr h2 {
+.vr h2, .vr h1 {
     color: #E09641;
+}
+
+.vr a:hover {
+    color: #E09641;
+    border-bottom: 1px #E09641 dotted;
 }
