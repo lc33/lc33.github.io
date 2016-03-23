@@ -7,6 +7,7 @@
     <title>UMU</title>
 
     <!--    <link rel="stylesheet" href="stylesheets/fonts.css">-->
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/umu.css">
 
     <!--opne in new window-->
@@ -54,126 +55,269 @@
 --------------------------------------------------
 ---------------------------------------------------->
     <!--HEADER-->
-    <div class="header umu_background">
+    <header class="container-fluid header umu_background">
+        <div class="row">
 
-        <!--        <a href="index.html">-->
-        <p class="top_pre"></p>
-        <!--        </a>-->
-        <a href="webdirectory.html">
-            <p class="top_next">Next - Directory</p>
-        </a>
-        <a href="index.html" target="_self">
-        <img src="images/icon_liang_white.png" alt="">
-        </a>
+            <!--        <a href="index.html">-->
+            <p class="top_pre"></p>
+            <!--        </a>-->
+            <a href="webdirectory.html">
+                <p class="top_next">Next - Directory</p>
+            </a>
+            <a href="index.html" target="_self">
+                <img src="images/icon_liang_white.png" alt="">
+            </a>
 
-        <h1 class="project_title">UMU</h1>
-        <p class="project_description">
-            Instantly turn audience feedback into revealing data. Make your trainings more insightful and fun!
-        </p>
-        
-        <a href="http://www.umu.com" target="_blank"><button class="btn umubtn"> Visit UMU </button> </a>
+            <div class="col-md-offset-3 col-md-6 col-md-offset-3 col-sm-offset-2 col-sm-8 col-sm-offset-2">
+                <h1 class="project_title">UMU</h1>
+                <p class="project_description">
+                    Instantly turn audience feedback into revealing data. Make your trainings more insightful and fun!
+                </p>
+                <a class="btn btn-default umubtn" href="http://www.umu.com" target="_blank" role="button">VISIT UMU</a>
+            </div>
 
-    </div>
+        </div>
+
+
+        <div id="project-info" class="row bg-41">
+            <div class="col-sm-4 col-md-4 text-center">
+                <h4 class="uppercase">client</h4>
+                <p>UMU Corporation. Ltd.</p>
+            </div>
+
+            <div class="col-sm-4 col-md-4 text-center">
+                <h4 class="uppercase">what I did</h4>
+                <p>Designed the website and app</p>
+            </div>
+
+            <div class="col-sm-4 col-md-4 text-center">
+                <h4 class="uppercase">Fiinal Delivery</h4>
+                <p>Hi-fidelity prototyping</p>
+            </div>
+
+        </div>
+
+
+
+    </header>
+
 
 
     <!--CONTENT-->
-    <div class="content umu">
-        <h2>BACKGROUND</h2>
-        <div class="title_line"></div>
-        <p><a href="http://www.umu.com" target="_blank">UMU</a> is especially useful for those who want to interact with their audience when giving a speech, a class, a presentation and so on. </p>
-        <p>I worked closely with the founder, a former senior manager in Google, China, who has more than ten years’ experience in training and education. </p>
-        <p>I completed the information architecture, the first version interaction design of the website and iOS app.</p>
-    </div>
+    <section id="content" class="container-fluid umu text-center">
 
-    <div class="content umu">
-        <h2>AGILE WORK PROCESS</h2>
-        <div class="title_line"></div>
-        <img src="images/umu/umuFlow.png" alt="" style="width:800px; margin-bottom:10px;">
-        <p>We employed agile work process and moving forward very fast. We kept everything quick and dirty, met everyday, discussed product requirements, sketching, made prototype, met again, made changes, passed fixed interaction design prototype to visual designer and then moved to next one. </p>
-    </div>
 
-    <div class="content umu">
-        <h2>WEB DESIGN</h2>
-        <div class="title_line"></div>
-        <p>The website is for teachers to manage their events including adding, editing, making schedule and so on.</p>
+        <!--HWAT IS UMU -->
+        <div class="row bg-white">
 
-        <h3>Event Schedule</h3>
-        <p>Event schedule is the core page where users could check their schedule, add event and edit existing events.</p>
-        <img src="images/umu/umu_event_schedule.png" alt="Event Schedule">
-        <!--
-        
-        <div class="prototypeSlide">
-            <div>
-                <img src="images/umu/umuP1.png" alt="">
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 content-block ">
+                <h2>WHAT IS UMU</h2>
+                <p><a href="http://www.umu.com" target="_blank">UMU</a> is especially useful for those who want to interact with their audience when giving a speech, a class, a presentation and so on. </p>
+                <p>I worked closely with the founder, a former senior manager in Google, China, who has more than ten years’ experience in training and education. </p>
+                <p>I completed the information architecture, the first version interaction design of the website and iOS app.</p>
             </div>
-            <div>
-                <img src="images/umu/umuP2.png" alt="">
+        </div>
+
+        <!--HOW DOES IT WORK-->
+        <div class="row bg-gray content-block ">
+
+            <h2> HOW DOES IT WORK </h2>
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2">
+                <p>This is an example shows how Peter, an IT trainer, uses UMU to help him interact with his audience.</p>
+
+                <div class="row">
+                    <div class=" col-xs-3 col-sm-3 col-md-2">
+                        <img class="img-responsive" src="images/umu/dennis-pic.png" alt="">
+                    </div>
+
+                    <div class="col-xs-9 col-sm-4 col-md-3 personal-info">
+                        <p> <span class="bold">Dennis Park</span>
+                            <br> 25
+                            <br> IT trainer
+                            <br> San Francisco
+                        </p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5 col-md-7 personal-info">
+                        <p>Dennis will give a training to 25 people about how to use UMU on Mar. 21 at San Francisco.</p>
+                    </div>
+                </div>
+
             </div>
-            <div>
-                <img src="images/umu/umuP3.png" alt="">
+
+            <div class="col-sm-12 col-md-offset-1 col-md-11">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3> Step 1 - Add a new event </h3>
+                        <p>Before the training, Dennis logins UMU to add a new event on Mar. 21.
+                        </p>
+                        <p>In the video shown right, we could see he added a pre-work survey to know better about his audience.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-8">
+                        <video class="img-responsive" controls>
+                            <source src="images/umu/add-event.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" col-sm-12 col-md-4">
+                        <h3> STEP 2 - INVITE audience TO ANSWER THE SURVEY </h3>
+                        <p>On Mar. 21, Dennis started the training with this pre-work survey. He used a projector to show the audience how to access the survey with their phones.
+                        </p>
+                        <p>Opne browser - Go to umu.com - enter "216327" - click "Join Session" - Ready to go</p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-8">
+                        <video class="img-responsive" controls>
+                            <source src="images/umu/invite-audience.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" col-sm-12 col-md-4">
+                        <h3> STEP 3 - THE audience ANSWER THE SURVEY USING THEIR PHONES </h3>
+                        <p>Followed the instruction, the audience answered the survery on their phones.
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <video class="img-responsive" controls>
+                            <source src="images/umu/audience-response.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class=" col-sm-12 col-md-4">
+                        <h3> STEP 4 - Visualize survey results  </h3>
+                        <p>After all the audience finished the survey, the results are visualized on the projector screen.
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <video class="img-responsive" controls>
+                            <source src="images/umu/feedbacks.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                </div>
+
+
             </div>
-            <div>
-                <img src="images/umu/umuP4.png" alt="">
+
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 content-block">
+                <p>By using UMU, Dennis could easily interact with his audience, get real time interactive visual feedbacks. And UMU could do even more by collect the store the data for future useage.</p>
             </div>
 
         </div>
--->
 
-        <h3>Event Editing</h3>
 
-        <p>A event contains several sessions. There are six types of session templates. Users could add sessions based on their needs.</p>
-        <div class="prototypeSlide">
-            <div>
-                <img src="images/umu/umu_event_editing1.png" alt="">
-            </div>
-            <div>
-                <img src="images/umu/umu_event_editing2.png" alt="">
+
+
+
+        <!-- Design Process -->
+
+        <div class="row bg-41 content-block">
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 ">
+                <h1>DESIGN PROCESS</h1>
             </div>
         </div>
-    </div>
-
-    <div class="content umu">
-        <h2>MOBILE DESIGN</h2>
-        <div class="title_line"></div>
-        <p>This is the first version of UMU app design for iOS. Because of the time constrain, we implemented the same design for Android. But we will design for Android later.</p>
-
-        <h3>Information Architecture</h3>
-
-        <p>This is a very brief structure demonstrating information hierarchy. I tried to make the structure as flat as possible, no more than four levels.</p>
-        <img src="images/umu/umuFlowMobi.png" alt="" style="text-align:center; width:600px;">
 
 
-        <h3>Interaction Flows and Prototypes</h3>
-
-        <p>Interaction flows of four tabs and some hi-fidelity prototypes.</p>
-        <div class="prototypeSlide">
-
-            <div>
-                <a href="images/umu/umuP1Mobi.png"><img src="images/umu/umuP1Mobi.png" alt="" target="_blank">
-                </a>
+        <div class="row bg-white content-block">
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2  ">
+                <h2>AGILE, AGILE AND AGILE</h2>
+                <img src="images/umu/umuFlow.png" class="img-responsive" alt="">
+                <p>We employed agile work process and moving forward very fast. We kept everything quick and dirty, met everyday, discussed product requirements, sketching, made prototype, met again, made changes, passed fixed interaction design prototype to visual designer and then moved to next one. </p>
             </div>
+        </div>
 
-            <div>
-                <a href="images/umu/umuP2Mobi.png"><img src="images/umu/umuP2MobiSmall.png" alt="" target="_blank">
-                </a>
-            </div>
-            <div>
-                <a href="images/umu/umuP3Mobi.png"><img src="images/umu/umuP3MobiSmall.png" alt="" target="_blank">
-                </a>
-            </div>
-            <div>
-                <a href="images/umu/umuP4Mobi.png"><img src="images/umu/umuP4MobiSmall.png" alt="" target="_blank">
-                </a>
+        <div class="row bg-gray content-block ">
+            <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-offset-2 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 ">
+                <h2>WEB DESIGN</h2>
+                <a class="btn btn-default umubtn" href="http://www.umu.com" target="_blank" role="button">visit umu.com</a>
+                <p>I started with building the information architecture by prioritizing the key functions and pages. And then designed from the most importmant pages. Here are a few examples of page prototyping.</p>
+
+                <h3>Event Schedule</h3>
+                <p>Event schedule is the core page where users could check their schedule, add event and edit existing events.
+                </p>
+                <img class="img-responsive" src="images/umu/umu_event_schedule.png" alt="">
+
+                <h3> Event Editing </h3>
+                <p>A event contains several sessions. There are six types of session templates. Users could add sessions based on their needs.
+                </p>
+                <div class="prototypeSlide img-responsive">
+                    <div>
+                        <img class="img-responsive" src="images/umu/umu_event_editing1.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-responsive" src="images/umu/umu_event_editing2.png" alt="">
+                    </div>
+                </div>
+                
             </div>
 
         </div>
 
-        <img id="umuDetailMobi" src="images/umu/umuDetailMobi.png" alt="">
 
-    </div>
+        <div class="row bg-white content-block ">
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2 col-sm-offset-2 col-sm-8 col-sm-offset-2 ">
+                <h2>MOBILE DESIGN</h2>
+                
+                <a class="btn btn-default umubtn" href="https://itunes.apple.com/app/umu/id1000568073" target="_blank" role="button">UMU iOS</a>
+                <a class="btn btn-default umubtn" href="https://play.google.com/store/apps/details?id=com.tc.umu" target="_blank" role="button">UMU Android</a>
+                
+                <p>I designed the first iOS version, as you could see the prototypes below. All pages and annotations shown here are Chinese version. We have a specialist doing the translation work for English version.</p>
 
-    <p class="afterwords">AFTERWORDS
-        <br>I worked on this project as a freelancer in China. After finished the first version of design, I started to pursue a Master of Human Computer Interaction in U.S.. During my study, I still kept in touch with them and gave consultant from time to time. </p>
+                <h3>Information Architecture</h3>
+                <p>This is a very brief structure demonstrating information hierarchy. I tried to make the structure as flat as possible, no more than four levels.</p>
+                <img class="img-responsive" src="images/umu/umuFlowMobi.png" alt="" style="text-align:center; width:600px;">
+
+
+                <h3>Interaction Flows and Prototypes</h3>
+                <p>Interaction flows of four tabs and some hi-fidelity prototypes. These flows are using Chinese, but we have English version on App store. (click for large figure)</p>
+                <div class="prototypeSlide img-responsive">
+
+                    <div>
+                        <a href="images/umu/umuP1Mobi.png"><img class="img-responsive" src="images/umu/umuP1Mobi.png" alt="" target="_blank">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="images/umu/umuP2Mobi.png"><img class="img-responsive" src="images/umu/umuP2MobiSmall.png" alt="" target="_blank">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="images/umu/umuP3Mobi.png"><img class="img-responsive" src="images/umu/umuP3MobiSmall.png" alt="" target="_blank">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="images/umu/umuP4Mobi.png"><img class="img-responsive" src="images/umu/umuP4MobiSmall.png" alt="" target="_blank">
+                        </a>
+                    </div>
+
+                </div>
+
+                <p>I listed some of prototypes here, so you could get a general sense of what the app should look like.</p>
+                
+                <img id="umuDetailMobi" class="img-responsive" src="images/umu/umuDetailMobi.png" alt="">
+
+            </div>
+        </div>
+
+        <div class="row bg-gray content-block">
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+                <p class="afterwords">
+                    AFTERWORDS
+                    <br>I worked on this project as a freelancer in China. After finished the first version of design, I started to pursue a Master of Human Computer Interaction in U.S.. During my study, I still kept in touch with them and provided  feedbacks from time to time. </p>
+            </div>
+
+        </div>
+
+    </section>
 
 
     <!--   Footer    -->
