@@ -97,10 +97,10 @@ a:active,
 a.active {
     outline: 0;
     color: #fff;
+    text-decoration: none;
 }
 
 a:hover, a:focus {
-    text-decoration: none;
     color: #43A4E2;
 }
 
@@ -365,8 +365,7 @@ header p {
 
 #copyright a {
     color: #eaeaea;
-    border-bottom: 1px #fff dotted;
-    
+    border-bottom: 1px #fff dotted;   
 }
 
 #copyright a:hover {

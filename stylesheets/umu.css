@@ -68,7 +68,7 @@ b {
 /* === COMPONENTS == */
 
 h1 {
-    font-size: 46px;
+    font-size: 38px;
     font-weight: 500;
 }
 
@@ -93,21 +93,17 @@ img {
     display: block;
 }
 
-a:link {
-    color: rgb(100, 100, 100);
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #333333;
+    text-decoration: none;
 }
 
-a:visited {
-    color: rgb(100, 100, 100);
-}
-
-a:hover {
-    color: #ff6060;
-}
-
-a:active {
-    /*    color: #d50000;*/
-}
 
 
 /* =========================================================
@@ -134,41 +130,57 @@ header {
 }
 
 header img {
-    display: inline;
+/*    display: inline;*/
     width: 24px;
-    margin-bottom: 80px;
 }
 
-.top_pre {
+/*
+.top-pre {
     float: left;
     margin-left: 100px;
     text-align: left;
 }
 
-.top_next {
+.top-next {
     float: right;
     margin-right: 100px;
     text-align: right;
 }
+*/
 
-.top_next,
-.top_pre {
-    width: 200px;
+header .content-block {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.top-nav {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.top-nav a {
+/*    width: 200px;*/
     font-family: Quicksand, sans-serif;
     font-size: 14px;
     font-weight: 200;
+    color: #eaeaea;
+
+}
+
+.top-nav a:hover {
     color: #fff;
-    margin-top: 5px;
 }
 
 .project_title {
+    margin-top: 80px;
     color: white;
 }
 
 .project_description {
     /*    width: 480px;*/
-    margin: 30px auto 0px auto;
-    color: white;
+    margin: 15px auto 0px auto;
+    color: #eaeaea;
     font-family: 'Raleway', serif;
     font-size: 18px;
     font-weight: 300;
@@ -179,7 +191,8 @@ header .btn-default {
     background-color: rgba(0, 0, 0, 0);
     color: #eaeaea;
     border: 1px solid #eaeaea;
-    margin: 40px 2px 0px 2px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 10px;
@@ -191,14 +204,14 @@ header .btn-default {
     letter-spacing: 2px;
 }
 
-header .btn-default:hover {
+header .btn-default:hover, header .btn-default:active, header .btn-default:focus {
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
     border-color: rgba(0, 0, 0, 0);
 }
 
 #project-info {
-    margin-top: 80px;
+/*    margin-top: 80px;*/
     padding-top: 50px;
     padding-bottom: 50px;
     color: #969696;
@@ -249,7 +262,6 @@ header .btn-default:hover {
 }
 
 #content h2 {
-    
     padding-bottom: 30px;
     letter-spacing: 1px;
 }
@@ -257,18 +269,29 @@ header .btn-default:hover {
 #content h3 {
     font-size: 16px;
     text-transform: uppercase;
-    padding-top: 80px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 15px;
     letter-spacing: 1px;
     text-align: left;
     line-height: 32px;
+}
+
+#content h4 {
+    font-size: 14px;
+/*    text-transform: uppercase;*/
+/*    padding-top: 30px;*/
+/*    padding-bottom: 10px;*/
+    margin-top: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 20px;
 }
 
 #content p {
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
-    color: rgb(51, 51, 51);
+    color: #333333;
     letter-spacing: 1px;
     margin-top: 10px;
     /*    width: 620px;*/
@@ -293,7 +316,7 @@ header .btn-default:hover {
 }
 
 #content video {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 #content img {
@@ -386,13 +409,18 @@ header .btn-default:hover {
 .footerText p {
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
-    color: white;
+    color: #eaeaea;
     line-height: 2em;
     margin-top: 20px;
 }
 
 .footerText a {
-    color: white;
+    color: #eaeaea;
+    border-bottom: 1px #eaeaea dotted; 
+}
+
+.footerText a:hover {
+    color: #fff;
 }
 
 .pre {
@@ -410,7 +438,7 @@ header .btn-default:hover {
     font-family: Quicksand, sans-serif;
     font-size: 24px;
     font-weight: 200;
-    color: #fff;
+    color: #eaeaea;
     /*    margin-top: 100px;*/
 }
 
@@ -427,6 +455,10 @@ header .btn-default:hover {
     color: #DF5A49;
 }
 
+.umu a:hover {
+    color: #DF5A49;
+}
+
 
 /* ========================================================
 ================         BLOG         ====================
@@ -436,7 +468,11 @@ header .btn-default:hover {
     background-color: #E27A3F;
 }
 
-.blog h2 {
+.blog h2, .blog h1 {
+    color: #E27A3F;
+}
+
+.blog a:hover {
     color: #E27A3F;
 }
 
@@ -474,10 +510,17 @@ header .btn-default:hover {
     background-color: #42ACE5;
 }
 
-.directory h2 {
+.directory h2, .directory h1 {
     color: #42ACE5;
 }
 
+h2.strong {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    
+    
+}
 
 /* ========================================================
 ================         WENWEN         ====================
