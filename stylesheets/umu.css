@@ -445,17 +445,30 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 ========================================================*/
 
 .umu_background {
-    background-color: #DF5A49;
+    background-color: #E9B337;
 }
 
 .umu h2, .umu h1 {
-    color: #DF5A49;
+    color: #E9B337;
 }
 
 .umu a:hover {
-    color: #DF5A49;
-    border-bottom: 1px #DF5A49 dotted; 
+    color: #E9B337;
+    border-bottom: 1px #E9B337 dotted; 
 }
+
+#content.umu .btn-default {
+    color: #E9B337;
+    border: 1px solid #E9B337;
+  
+}
+
+#content.umu .btn-default:hover {
+    background-color: rgba(233, 179, 55, 0.5);
+    color: #fff;
+    border-color: rgba(0, 0, 0, 0);
+}
+
 
 
 /* ========================================================
