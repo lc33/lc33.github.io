@@ -556,3 +556,62 @@ h2.strong {
     color: #E09641;
     border-bottom: 1px #E09641 dotted;
 }
+
+
+/* ========================================================
+================         MENU         ====================
+========================================================*/
+.menu_background {
+    background-color: rgba(0, 0, 0, 0.3);
+/*
+    background-image: url(../images/menu/food-bg.jpg);
+    
+    background-repeat: no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+*/
+    
+    position: relative;
+    overflow: hidden;
+}
+
+.menu_background:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+    
+    background-image: url(../images/menu/food-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.menu_background #project-info{
+    background-color: rgba(0, 0, 0, 0.69);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    margin-top: 200px;
+    
+}
+.menu h2, .menu h1 {
+    color: #DF5A49;
+}
+
+.menu a:hover {
+    color: #5995E1;
+    border-bottom: 1px #DF5A49 dotted; 
+
+}
