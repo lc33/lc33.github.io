@@ -628,3 +628,13 @@ h2.strong {
     border-bottom: 1px #DF5A49 dotted; 
 
 }
+
+.menu video {
+    width: 60%;
+}
+
+#content.menu h3 {
+
+    padding-top: 150px;
+
+}
