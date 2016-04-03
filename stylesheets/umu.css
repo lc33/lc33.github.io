@@ -574,7 +574,7 @@ h2.strong {
 /* ========================================================
 ================         MENU         ====================
 ========================================================*/
-.menu_background {
+header.menu_background {
     background-color: rgba(0, 0, 0, 0.3);
 /*
     background-image: url(../images/menu/food-bg.jpg);
@@ -588,7 +588,7 @@ h2.strong {
     overflow: hidden;
 }
 
-.menu_background:before {
+header.menu_background:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -610,6 +610,11 @@ h2.strong {
     background-attachment: fixed;
 }
 
+.footer.menu_background {
+    background-color: #DF5A49;
+    position: relative;
+    overflow: hidden;
+}
 
 .menu_background #project-info{
     background-color: rgba(0, 0, 0, 0.69);
@@ -624,7 +629,7 @@ h2.strong {
 }
 
 .menu a:hover {
-    color: #5995E1;
+    color: #DF5A49;
     border-bottom: 1px #DF5A49 dotted; 
 
 }
@@ -632,6 +637,26 @@ h2.strong {
 .menu video {
     width: 60%;
 }
+
+.menu img {
+    width: 70%;
+}
+
+#compare {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#compare p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #646464;
+}
+#compare img {
+    width: 70%;
+}
+
+
 
 #content.menu h3 {
 
