@@ -365,6 +365,15 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
     padding-right: 80px;
 }
 
+.bg-f5 {
+    background-color: #f5f5f5;
+}
+
+.bg-64 {
+    background-color: #646464;
+}
+
+
 #content .btn-default {
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
@@ -656,10 +665,38 @@ header.menu_background:before {
     width: 70%;
 }
 
-
-
 #content.menu h3 {
-
     padding-top: 150px;
+}
 
+#design-process {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    overflow: hidden;
+}
+
+#design-process:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+
+    background-image: url(../images/menu/design-process-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#design-process h1 {
+    color: #f0f0f0;
 }
