@@ -669,13 +669,13 @@ header.menu_background:before {
     padding-top: 150px;
 }
 
-#design-process {
+.menu#design-process {
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
     overflow: hidden;
 }
 
-#design-process:before {
+.menu#design-process:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -695,6 +695,133 @@ header.menu_background:before {
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.menu#design-process h1 {
+    color: #f0f0f0;
+}
+
+
+
+/* ========================================================
+================         USVERSITY         ====================
+========================================================*/
+header.usversity_background {
+    background-color: rgba(0, 0, 0, 0.3);
+    /*
+    background-image: url(../images/menu/food-bg.jpg);
+
+    background-repeat: no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+
+    position: relative;
+    overflow: hidden;
+}
+
+header.usversity_background:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+
+    background-image: url(../images/usversity/bg-usversity-1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer.usversity_background {
+    background-color: #DF5A49;
+    position: relative;
+    overflow: hidden;
+}
+
+.usversity_background #project-info{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 200px;
+
+}
+.usversity h2, .usversity h1 {
+    color: #DF5A49;
+}
+
+.usversity a:hover {
+    color: #DF5A49;
+    border-bottom: 1px #DF5A49 dotted; 
+
+}
+
+.usversity video {
+    width: 60%;
+}
+
+.usversity img {
+    width: 70%;
+}
+
+#compare {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#compare p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #646464;
+}
+#compare img {
+    width: 70%;
+}
+
+#content.usversity h3 {
+    padding-top: 150px;
+}
+
+.usversity#design-process {
+/*    background-color: rgba(0, 0, 0, 0.6);*/
+    background-image: url(../images/usversity/bg-usversity);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.usversity#design-process:before {
+/*
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+
+    background-image: url(../images/menu/design-process-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+*/
 }
 
 #design-process h1 {
