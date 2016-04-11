@@ -425,7 +425,8 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
     border-bottom: 1px #eaeaea dotted; 
 }
 
-.footerText a:hover {
+
+.footer a:hover {
     color: #fff;
 }
 
@@ -446,6 +447,9 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
     font-weight: 200;
     color: #eaeaea;
     /*    margin-top: 100px;*/
+}
+a:hover .pre,a:hover .next{
+    color: #fff;
 }
 
 
@@ -701,6 +705,14 @@ header.menu_background:before {
     color: #f0f0f0;
 }
 
+#iteration img {
+    width: 100%;
+}
+#interation h3 {
+    padding-top: 0;
+    margin-top: 0;
+    
+}
 
 
 /* ========================================================
