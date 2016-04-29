@@ -783,10 +783,9 @@ header.usversity_background:before {
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 20px;
     padding-bottom: 20px;
-
     margin-top: 200px;
-
 }
+
 .usversity h2, .usversity h1 {
     color: #DF5A49;
 }
@@ -857,4 +856,59 @@ header.usversity_background:before {
 
 #design-process h1 {
     color: #f0f0f0;
+}
+
+
+
+
+
+/* ========================================================
+================         YELP         ====================
+========================================================*/
+
+header.yelp_background {
+    background-color: #be5034;
+    /*
+    background-image: url(../images/menu/food-bg.jpg);
+
+    background-repeat: no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+
+    position: relative;
+    overflow: hidden;
+}
+
+header.yelp_background:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+
+/*    background-image: url(../images/usversity/bg-usversity-1.png);*/
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer.yelp_background {
+    background-color: #DF5A49;
+    position: relative;
+    overflow: hidden;
+}
+
+#content.yelp img {
+    margin: 0;
+    padding: 0;
 }
