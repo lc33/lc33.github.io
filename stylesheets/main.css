@@ -210,7 +210,7 @@ header {
 }
 
 header h1 {
-    font-family: "Fredericka the Great";
+    font-family: "Fredericka the Great", serif;
     margin-top: 30px;
     font-size: 130px;
     font-weight: 400;
@@ -378,35 +378,41 @@ header p {
     margin-bottom: 20px;
 }
 
-/*footer*/
+/****************************      footer      ***************************r*/
 
 #copyright {
     /*    width: 1000px;*/
     /*    font-family: "Courier New", Courier, mono;*/
-    font-family: 'Quicksand';
+    font-family: "source serif pro", serif;
     font-size: 12px;
     /*    margin: 50px 0px 30px 0px;*/
-    color: #eaeaea;
+    color: #323232;
     line-height: 30px;
     /*    margin: auto;*/
     /*    border: 1px solid;*/
 }
 
 #copyright a {
-    color: #eaeaea;
-    border-bottom: 1px #fff dotted;   
+    color: #323232;
+    border-bottom: 1px #323232 dotted;   
 }
 
 #copyright a:hover {
-    color: #fff;
+    color: #000;
 }
 
 .blue {
     background-color: #43A4E2;
 }
 
-
-/* scroll down btn */
+.fa{
+    color: #646464;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+/****************** scroll down btn ********************/
 @-webkit-keyframes ani-mouse {
     0% {
         opacity: 1;
