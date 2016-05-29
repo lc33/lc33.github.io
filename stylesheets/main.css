@@ -132,7 +132,7 @@ a:hover, a:focus {
 
 #menu.navbar-default {
     /* Navbar-default has white bg and border*/
-    background-color: #FFEDBF;
+    background-color: #fff;
     border-color: rgba(0, 0, 0, 0);
 }
 
@@ -193,7 +193,7 @@ header {
     background-repeat: no-repeat;
 */
     
-    background-color: #FFEDBF;
+    background-color: #fff;
     
     color: #f2f2f2;
     position: relative;
