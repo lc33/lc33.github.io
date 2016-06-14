@@ -57,6 +57,10 @@ b {
     font-weight: 400;
 }
 
+strong {
+    font-weight: 500;
+}
+
 
 /* ======   import fonts    ====== */
 
@@ -68,25 +72,23 @@ b {
 /* === COMPONENTS == */
 
 h1 {
-    font-size: 38px;
-    font-weight: 500;
-/*    line-height: 50px;*/
+    font-size: 24px;
+    font-weight: 400;
+    /*    line-height: 50px;*/
 }
 
 h2 {
-    font: 300 22px 'Raleway', sans-serif;
+    font: 300 18px 'Raleway', sans-serif;
 }
-
 
 p {
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 img {
     display: block;
 }
-
 
 a,
 a:hover,
@@ -95,19 +97,43 @@ a:active,
 a.active {
     outline: 0;
     color: #333333;
-/*    text-decoration: none;*/
-    border-bottom: 1px #333333 dotted; 
+    /*    text-decoration: none;*/
+    border-bottom: 1px #333333 dotted;
 }
 
 a:hover {
     text-decoration: none;
 }
 
+
 /* =========================================================
 ============================================================
 ============   GENERAL STRUCTURE   =========================
 ============================================================
 ===========================================================*/
+
+
+/* =======  Nav =======*/
+
+nav {
+    height: 50px;
+    background-color: #fff;
+}
+
+.project-nav {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#nav-pre {
+    margin-right: 30px;
+}
+
+.fa {
+    color: rgb(150, 150, 150);
+    /*    margin-left: 30px;*/
+}
 
 
 /* === HEADER === */
@@ -127,9 +153,11 @@ header {
 }
 
 header img {
-/*    display: inline;*/
-    width: 24px;
+    /*    display: inline;*/
+    width: 80%;
+    margin-top: 80px;
 }
+
 
 /*
 .top-pre {
@@ -151,49 +179,55 @@ header .content-block {
     padding-bottom: 0;
     padding-top: 0;
 }
+
 .top-nav {
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
 .top-nav a {
-/*    width: 200px;*/
+    /*    width: 200px;*/
     font-family: Quicksand, sans-serif;
     font-size: 14px;
-    font-weight: 200;
-    color: #eaeaea;
-    border-bottom: none; 
+    font-weight: 400;
+    color: #646464;
+    border-bottom: none;
 }
 
 .top-nav a:hover {
-    color: #fff;
+    color: #000;
 }
 
 .project_title {
-    margin-top: 80px;
-    color: white;
+    margin-top: 90px;
+    color: #333333;
 }
+
+.project_title.mobile-title {
+    margin-top: 200px;
+}
+
 
 .project_description {
     /*    width: 480px;*/
-    margin: 15px auto 0px auto;
-    color: #eaeaea;
+    margin: 20px auto 0px auto;
+    color: #333;
     font-family: 'Raleway', serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 24px;
 }
 
 header .btn-default {
     background-color: rgba(0, 0, 0, 0);
-    color: #eaeaea;
-    border: 1px solid #eaeaea;
+    color: #323232;
+    border: 1px solid #323232;
     margin-top: 50px;
-    margin-right: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-right: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     border-radius: 0;
     transition-duration: 0.4s;
     font-size: 12px;
@@ -201,21 +235,23 @@ header .btn-default {
     letter-spacing: 2px;
 }
 
-header .btn-default:hover, header .btn-default:active, header .btn-default:focus {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: white;
-    border-color: rgba(0, 0, 0, 0);
+header .btn-default:hover,
+header .btn-default:active,
+header .btn-default:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+    /*    color: white;*/
+    border-color: rgb(0, 0, 0);
 }
 
 #project-info {
     margin-top: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: #969696;
+    color: #646464;
 }
 
 #project-info h4 {
-    /*    color: #969696;*/
+    color: #969696;
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 12px;
@@ -223,7 +259,7 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 }
 
 #project-info p {
-    color: #d3d3d3;
+    color: #333333;
     font-size: 12px;
     font-weight: 200;
 }
@@ -232,8 +268,15 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
     text-transform: uppercase;
 }
 
+.project-cover {
+    /*    width: 70%;*/
+    /*    margin: auto;*/
+}
 
-/* === CONTENT === */
+
+/* =====================
+==========================
+===================CONTENT ===================== */
 
 .title_line {
     width: 180px;
@@ -261,6 +304,7 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 #content h2 {
     padding-bottom: 30px;
     letter-spacing: 1px;
+    line-height: 30px;
 }
 
 #content h3 {
@@ -276,9 +320,9 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 
 #content h4 {
     font-size: 14px;
-/*    text-transform: uppercase;*/
-/*    padding-top: 30px;*/
-/*    padding-bottom: 10px;*/
+    /*    text-transform: uppercase;*/
+    /*    padding-top: 30px;*/
+    /*    padding-bottom: 10px;*/
     margin-top: 50px;
     letter-spacing: 1px;
     text-align: center;
@@ -286,8 +330,8 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 }
 
 #content p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 24px;
     font-weight: 400;
     color: #333333;
     letter-spacing: 1px;
@@ -306,7 +350,7 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
     font-size: 12px;
     line-height: 20px;
     padding-top: 30px;
-/*    margin-left: 20px;*/
+    /*    margin-left: 20px;*/
 }
 
 .bold {
@@ -318,29 +362,29 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
 }
 
 #content img {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 80px;
 }
 
 .prototypeSlide {
-/*    width: 700px;*/
+    /*    width: 700px;*/
     margin: 25px auto;
     text-align: center;
 }
 
 .prototypeSlide img {
-/*    width: 650px;*/
+    /*    width: 650px;*/
     margin: 0px auto 50px auto;
     text-align: center;
 }
 
 #umuDetailMobi {
-/*    width: 650px;*/
+    /*    width: 650px;*/
     margin: 150px auto;
 }
 
 #content .afterwords {
-/*    width: 600px;*/
+    /*    width: 600px;*/
     color: #969696;
     font-size: 14px;
     font-weight: 200;
@@ -384,6 +428,10 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
     padding-right: 80px;
 }
 
+.bg-f4 {
+    background-color: #F4F7F9;
+}
+
 #content .btn-default {
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
@@ -409,13 +457,37 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
     color: #DF5A49;
     border-color: rgba(0, 0, 0, 0);
 }
-/* === footer === */
+
+li {
+    /*    font-family: 'Raleway', sans-serif;*/
+}
+
+#content .photo-credit {
+    font-size: 11px;
+    color: rgb(201, 201, 201);
+    text-align: center;
+    margin-top: -60px;
+    font-weight: 200;
+}
+
+#banner-img img {
+    margin: 0;
+}
+
+
+/* ======================== 
+======================== 
+======================== footer =========================== */
+
+
+/*
 
 .footer {
     width: 100%;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 100px;
+    background-color: #333;
 }
 
 .footerText {
@@ -456,9 +528,12 @@ header .btn-default:hover, header .btn-default:active, header .btn-default:focus
     font-size: 24px;
     font-weight: 200;
     color: #eaeaea;
-    /*    margin-top: 100px;*/
+        margin-top: 100px;
 }
-a:hover .pre,a:hover .next{
+*/
+
+a:hover .pre,
+a:hover .next {
     color: #fff;
 }
 
@@ -468,22 +543,26 @@ a:hover .pre,a:hover .next{
 ========================================================*/
 
 .umu_background {
-    background-color: #E9B337;
+    background-color: #A4E4E7;
+    /*
+    background-image: url(../images/umu/umu-bg.png);
+    background-size: cover;
+*/
 }
 
-.umu h2, .umu h1 {
-    color: #E9B337;
+.umu h2,
+.umu h1 {
+    color: #0C868C;
 }
 
 .umu a:hover {
-    color: #E9B337;
-    border-bottom: 1px #E9B337 dotted; 
+    color: #0C868C;
+    border-bottom: 1px #0C868C dotted;
 }
 
 #content.umu .btn-default {
-    color: #E9B337;
-    border: 1px solid #E9B337;
-  
+    color: #0C868C;
+    border: 1px solid #0C868C;
 }
 
 #content.umu .btn-default:hover {
@@ -492,6 +571,38 @@ a:hover .pre,a:hover .next{
     border-color: rgba(0, 0, 0, 0);
 }
 
+.umu#design-process {
+    /*    background-color: rgba(0, 0, 0, 0.19);*/
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+.umu#design-process:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+    background-image: url(../images/umu/vision.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-umu {
+    background-color: #A4E4E7;
+}
 
 
 /* ========================================================
@@ -502,14 +613,14 @@ a:hover .pre,a:hover .next{
     background-color: #E27A3F;
 }
 
-.blog h2, .blog h1 {
+.blog h2,
+.blog h1 {
     color: #E27A3F;
 }
 
 .blog a:hover {
     color: #E27A3F;
-    border-bottom: 1px #E27A3F dotted; 
-    
+    border-bottom: 1px #E27A3F dotted;
 }
 
 .img_hover {
@@ -546,7 +657,8 @@ a:hover .pre,a:hover .next{
     background-color: #42ACE5;
 }
 
-.directory h2, .directory h1 {
+.directory h2,
+.directory h1 {
     color: #42ACE5;
 }
 
@@ -554,27 +666,27 @@ h2.strong {
     font-size: 24px;
     font-weight: 200;
     line-height: 32px;
-    
-    
 }
+
 
 /* ========================================================
 ================         WENWEN         ====================
 ========================================================*/
 
 .wenwen_background {
-    background-color: #5995E1;
+    background-color: #ACC5EA;
 }
 
-.wenwen h2, .wenwen h1 {
+.wenwen h2,
+.wenwen h1 {
     color: #5995E1;
 }
 
 .wenwen a:hover {
     color: #5995E1;
-    border-bottom: 1px #5995E1 dotted; 
-
+    border-bottom: 1px #5995E1 dotted;
 }
+
 
 /* ========================================================
 ================         VR         ====================
@@ -584,7 +696,8 @@ h2.strong {
     background-color: #E09641;
 }
 
-.vr h2, .vr h1 {
+.vr h2,
+.vr h1 {
     color: #E09641;
 }
 
@@ -597,20 +710,22 @@ h2.strong {
 /* ========================================================
 ================         MENU         ====================
 ========================================================*/
+
 header.menu_background {
-    background-color: rgba(0, 0, 0, 0.3);
-/*
+    background-color: #B0F3AC;
+    /*
     background-image: url(../images/menu/food-bg.jpg);
     
     background-repeat: no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
-*/
-    
     position: relative;
     overflow: hidden;
+*/
 }
 
+
+/*
 header.menu_background:before {
     content: ' ';
     display: block;
@@ -632,6 +747,7 @@ header.menu_background:before {
     background-size: cover;
     background-attachment: fixed;
 }
+*/
 
 .footer.menu_background {
     background-color: #DF5A49;
@@ -639,22 +755,15 @@ header.menu_background:before {
     overflow: hidden;
 }
 
-.menu_background #project-info{
-    background-color: rgba(0, 0, 0, 0.69);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-    margin-top: 200px;
-    
-}
-.menu h2, .menu h1 {
+
+.menu h2,
+.menu h1 {
     color: #DF5A49;
 }
 
 .menu a:hover {
     color: #DF5A49;
-    border-bottom: 1px #DF5A49 dotted; 
-
+    border-bottom: 1px #DF5A49 dotted;
 }
 
 .menu video {
@@ -662,25 +771,27 @@ header.menu_background:before {
 }
 
 .menu img {
-/*    width: 70%;*/
+    /*    width: 70%;*/
 }
 
 #compare {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-#compare p{
+
+#compare p {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     color: #646464;
 }
+
 #compare img {
     width: 70%;
 }
 
 #content.menu h3 {
-/*    padding-top: 150px;*/
+    /*    padding-top: 150px;*/
 }
 
 .menu#design-process {
@@ -699,7 +810,6 @@ header.menu_background:before {
     height: 100%;
     z-index: -1;
     opacity: 1;
-
     background-image: url(../images/menu/design-process-bg.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -718,15 +828,17 @@ header.menu_background:before {
 #iteration img {
     width: 100%;
 }
+
 #interation h3 {
     padding-top: 0;
     margin-top: 0;
-    
 }
 
 img.img70 {
     width: 70%;
 }
+
+
 /*
 .pic-block {
     margin-top: 150px;
@@ -734,9 +846,11 @@ img.img70 {
 }
 */
 
+
 /* ========================================================
 ================         USVERSITY         ====================
 ========================================================*/
+
 header.usversity_background {
     background-color: rgba(0, 0, 0, 0.3);
     /*
@@ -746,7 +860,6 @@ header.usversity_background {
     background-size: cover;
     background-attachment: fixed;
     */
-
     position: relative;
     overflow: hidden;
 }
@@ -761,7 +874,6 @@ header.usversity_background:before {
     height: 100%;
     z-index: -1;
     opacity: 1;
-
     background-image: url(../images/usversity/bg-usversity-1.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -779,21 +891,21 @@ header.usversity_background:before {
     overflow: hidden;
 }
 
-.usversity_background #project-info{
+.usversity_background #project-info {
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 200px;
 }
 
-.usversity h2, .usversity h1 {
+.usversity h2,
+.usversity h1 {
     color: #DF5A49;
 }
 
 .usversity a:hover {
     color: #DF5A49;
-    border-bottom: 1px #DF5A49 dotted; 
-
+    border-bottom: 1px #DF5A49 dotted;
 }
 
 .usversity video {
@@ -808,12 +920,14 @@ header.usversity_background:before {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-#compare p{
+
+#compare p {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     color: #646464;
 }
+
 #compare img {
     width: 70%;
 }
@@ -823,7 +937,7 @@ header.usversity_background:before {
 }
 
 .usversity#design-process {
-/*    background-color: rgba(0, 0, 0, 0.6);*/
+    /*    background-color: rgba(0, 0, 0, 0.6);*/
     background-image: url(../images/usversity/bg-usversity);
     background-size: cover;
     position: relative;
@@ -831,7 +945,7 @@ header.usversity_background:before {
 }
 
 .usversity#design-process:before {
-/*
+    /*
     content: ' ';
     display: block;
     position: absolute;
@@ -859,15 +973,12 @@ header.usversity_background:before {
 }
 
 
-
-
-
 /* ========================================================
 ================         YELP         ====================
 ========================================================*/
 
 header.yelp_background {
-    background-color: #be5034;
+    background-color: #DAA9EB;
     /*
     background-image: url(../images/menu/food-bg.jpg);
 
@@ -875,11 +986,11 @@ header.yelp_background {
     background-size: cover;
     background-attachment: fixed;
     */
-
     position: relative;
     overflow: hidden;
 }
 
+/*
 header.yelp_background:before {
     content: ' ';
     display: block;
@@ -890,8 +1001,7 @@ header.yelp_background:before {
     height: 100%;
     z-index: -1;
     opacity: 1;
-
-/*    background-image: url(../images/usversity/bg-usversity-1.png);*/
+        background-image: url(../images/usversity/bg-usversity-1.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -901,6 +1011,7 @@ header.yelp_background:before {
     background-size: cover;
     background-attachment: fixed;
 }
+*/
 
 .footer.yelp_background {
     background-color: #DF5A49;

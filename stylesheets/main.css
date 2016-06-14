@@ -73,7 +73,7 @@ h1 {
 h2 {
     font-family: Raleway, Georgia, Serif;
     font-weight: 200;
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 1px;
     color: #262626;
 }
@@ -212,7 +212,7 @@ header {
 */
 
 header h1 {
-    font-family: "Fredericka the Great", serif;
+    font-family: Raleway, "Fredericka the Great","source serif pro", serif;
     margin-top: 30px;
     font-size: 130px;
     font-weight: 400;
@@ -224,7 +224,7 @@ header h1 {
 
 header h2 {
 /*    font-family: "Fredericka the Great";*/
-    font-family: "source serif pro", serif;
+    font-family: "Fredericka the Great", "source serif pro", serif;
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
@@ -235,11 +235,11 @@ header h2 {
 }
 
 header p {
-    font-family: "source serif pro", serif;
+    font-family: Raleway, "source serif pro", serif;
 
 /*    margin-bottom: 150px;*/
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     color: #262626;
     letter-spacing: 1px;
     line-height: 18px;
@@ -385,7 +385,7 @@ header p {
 #copyright {
     /*    width: 1000px;*/
     /*    font-family: "Courier New", Courier, mono;*/
-    font-family: "source serif pro", serif;
+    font-family: Raleway, "source serif pro", serif;
     font-size: 12px;
     /*    margin: 50px 0px 30px 0px;*/
     color: #323232;
