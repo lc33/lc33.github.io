@@ -78,7 +78,18 @@ h1 {
 }
 
 h2 {
-    font: 300 18px 'Raleway', sans-serif;
+    font: 300 22px 'Raleway', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: rgb(150, 150, 150);
 }
 
 p {
@@ -207,7 +218,6 @@ header .content-block {
     margin-top: 200px;
 }
 
-
 .project_description {
     /*    width: 480px;*/
     margin: 20px auto 0px auto;
@@ -304,7 +314,7 @@ header .btn-default:focus {
 #content h2 {
     padding-bottom: 30px;
     letter-spacing: 1px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 #content h3 {
@@ -432,6 +442,12 @@ header .btn-default:focus {
     background-color: #F4F7F9;
 }
 
+
+.bg-dea {
+    background-color: #D1ECA6;
+}
+
+
 #content .btn-default {
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
@@ -472,6 +488,26 @@ li {
 
 #banner-img img {
     margin: 0;
+}
+
+#quote {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+    /*    padding-bottom: 100px;*/
+    background-color: #E4F4CA;
+}
+
+#quote p {
+    color: #43473B;
+    font-family: quicksand;
+    font-size: 16px;
+    font-style: italic;
+    /*    margin-top: 100px;*/
 }
 
 
@@ -712,7 +748,7 @@ h2.strong {
 ========================================================*/
 
 header.menu_background {
-    background-color: #B0F3AC;
+    background-color: #D1ECA6;
     /*
     background-image: url(../images/menu/food-bg.jpg);
     
@@ -749,16 +785,9 @@ header.menu_background:before {
 }
 */
 
-.footer.menu_background {
-    background-color: #DF5A49;
-    position: relative;
-    overflow: hidden;
-}
-
-
 .menu h2,
 .menu h1 {
-    color: #DF5A49;
+    color: #EC887E;
 }
 
 .menu a:hover {
@@ -794,6 +823,49 @@ header.menu_background:before {
     /*    padding-top: 150px;*/
 }
 
+.menu#design-vision {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    overflow: hidden;
+}
+
+.menu#design-vision:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+    background-image: url(../images/menu/restaurant-691397.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#design-vision h2 {
+    font-family: quicksand, serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#design-vision h5 {
+    font-family: quicksand, serif;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 50px;
+
+}
+
+
 .menu#design-process {
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
@@ -820,6 +892,8 @@ header.menu_background:before {
     background-size: cover;
     background-attachment: fixed;
 }
+
+
 
 .menu#design-process h1 {
     color: #f0f0f0;
@@ -989,6 +1063,7 @@ header.yelp_background {
     position: relative;
     overflow: hidden;
 }
+
 
 /*
 header.yelp_background:before {
