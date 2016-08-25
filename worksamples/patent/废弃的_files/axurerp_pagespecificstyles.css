@@ -1,0 +1,4124 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../废弃的_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:150px;
+    top:100px;
+    width:426px;
+    height:237px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:432px;
+    height:243px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:110px;
+    width:422px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../废弃的_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:576px;
+    top:100px;
+    width:654px;
+    height:237px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:660px;
+    height:243px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:110px;
+    width:650px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../废弃的_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:150px;
+    top:302px;
+    width:426px;
+    height:35px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:432px;
+    height:41px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:422px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../废弃的_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:576px;
+    top:302px;
+    width:654px;
+    height:35px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:660px;
+    height:41px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:650px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../废弃的_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:150px;
+    top:100px;
+    width:426px;
+    height:30px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:432px;
+    height:36px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:422px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:166px;
+    top:142px;
+    width:400px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:166px;
+    top:107px;
+    width:400px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:166px;
+    top:168px;
+    width:400px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:166px;
+    top:194px;
+    width:400px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14 {
+    position:absolute;
+    left:166px;
+    top:220px;
+    width:400px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:166px;
+    top:246px;
+    width:400px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:166px;
+    top:272px;
+    width:400px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../废弃的_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:518px;
+    top:142px;
+    width:42px;
+    height:16px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:22px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../废弃的_files/u17_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:518px;
+    top:168px;
+    width:42px;
+    height:16px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:22px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../废弃的_files/u17_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:518px;
+    top:194px;
+    width:42px;
+    height:16px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:22px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../废弃的_files/u17_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:518px;
+    top:220px;
+    width:42px;
+    height:16px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:22px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../废弃的_files/u17_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:518px;
+    top:246px;
+    width:42px;
+    height:16px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:22px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../废弃的_files/u17_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:518px;
+    top:272px;
+    width:42px;
+    height:16px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:22px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:597px;
+    top:114px;
+    width:222px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../废弃的_files/u30_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:206px;
+    top:58px;
+    width:71px;
+    height:24px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:77px;
+    height:30px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:67px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:209px;
+    top:62px;
+    width:53px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../废弃的_files/u33_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:260px;
+    top:70px;
+    width:12px;
+    height:6px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:12px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:-5px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../废弃的_files/u35_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:263px;
+    top:64px;
+    width:6px;
+    height:6px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:12px;
+    height:12px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:-5px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../废弃的_files/u37_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:277px;
+    top:58px;
+    width:56px;
+    height:24px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:62px;
+    height:30px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:52px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:280px;
+    top:62px;
+    width:53px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../废弃的_files/u40_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:333px;
+    top:58px;
+    width:88px;
+    height:24px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:94px;
+    height:30px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:84px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:336px;
+    top:62px;
+    width:83px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../废弃的_files/u43_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:421px;
+    top:58px;
+    width:65px;
+    height:24px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:71px;
+    height:30px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:61px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:421px;
+    top:62px;
+    width:65px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../废弃的_files/u46_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:486px;
+    top:58px;
+    width:68px;
+    height:24px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:74px;
+    height:30px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:64px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:490px;
+    top:62px;
+    width:64px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../废弃的_files/u49_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:554px;
+    top:58px;
+    width:51px;
+    height:24px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:57px;
+    height:30px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:47px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:557px;
+    top:62px;
+    width:48px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52_normal {
+    background-image: url('../废弃的_files/u37_normal.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:150px;
+    top:58px;
+    width:56px;
+    height:24px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:62px;
+    height:30px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:52px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:153px;
+    top:62px;
+    width:53px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_normal {
+    background-image: url('../废弃的_files/u55_normal.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:68px;
+    top:500px;
+    width:1080px;
+    height:217px;
+}
+
+#u55_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1086px;
+    height:223px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:100px;
+    width:1076px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:208px;
+    top:578px;
+    width:86px;
+    height:24px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:294px;
+    top:578px;
+    width:86px;
+    height:24px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:379px;
+    top:578px;
+    width:86px;
+    height:24px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:465px;
+    top:578px;
+    width:86px;
+    height:24px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:89px;
+    top:513px;
+    width:66px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66_normal {
+    background-image: url('../废弃的_files/u66_normal.png');
+}
+
+.u66_container {
+    position:absolute;
+    left:1064px;
+    top:717px;
+    width:84px;
+    height:12px;
+}
+
+#u66_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:90px;
+    height:18px;
+}
+
+.u67 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:80px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68_normal {
+    background-image: url('../废弃的_files/u68_normal.png');
+}
+
+.u68_container {
+    position:absolute;
+    left:1100px;
+    top:721px;
+    width:12px;
+    height:6px;
+}
+
+#u68_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:12px;
+}
+
+.u69 {
+    position:absolute;
+    left:2px;
+    top:-5px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:551px;
+    top:578px;
+    width:86px;
+    height:24px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u71 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u72_container {
+    position:absolute;
+    left:637px;
+    top:578px;
+    width:86px;
+    height:24px;
+}
+
+#u72_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u73 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:722px;
+    top:578px;
+    width:86px;
+    height:24px;
+}
+
+#u74_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u75 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u76_container {
+    position:absolute;
+    left:807px;
+    top:578px;
+    width:86px;
+    height:24px;
+}
+
+#u76_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u77 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78_normal {
+    background-image: url('../废弃的_files/u78_normal.png');
+}
+
+.u78_container {
+    position:absolute;
+    left:305px;
+    top:513px;
+    width:104px;
+    height:24px;
+}
+
+#u78_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:110px;
+    height:30px;
+}
+
+.u79 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:100px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80 {
+    position:absolute;
+    left:137px;
+    top:517px;
+    width:54px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../废弃的_files/u81_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:208px;
+    top:513px;
+    width:97px;
+    height:24px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:30px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:93px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83_normal {
+    background-image: url('../废弃的_files/u78_normal.png');
+}
+
+.u83_container {
+    position:absolute;
+    left:409px;
+    top:513px;
+    width:104px;
+    height:24px;
+}
+
+#u83_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:110px;
+    height:30px;
+}
+
+.u84 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:100px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85_normal {
+    background-image: url('../废弃的_files/u78_normal.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:513px;
+    top:513px;
+    width:104px;
+    height:24px;
+}
+
+#u85_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:110px;
+    height:30px;
+}
+
+.u86 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:100px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87_normal {
+    background-image: url('../废弃的_files/u78_normal.png');
+}
+
+.u87_container {
+    position:absolute;
+    left:617px;
+    top:513px;
+    width:104px;
+    height:24px;
+}
+
+#u87_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:110px;
+    height:30px;
+}
+
+.u88 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:100px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../废弃的_files/u89_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:211px;
+    top:517px;
+    width:21px;
+    height:15px;
+}
+
+#u89_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:21px;
+    height:15px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../废弃的_files/u81_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:731px;
+    top:513px;
+    width:97px;
+    height:24px;
+}
+
+#u91_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:30px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:93px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93_normal {
+    background-image: url('../废弃的_files/u89_normal.png');
+}
+
+.u93_container {
+    position:absolute;
+    left:734px;
+    top:517px;
+    width:21px;
+    height:15px;
+}
+
+#u93_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:21px;
+    height:15px;
+}
+
+.u94 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95_normal {
+    background-image: url('../废弃的_files/u81_normal.png');
+}
+
+.u95_container {
+    position:absolute;
+    left:838px;
+    top:513px;
+    width:97px;
+    height:24px;
+}
+
+#u95_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:30px;
+}
+
+.u96 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:93px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u97_normal {
+    background-image: url('../废弃的_files/u89_normal.png');
+}
+
+.u97_container {
+    position:absolute;
+    left:841px;
+    top:517px;
+    width:21px;
+    height:15px;
+}
+
+#u97_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:21px;
+    height:15px;
+}
+
+.u98 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u99_normal {
+    background-image: url('../废弃的_files/u81_normal.png');
+}
+
+.u99_container {
+    position:absolute;
+    left:945px;
+    top:513px;
+    width:97px;
+    height:24px;
+}
+
+#u99_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:30px;
+}
+
+.u100 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:93px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u101_normal {
+    background-image: url('../废弃的_files/u89_normal.png');
+}
+
+.u101_container {
+    position:absolute;
+    left:948px;
+    top:517px;
+    width:21px;
+    height:15px;
+}
+
+#u101_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:21px;
+    height:15px;
+}
+
+.u102 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u103 {
+    position:absolute;
+    left:1052px;
+    top:517px;
+    width:47px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u104 {
+    position:absolute;
+    left:137px;
+    top:550px;
+    width:54px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105 {
+    position:absolute;
+    left:137px;
+    top:582px;
+    width:54px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106 {
+    position:absolute;
+    left:137px;
+    top:615px;
+    width:54px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u107_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u107_container {
+    position:absolute;
+    left:208px;
+    top:610px;
+    width:86px;
+    height:24px;
+}
+
+#u107_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u108 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u109_container {
+    position:absolute;
+    left:294px;
+    top:610px;
+    width:86px;
+    height:24px;
+}
+
+#u109_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u110 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u111_container {
+    position:absolute;
+    left:379px;
+    top:610px;
+    width:86px;
+    height:24px;
+}
+
+#u111_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u112 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u113_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u113_container {
+    position:absolute;
+    left:465px;
+    top:610px;
+    width:86px;
+    height:24px;
+}
+
+#u113_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u114 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u115_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u115_container {
+    position:absolute;
+    left:551px;
+    top:610px;
+    width:86px;
+    height:24px;
+}
+
+#u115_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u116 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u117_container {
+    position:absolute;
+    left:637px;
+    top:610px;
+    width:86px;
+    height:24px;
+}
+
+#u117_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u118 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u119_container {
+    position:absolute;
+    left:722px;
+    top:610px;
+    width:86px;
+    height:24px;
+}
+
+#u119_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u120 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u121_container {
+    position:absolute;
+    left:807px;
+    top:610px;
+    width:86px;
+    height:24px;
+}
+
+#u121_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u122 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u123 {
+    position:absolute;
+    left:137px;
+    top:647px;
+    width:54px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u124 {
+    position:absolute;
+    left:137px;
+    top:680px;
+    width:54px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u125_container {
+    position:absolute;
+    left:208px;
+    top:643px;
+    width:86px;
+    height:24px;
+}
+
+#u125_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u126 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u127_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u127_container {
+    position:absolute;
+    left:294px;
+    top:643px;
+    width:86px;
+    height:24px;
+}
+
+#u127_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u128 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u129_container {
+    position:absolute;
+    left:379px;
+    top:643px;
+    width:86px;
+    height:24px;
+}
+
+#u129_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u130 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u131_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u131_container {
+    position:absolute;
+    left:465px;
+    top:643px;
+    width:86px;
+    height:24px;
+}
+
+#u131_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u132 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u133_container {
+    position:absolute;
+    left:551px;
+    top:643px;
+    width:86px;
+    height:24px;
+}
+
+#u133_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u134 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u135_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u135_container {
+    position:absolute;
+    left:637px;
+    top:643px;
+    width:86px;
+    height:24px;
+}
+
+#u135_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u136 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u137_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u137_container {
+    position:absolute;
+    left:722px;
+    top:643px;
+    width:86px;
+    height:24px;
+}
+
+#u137_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u138 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u139_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u139_container {
+    position:absolute;
+    left:807px;
+    top:643px;
+    width:86px;
+    height:24px;
+}
+
+#u139_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u140 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u141_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u141_container {
+    position:absolute;
+    left:208px;
+    top:675px;
+    width:86px;
+    height:24px;
+}
+
+#u141_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u142 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u143_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u143_container {
+    position:absolute;
+    left:294px;
+    top:675px;
+    width:86px;
+    height:24px;
+}
+
+#u143_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u144 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u145_container {
+    position:absolute;
+    left:379px;
+    top:675px;
+    width:86px;
+    height:24px;
+}
+
+#u145_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u146 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u147_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u147_container {
+    position:absolute;
+    left:465px;
+    top:675px;
+    width:86px;
+    height:24px;
+}
+
+#u147_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u148 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u149_container {
+    position:absolute;
+    left:551px;
+    top:675px;
+    width:86px;
+    height:24px;
+}
+
+#u149_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u150 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u151_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u151_container {
+    position:absolute;
+    left:637px;
+    top:675px;
+    width:86px;
+    height:24px;
+}
+
+#u151_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u152 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u153_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u153_container {
+    position:absolute;
+    left:722px;
+    top:675px;
+    width:86px;
+    height:24px;
+}
+
+#u153_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u154 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u155_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u155_container {
+    position:absolute;
+    left:807px;
+    top:675px;
+    width:86px;
+    height:24px;
+}
+
+#u155_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u156 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u157_normal {
+    background-image: url('../废弃的_files/u57_normal.png');
+}
+
+.u157_container {
+    position:absolute;
+    left:208px;
+    top:545px;
+    width:86px;
+    height:24px;
+}
+
+#u157_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:92px;
+    height:30px;
+}
+
+.u158 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:82px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u159 {
+    position:absolute;
+    left:366px;
+    top:765px;
+    width:110px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u160_line {
+    background-image: url('../废弃的_files/u160_line.png');
+}
+
+.u160_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:177px;
+}
+
+.u160 {
+    position:absolute;
+    left:333px;
+    top:777px;
+    width:10px;
+    height:177px;
+    
+}
+
+.u161_normal {
+    background-image: url('../废弃的_files/u161_normal.png');
+}
+
+.u161_container {
+    position:absolute;
+    left:335px;
+    top:772px;
+    width:5px;
+    height:5px;
+}
+
+#u161_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u162 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u163 {
+    position:absolute;
+    left:366px;
+    top:942px;
+    width:110px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u164_normal {
+    background-image: url('../废弃的_files/u161_normal.png');
+}
+
+.u164_container {
+    position:absolute;
+    left:335px;
+    top:949px;
+    width:5px;
+    height:5px;
+}
+
+#u164_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u165 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u166 {
+    position:absolute;
+    left:366px;
+    top:883px;
+    width:110px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u167_normal {
+    background-image: url('../废弃的_files/u161_normal.png');
+}
+
+.u167_container {
+    position:absolute;
+    left:335px;
+    top:890px;
+    width:5px;
+    height:5px;
+}
+
+#u167_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u168 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u169 {
+    position:absolute;
+    left:366px;
+    top:824px;
+    width:110px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u170_normal {
+    background-image: url('../废弃的_files/u161_normal.png');
+}
+
+.u170_container {
+    position:absolute;
+    left:335px;
+    top:831px;
+    width:5px;
+    height:5px;
+}
+
+#u170_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u171 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u172 {
+    position:absolute;
+    left:486px;
+    top:942px;
+    width:114px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u173 {
+    position:absolute;
+    left:586px;
+    top:942px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u174 {
+    position:absolute;
+    left:486px;
+    top:883px;
+    width:114px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u175 {
+    position:absolute;
+    left:586px;
+    top:883px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u176 {
+    position:absolute;
+    left:486px;
+    top:824px;
+    width:114px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u177 {
+    position:absolute;
+    left:586px;
+    top:824px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u178 {
+    position:absolute;
+    left:486px;
+    top:765px;
+    width:114px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u179 {
+    position:absolute;
+    left:586px;
+    top:765px;
+    width:681px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u180 {
+    position:absolute;
+    left:1277px;
+    top:765px;
+    width:137px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u181 {
+    position:absolute;
+    left:1277px;
+    top:824px;
+    width:137px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u182 {
+    position:absolute;
+    left:1277px;
+    top:883px;
+    width:137px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u183 {
+    position:absolute;
+    left:1277px;
+    top:942px;
+    width:137px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u184 {
+    position:absolute;
+    left:1464px;
+    top:549px;
+    width:416px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u185_normal {
+    background-image: url('../图文_1_files/u71_normal.png');
+}
+
+.u185_container {
+    position:absolute;
+    left:1854px;
+    top:549px;
+    width:75px;
+    height:20px;
+}
+
+#u185_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:26px;
+}
+
+.u186 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:71px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u187 {
+    position:absolute;
+    left:1464px;
+    top:589px;
+    width:726px;
+    height:68px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u188_normal {
+    background-image: url('../图文_1_files/u74_normal.png');
+}
+
+.u188_container {
+    position:absolute;
+    left:2272px;
+    top:577px;
+    width:244px;
+    height:149px;
+}
+
+#u188_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:155px;
+}
+
+.u189 {
+    position:absolute;
+    left:2px;
+    top:66px;
+    width:240px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u190 {
+    position:absolute;
+    left:1464px;
+    top:664px;
+    width:765px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u191 {
+    position:absolute;
+    left:1939px;
+    top:551px;
+    width:72px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u192 {
+    position:absolute;
+    left:1464px;
+    top:712px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u193 {
+    position:absolute;
+    left:1524px;
+    top:712px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u195 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u197_end {
+    background-image: url('../废弃的_files/u197_end.png');
+}
+
+.u197_end {
+    position:absolute;
+    left:-5px;
+    top:81px;
+    width:20px;
+    height:14px;
+}
+
+.u197_line {
+    background-image: url('../废弃的_files/u197_line.png');
+}
+
+.u197_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:90px;
+}
+
+.u197 {
+    position:absolute;
+    left:1600px;
+    top:726px;
+    width:10px;
+    height:90px;
+    
+}
+
+.u198 {
+    position:absolute;
+    left:1629px;
+    top:749px;
+    width:279px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u199_normal {
+    background-image: url('../废弃的_files/u199_normal.png');
+}
+
+.u199_container {
+    position:absolute;
+    left:1620px;
+    top:717px;
+    width:17px;
+    height:22px;
+}
+
+#u199_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:17px;
+    height:22px;
+}
+
+.u200 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:13px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u201 {
+    position:absolute;
+    left:1458px;
+    top:826px;
+    width:567px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u202_normal {
+    background-image: url('../废弃的_files/u202_normal.png');
+}
+
+.u202_container {
+    position:absolute;
+    left:1574px;
+    top:823px;
+    width:82px;
+    height:25px;
+}
+
+#u202_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:31px;
+}
+
+.u203 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u204_normal {
+    background-image: url('../废弃的_files/u204_normal.png');
+}
+
+.u204_container {
+    position:absolute;
+    left:1458px;
+    top:848px;
+    width:439px;
+    height:25px;
+}
+
+#u204_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:445px;
+    height:31px;
+}
+
+.u205 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:435px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u206_end {
+    background-image: url('../废弃的_files/u206_end.png');
+}
+
+.u206_end {
+    position:absolute;
+    left:-5px;
+    top:37px;
+    width:20px;
+    height:14px;
+}
+
+.u206_line {
+    background-image: url('../废弃的_files/u206_line.png');
+}
+
+.u206_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:46px;
+}
+
+.u206 {
+    position:absolute;
+    left:1682px;
+    top:865px;
+    width:10px;
+    height:46px;
+    
+}
+
+.u207 {
+    position:absolute;
+    left:1657px;
+    top:921px;
+    width:138px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u208_normal {
+    background-image: url('../返回顶部_files/u263_normal.png');
+}
+
+.u208_container {
+    position:absolute;
+    left:1460px;
+    top:1135px;
+    width:42px;
+    height:38px;
+}
+
+#u208_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:44px;
+}
+
+.u209 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u211_end {
+    background-image: url('../废弃的_files/u211_end.png');
+}
+
+.u211_end {
+    position:absolute;
+    left:246px;
+    top:-5px;
+    width:14px;
+    height:20px;
+}
+
+.u211_line {
+    background-image: url('../废弃的_files/u211_line.png');
+}
+
+.u211_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:255px;
+    height:3px;
+}
+
+.u211 {
+    position:absolute;
+    left:1496px;
+    top:1147px;
+    width:255px;
+    height:10px;
+    
+}
+
+.u212 {
+    position:absolute;
+    left:1537px;
+    top:1130px;
+    width:173px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u213_normal {
+    background-image: url('../批量操作-展开_files/u213_normal.png');
+}
+
+.u213_container {
+    position:absolute;
+    left:2140px;
+    top:1173px;
+    width:42px;
+    height:38px;
+}
+
+#u213_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:44px;
+}
+
+.u214 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u215_normal {
+    background-image: url('../批量操作-展开_files/u215_normal.png');
+}
+
+.u215_container {
+    position:absolute;
+    left:1770px;
+    top:1135px;
+    width:370px;
+    height:427px;
+}
+
+#u215_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:376px;
+    height:433px;
+}
+
+.u216 {
+    position:absolute;
+    left:2px;
+    top:206px;
+    width:366px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u217_normal {
+    background-image: url('../批量操作-展开_files/u217_normal.png');
+}
+
+.u217_container {
+    position:absolute;
+    left:1770px;
+    top:1135px;
+    width:370px;
+    height:38px;
+}
+
+#u217_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:376px;
+    height:44px;
+}
+
+.u218 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:366px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u219_normal {
+    background-image: url('../批量操作-展开_files/u219_normal.png');
+}
+
+.u219_container {
+    position:absolute;
+    left:2140px;
+    top:1135px;
+    width:42px;
+    height:38px;
+}
+
+#u219_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:48px;
+    height:44px;
+}
+
+.u220 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u221_normal {
+    background-image: url('../批量操作-展开_files/u221_normal.png');
+}
+
+.u221_container {
+    position:absolute;
+    left:2089px;
+    top:1135px;
+    width:51px;
+    height:38px;
+}
+
+#u221_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:57px;
+    height:44px;
+}
+
+.u222 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:47px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u223_normal {
+    background-image: url('../批量操作-展开_files/u221_normal.png');
+}
+
+.u223_container {
+    position:absolute;
+    left:2038px;
+    top:1135px;
+    width:51px;
+    height:38px;
+}
+
+#u223_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:57px;
+    height:44px;
+}
+
+.u224 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:47px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u225_normal {
+    background-image: url('../批量操作-展开_files/u221_normal.png');
+}
+
+.u225_container {
+    position:absolute;
+    left:1987px;
+    top:1135px;
+    width:51px;
+    height:38px;
+}
+
+#u225_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:57px;
+    height:44px;
+}
+
+.u226 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:47px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u228 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u230 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u232 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u234 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u236 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u238 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u240 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u242 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u244 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u246 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:324px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u248 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u249 {
+    position:absolute;
+    left:1907px;
+    top:1146px;
+    width:63px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u250_normal {
+    background-image: url('../批量操作-展开_files/u250_normal.png');
+}
+
+.u250_container {
+    position:absolute;
+    left:2136px;
+    top:1187px;
+    width:4px;
+    height:201px;
+}
+
+#u250_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:10px;
+    height:207px;
+}
+
+.u251 {
+    position:absolute;
+    left:2px;
+    top:92px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u253_start {
+    background-image: url('../废弃的_files/u253_start.png');
+}
+
+.u253_start {
+    position:absolute;
+    left:-5px;
+    top:-4px;
+    width:20px;
+    height:14px;
+}
+
+.u253_line {
+    background-image: url('../废弃的_files/u253_line.png');
+}
+
+.u253_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:60px;
+}
+
+.u253 {
+    position:absolute;
+    left:1476px;
+    top:1086px;
+    width:10px;
+    height:60px;
+    
+}
+
+.u254 {
+    position:absolute;
+    left:1476px;
+    top:1053px;
+    width:275px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u255_end {
+    background-image: url('../废弃的_files/u255_end.png');
+}
+
+.u255_end {
+    position:absolute;
+    left:39px;
+    top:-5px;
+    width:14px;
+    height:20px;
+}
+
+.u255_line {
+    background-image: url('../废弃的_files/u255_line.png');
+}
+
+.u255_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:48px;
+    height:3px;
+}
+
+.u255 {
+    position:absolute;
+    left:2169px;
+    top:1147px;
+    width:48px;
+    height:10px;
+    
+}
+
+.u256 {
+    position:absolute;
+    left:2227px;
+    top:1141px;
+    width:164px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u257_start {
+    background-image: url('../废弃的_files/u257_start.png');
+}
+
+.u257_start {
+    position:absolute;
+    left:-5px;
+    top:-4px;
+    width:20px;
+    height:14px;
+}
+
+.u257_line {
+    background-image: url('../废弃的_files/u257_line.png');
+}
+
+.u257_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:60px;
+}
+
+.u257 {
+    position:absolute;
+    left:1963px;
+    top:1081px;
+    width:10px;
+    height:60px;
+    
+}
+
+.u258 {
+    position:absolute;
+    left:1849px;
+    top:1037px;
+    width:158px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u259_start {
+    background-image: url('../废弃的_files/u259_start.png');
+}
+
+.u259_start {
+    position:absolute;
+    left:-5px;
+    top:-4px;
+    width:20px;
+    height:14px;
+}
+
+.u259_line {
+    background-image: url('../废弃的_files/u259_line.png');
+}
+
+.u259_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:60px;
+}
+
+.u259 {
+    position:absolute;
+    left:2057px;
+    top:1081px;
+    width:10px;
+    height:60px;
+    
+}
+
+.u260 {
+    position:absolute;
+    left:2039px;
+    top:1059px;
+    width:158px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

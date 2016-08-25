@@ -1,0 +1,853 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../法律状态_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:300px;
+    top:245px;
+    width:1200px;
+    height:853px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:859px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:418px;
+    width:1196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../法律状态_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:300px;
+    top:280px;
+    width:1200px;
+    height:158px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:164px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:71px;
+    width:1196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../法律状态_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:300px;
+    top:236px;
+    width:1200px;
+    height:44px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:50px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:1196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../法律状态_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:366px;
+    top:401px;
+    width:175px;
+    height:36px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:42px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:171px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../法律状态_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:584px;
+    top:402px;
+    width:175px;
+    height:35px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:171px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../法律状态_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:803px;
+    top:402px;
+    width:175px;
+    height:35px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:171px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:644px;
+    top:309px;
+    width:429px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:784px;
+    top:346px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../法律状态_files/u8_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:1021px;
+    top:402px;
+    width:175px;
+    height:35px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:171px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../up_files/u64_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:1398px;
+    top:1028px;
+    width:47px;
+    height:40px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:53px;
+    height:46px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:43px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:456px;
+    top:516px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_line {
+    background-image: url('../法律状态_files/u20_line.png');
+}
+
+.u20_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:661px;
+}
+
+.u20 {
+    position:absolute;
+    left:424px;
+    top:437px;
+    width:10px;
+    height:661px;
+    
+}
+
+.u21_normal {
+    background-image: url('../法律状态_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:426px;
+    top:526px;
+    width:5px;
+    height:5px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:456px;
+    top:761px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../法律状态_files/u21_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:426px;
+    top:770px;
+    width:5px;
+    height:5px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:456px;
+    top:686px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../法律状态_files/u21_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:426px;
+    top:696px;
+    width:5px;
+    height:5px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:456px;
+    top:611px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../法律状态_files/u21_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:426px;
+    top:620px;
+    width:5px;
+    height:5px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:623px;
+    top:761px;
+    width:114px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33 {
+    position:absolute;
+    left:771px;
+    top:764px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34 {
+    position:absolute;
+    left:623px;
+    top:686px;
+    width:114px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35 {
+    position:absolute;
+    left:771px;
+    top:688px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:623px;
+    top:611px;
+    width:114px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37 {
+    position:absolute;
+    left:771px;
+    top:614px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:623px;
+    top:516px;
+    width:114px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:771px;
+    top:518px;
+    width:681px;
+    height:57px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../法律状态_files/u40_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:1409px;
+    top:244px;
+    width:57px;
+    height:29px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:63px;
+    height:35px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:53px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../法律状态_files/u42_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:1325px;
+    top:244px;
+    width:74px;
+    height:29px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:80px;
+    height:35px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:70px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../法律状态_files/u40_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:1258px;
+    top:244px;
+    width:57px;
+    height:29px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:63px;
+    height:35px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:53px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../法律状态_files/u40_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:1190px;
+    top:244px;
+    width:57px;
+    height:29px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:63px;
+    height:35px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:53px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_normal {
+    background-image: url('../法律状态_files/u40_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:1123px;
+    top:244px;
+    width:57px;
+    height:29px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:63px;
+    height:35px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:53px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_normal {
+    background-image: url('../法律状态_files/u50_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:1466px;
+    top:244px;
+    width:22px;
+    height:29px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:28px;
+    height:35px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:18px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

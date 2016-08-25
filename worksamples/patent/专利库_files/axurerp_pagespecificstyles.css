@@ -1,0 +1,3769 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../专利库_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:100px;
+    top:157px;
+    width:1080px;
+    height:69px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1086px;
+    height:75px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:26px;
+    width:1076px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../专利库_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:127px;
+    top:176px;
+    width:103px;
+    height:30px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:109px;
+    height:36px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:99px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../专利库_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:229px;
+    top:176px;
+    width:32px;
+    height:30px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:36px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../专利库_files/u2_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:271px;
+    top:176px;
+    width:103px;
+    height:30px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:109px;
+    height:36px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:99px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../专利库_files/u4_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:374px;
+    top:176px;
+    width:32px;
+    height:30px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:36px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../专利库_files/u2_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:417px;
+    top:176px;
+    width:103px;
+    height:30px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:109px;
+    height:36px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:99px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../专利库_files/u4_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:519px;
+    top:176px;
+    width:32px;
+    height:30px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:36px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../专利库_files/u2_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:561px;
+    top:176px;
+    width:103px;
+    height:30px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:109px;
+    height:36px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:99px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../专利库_files/u4_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:664px;
+    top:176px;
+    width:32px;
+    height:30px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:38px;
+    height:36px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../专利库_files/u18_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:844px;
+    top:176px;
+    width:103px;
+    height:30px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:109px;
+    height:36px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:99px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../专利库_files/u20_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:100px;
+    top:226px;
+    width:1080px;
+    height:565px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1086px;
+    height:571px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:274px;
+    width:1076px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22 {
+    position:absolute;
+    left:127px;
+    top:245px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../专利库_files/u23_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:127px;
+    top:280px;
+    width:134px;
+    height:40px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:140px;
+    height:46px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:130px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_line {
+    background-image: url('../专利库_files/u25_line.png');
+}
+
+.u25_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:959px;
+    height:3px;
+}
+
+.u25 {
+    position:absolute;
+    left:127px;
+    top:339px;
+    width:959px;
+    height:10px;
+    
+}
+
+.u26_normal {
+    background-image: url('../专利库_files/u26_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:271px;
+    top:280px;
+    width:134px;
+    height:40px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:140px;
+    height:46px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:130px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../专利库_files/u23_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:415px;
+    top:280px;
+    width:134px;
+    height:40px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:140px;
+    height:46px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:130px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../专利库_files/u30_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:559px;
+    top:280px;
+    width:137px;
+    height:40px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:46px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:133px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../专利库_files/u32_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:696px;
+    top:280px;
+    width:38px;
+    height:40px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:46px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:34px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34 {
+    position:absolute;
+    left:127px;
+    top:366px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../专利库_files/u35_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:240px;
+    top:405px;
+    width:93px;
+    height:28px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:125px;
+    top:405px;
+    width:115px;
+    height:28px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_container {
+    position:absolute;
+    left:125px;
+    top:405px;
+    width:37px;
+    height:28px;
+}
+
+#u39_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:37px;
+    height:28px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../专利库_files/u35_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:333px;
+    top:405px;
+    width:93px;
+    height:28px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../专利库_files/u35_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:425px;
+    top:405px;
+    width:93px;
+    height:28px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../专利库_files/u35_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:518px;
+    top:405px;
+    width:93px;
+    height:28px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../专利库_files/u47_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:610px;
+    top:405px;
+    width:93px;
+    height:28px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../专利库_files/u47_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:703px;
+    top:405px;
+    width:93px;
+    height:28px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51_normal {
+    background-image: url('../专利库_files/u47_normal.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:795px;
+    top:405px;
+    width:93px;
+    height:28px;
+}
+
+#u51_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:240px;
+    top:451px;
+    width:93px;
+    height:28px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:125px;
+    top:451px;
+    width:115px;
+    height:28px;
+}
+
+#u55_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57_container {
+    position:absolute;
+    left:125px;
+    top:451px;
+    width:37px;
+    height:28px;
+}
+
+#u57_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:37px;
+    height:28px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:333px;
+    top:451px;
+    width:93px;
+    height:28px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:425px;
+    top:451px;
+    width:93px;
+    height:28px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:779px;
+    top:451px;
+    width:93px;
+    height:28px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:664px;
+    top:451px;
+    width:115px;
+    height:28px;
+}
+
+#u65_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:872px;
+    top:451px;
+    width:93px;
+    height:28px;
+}
+
+#u67_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:965px;
+    top:451px;
+    width:93px;
+    height:28px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u71_container {
+    position:absolute;
+    left:1058px;
+    top:451px;
+    width:93px;
+    height:28px;
+}
+
+#u71_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u72 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73_container {
+    position:absolute;
+    left:125px;
+    top:451px;
+    width:37px;
+    height:28px;
+}
+
+#u73_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:37px;
+    height:28px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u75_container {
+    position:absolute;
+    left:664px;
+    top:451px;
+    width:37px;
+    height:28px;
+}
+
+#u75_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u76 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:779px;
+    top:499px;
+    width:93px;
+    height:28px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:664px;
+    top:499px;
+    width:115px;
+    height:28px;
+}
+
+#u79_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:872px;
+    top:499px;
+    width:93px;
+    height:28px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u83_container {
+    position:absolute;
+    left:965px;
+    top:499px;
+    width:93px;
+    height:28px;
+}
+
+#u83_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u84 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:1058px;
+    top:499px;
+    width:93px;
+    height:28px;
+}
+
+#u85_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u86 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u87_container {
+    position:absolute;
+    left:664px;
+    top:499px;
+    width:37px;
+    height:28px;
+}
+
+#u87_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u88 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../专利库_files/u89_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:240px;
+    top:499px;
+    width:93px;
+    height:28px;
+}
+
+#u89_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:125px;
+    top:499px;
+    width:115px;
+    height:28px;
+}
+
+#u91_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93_normal {
+    background-image: url('../专利库_files/u89_normal.png');
+}
+
+.u93_container {
+    position:absolute;
+    left:333px;
+    top:499px;
+    width:93px;
+    height:28px;
+}
+
+#u93_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u94 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95_normal {
+    background-image: url('../专利库_files/u89_normal.png');
+}
+
+.u95_container {
+    position:absolute;
+    left:426px;
+    top:499px;
+    width:93px;
+    height:28px;
+}
+
+#u95_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u96 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u97_normal {
+    background-image: url('../专利库_files/u89_normal.png');
+}
+
+.u97_container {
+    position:absolute;
+    left:519px;
+    top:499px;
+    width:93px;
+    height:28px;
+}
+
+#u97_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u98 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u99_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u99_container {
+    position:absolute;
+    left:125px;
+    top:499px;
+    width:37px;
+    height:28px;
+}
+
+#u99_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u100 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u101_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u101_container {
+    position:absolute;
+    left:779px;
+    top:547px;
+    width:93px;
+    height:28px;
+}
+
+#u101_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u102 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u103_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u103_container {
+    position:absolute;
+    left:664px;
+    top:547px;
+    width:115px;
+    height:28px;
+}
+
+#u103_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u104 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u105_container {
+    position:absolute;
+    left:872px;
+    top:547px;
+    width:93px;
+    height:28px;
+}
+
+#u105_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u106 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u107_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u107_container {
+    position:absolute;
+    left:965px;
+    top:547px;
+    width:93px;
+    height:28px;
+}
+
+#u107_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u108 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u109_container {
+    position:absolute;
+    left:1058px;
+    top:547px;
+    width:93px;
+    height:28px;
+}
+
+#u109_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u110 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u111_container {
+    position:absolute;
+    left:664px;
+    top:547px;
+    width:37px;
+    height:28px;
+}
+
+#u111_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u112 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u113_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u113_container {
+    position:absolute;
+    left:240px;
+    top:547px;
+    width:93px;
+    height:28px;
+}
+
+#u113_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u114 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u115_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u115_container {
+    position:absolute;
+    left:125px;
+    top:547px;
+    width:115px;
+    height:28px;
+}
+
+#u115_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u116 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u117_container {
+    position:absolute;
+    left:333px;
+    top:547px;
+    width:93px;
+    height:28px;
+}
+
+#u117_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u118 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u119_container {
+    position:absolute;
+    left:426px;
+    top:547px;
+    width:93px;
+    height:28px;
+}
+
+#u119_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u120 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u121_container {
+    position:absolute;
+    left:519px;
+    top:547px;
+    width:93px;
+    height:28px;
+}
+
+#u121_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u122 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u123_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u123_container {
+    position:absolute;
+    left:125px;
+    top:547px;
+    width:37px;
+    height:28px;
+}
+
+#u123_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u124 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125_normal {
+    background-image: url('../专利库_files/u125_normal.png');
+}
+
+.u125_container {
+    position:absolute;
+    left:779px;
+    top:595px;
+    width:93px;
+    height:28px;
+}
+
+#u125_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u126 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u127_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u127_container {
+    position:absolute;
+    left:664px;
+    top:595px;
+    width:115px;
+    height:28px;
+}
+
+#u127_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u128 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u129_container {
+    position:absolute;
+    left:872px;
+    top:595px;
+    width:93px;
+    height:28px;
+}
+
+#u129_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u130 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u131_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u131_container {
+    position:absolute;
+    left:965px;
+    top:595px;
+    width:93px;
+    height:28px;
+}
+
+#u131_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u132 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u133_container {
+    position:absolute;
+    left:1058px;
+    top:595px;
+    width:93px;
+    height:28px;
+}
+
+#u133_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u134 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u135_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u135_container {
+    position:absolute;
+    left:664px;
+    top:595px;
+    width:37px;
+    height:28px;
+}
+
+#u135_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u136 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u137_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u137_container {
+    position:absolute;
+    left:240px;
+    top:595px;
+    width:93px;
+    height:28px;
+}
+
+#u137_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u138 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u139_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u139_container {
+    position:absolute;
+    left:125px;
+    top:595px;
+    width:115px;
+    height:28px;
+}
+
+#u139_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u140 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u141_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u141_container {
+    position:absolute;
+    left:333px;
+    top:595px;
+    width:93px;
+    height:28px;
+}
+
+#u141_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u142 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u143_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u143_container {
+    position:absolute;
+    left:426px;
+    top:595px;
+    width:93px;
+    height:28px;
+}
+
+#u143_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u144 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u145_container {
+    position:absolute;
+    left:519px;
+    top:595px;
+    width:93px;
+    height:28px;
+}
+
+#u145_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u146 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u147_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u147_container {
+    position:absolute;
+    left:125px;
+    top:595px;
+    width:37px;
+    height:28px;
+}
+
+#u147_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u148 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u149_container {
+    position:absolute;
+    left:779px;
+    top:643px;
+    width:93px;
+    height:28px;
+}
+
+#u149_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u150 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u151_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u151_container {
+    position:absolute;
+    left:664px;
+    top:643px;
+    width:115px;
+    height:28px;
+}
+
+#u151_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u152 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u153_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u153_container {
+    position:absolute;
+    left:872px;
+    top:643px;
+    width:93px;
+    height:28px;
+}
+
+#u153_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u154 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u155_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u155_container {
+    position:absolute;
+    left:965px;
+    top:643px;
+    width:93px;
+    height:28px;
+}
+
+#u155_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u156 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u157_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u157_container {
+    position:absolute;
+    left:1058px;
+    top:643px;
+    width:93px;
+    height:28px;
+}
+
+#u157_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u158 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u159_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u159_container {
+    position:absolute;
+    left:664px;
+    top:643px;
+    width:37px;
+    height:28px;
+}
+
+#u159_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u160 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u161_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u161_container {
+    position:absolute;
+    left:240px;
+    top:643px;
+    width:93px;
+    height:28px;
+}
+
+#u161_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u162 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u163_normal {
+    background-image: url('../专利库_files/u37_normal.png');
+}
+
+.u163_container {
+    position:absolute;
+    left:125px;
+    top:643px;
+    width:115px;
+    height:28px;
+}
+
+#u163_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:34px;
+}
+
+.u164 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:111px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u165_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u165_container {
+    position:absolute;
+    left:333px;
+    top:643px;
+    width:93px;
+    height:28px;
+}
+
+#u165_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u166 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u167_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u167_container {
+    position:absolute;
+    left:426px;
+    top:643px;
+    width:93px;
+    height:28px;
+}
+
+#u167_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u168 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u169_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u169_container {
+    position:absolute;
+    left:519px;
+    top:643px;
+    width:93px;
+    height:28px;
+}
+
+#u169_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u170 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u171_normal {
+    background-image: url('../专利库_files/u75_normal.png');
+}
+
+.u171_container {
+    position:absolute;
+    left:125px;
+    top:643px;
+    width:37px;
+    height:28px;
+}
+
+#u171_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:43px;
+    height:34px;
+}
+
+.u172 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:33px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u173_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u173_container {
+    position:absolute;
+    left:125px;
+    top:691px;
+    width:93px;
+    height:28px;
+}
+
+#u173_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u174 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u175_normal {
+    background-image: url('../专利库_files/u53_normal.png');
+}
+
+.u175_container {
+    position:absolute;
+    left:218px;
+    top:691px;
+    width:93px;
+    height:28px;
+}
+
+#u175_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:34px;
+}
+
+.u176 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:89px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u177_normal {
+    background-image: url('../专利库_files/u177_normal.png');
+}
+
+.u177_container {
+    position:absolute;
+    left:735px;
+    top:176px;
+    width:99px;
+    height:30px;
+}
+
+#u177_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:105px;
+    height:36px;
+}
+
+.u178 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:95px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u179_normal {
+    background-image: url('../专利库_files/u179_normal.png');
+}
+
+.u179_container {
+    position:absolute;
+    left:311px;
+    top:691px;
+    width:164px;
+    height:28px;
+}
+
+#u179_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:170px;
+    height:34px;
+}
+
+.u180 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:160px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u181_normal {
+    background-image: url('../专利库_files/u181_normal.png');
+}
+
+.u181_container {
+    position:absolute;
+    left:100px;
+    top:823px;
+    width:1080px;
+    height:300px;
+}
+
+#u181_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1086px;
+    height:306px;
+}
+
+.u182 {
+    position:absolute;
+    left:2px;
+    top:142px;
+    width:1076px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u183_normal {
+    background-image: url('../专利库_files/u183_normal.png');
+}
+
+.u183_container {
+    position:absolute;
+    left:125px;
+    top:1049px;
+    width:205px;
+    height:48px;
+}
+
+#u183_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:211px;
+    height:54px;
+}
+
+.u184 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:201px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u185_normal {
+    background-image: url('../专利库_files/u185_normal.png');
+}
+
+.u185_container {
+    position:absolute;
+    left:598px;
+    top:1143px;
+    width:117px;
+    height:48px;
+}
+
+#u185_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:123px;
+    height:54px;
+}
+
+.u186 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:113px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u187_normal {
+    background-image: url('../专利库_files/u187_normal.png');
+}
+
+.u187_container {
+    position:absolute;
+    left:125px;
+    top:845px;
+    width:59px;
+    height:48px;
+}
+
+#u187_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:65px;
+    height:54px;
+}
+
+.u188 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:55px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u189_normal {
+    background-image: url('../专利库_files/u187_normal.png');
+}
+
+.u189_container {
+    position:absolute;
+    left:125px;
+    top:913px;
+    width:59px;
+    height:48px;
+}
+
+#u189_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:65px;
+    height:54px;
+}
+
+.u190 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:55px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u191_normal {
+    background-image: url('../专利库_files/u187_normal.png');
+}
+
+.u191_container {
+    position:absolute;
+    left:125px;
+    top:981px;
+    width:59px;
+    height:48px;
+}
+
+#u191_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:65px;
+    height:54px;
+}
+
+.u192 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:55px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u193 {
+    position:absolute;
+    left:330px;
+    top:845px;
+    width:814px;
+    height:48px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 14px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u194 {
+    position:absolute;
+    left:330px;
+    top:913px;
+    width:814px;
+    height:48px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 18px;
+    color:#333333;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:none;
+    
+}
+
+.u195 {
+    position:absolute;
+    left:330px;
+    top:981px;
+    width:814px;
+    height:48px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 14px;
+    color:#949494;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u196_normal {
+    background-image: url('../专利库_files/u196_normal.png');
+}
+
+.u196_container {
+    position:absolute;
+    left:184px;
+    top:913px;
+    width:146px;
+    height:48px;
+}
+
+#u196_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:152px;
+    height:54px;
+}
+
+.u197 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:142px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u198_normal {
+    background-image: url('../专利库_files/u196_normal.png');
+}
+
+.u198_container {
+    position:absolute;
+    left:184px;
+    top:981px;
+    width:146px;
+    height:48px;
+}
+
+#u198_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:152px;
+    height:54px;
+}
+
+.u199 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:142px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u200_normal {
+    background-image: url('../专利库_files/u196_normal.png');
+}
+
+.u200_container {
+    position:absolute;
+    left:184px;
+    top:845px;
+    width:146px;
+    height:48px;
+}
+
+#u200_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:152px;
+    height:54px;
+}
+
+.u201 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:142px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u202_normal {
+    background-image: url('../专利库_files/u202_normal.png');
+}
+
+.u202_container {
+    position:absolute;
+    left:975px;
+    top:1390px;
+    width:205px;
+    height:60px;
+}
+
+#u202_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:211px;
+    height:66px;
+}
+
+.u203 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:201px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u204 {
+    position:absolute;
+    left:1033px;
+    top:861px;
+    width:98px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u205_normal {
+    background-image: url('../收起检索历史_files/u44_normal.png');
+}
+
+.u205_container {
+    position:absolute;
+    left:100px;
+    top:1201px;
+    width:1079px;
+    height:121px;
+}
+
+#u205_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1085px;
+    height:127px;
+}
+
+.u206 {
+    position:absolute;
+    left:2px;
+    top:52px;
+    width:1075px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u207_normal {
+    background-image: url('../收起检索历史_files/u46_normal.png');
+}
+
+.u207_container {
+    position:absolute;
+    left:100px;
+    top:1287px;
+    width:1079px;
+    height:35px;
+}
+
+#u207_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1085px;
+    height:41px;
+}
+
+.u208 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:1075px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u209 {
+    position:absolute;
+    left:122px;
+    top:1218px;
+    width:222px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u210_normal {
+    background-image: url('../收起检索历史_files/u49_normal.png');
+}
+
+.u210_container {
+    position:absolute;
+    left:100px;
+    top:1322px;
+    width:1079px;
+    height:32px;
+}
+
+#u210_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1085px;
+    height:38px;
+}
+
+.u211 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:1075px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u212 {
+    position:absolute;
+    left:1011px;
+    top:1332px;
+    width:118px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u213_normal {
+    background-image: url('../收起检索历史_files/u52_normal.png');
+}
+
+.u213_container {
+    position:absolute;
+    left:1145px;
+    top:1331px;
+    width:16px;
+    height:14px;
+}
+
+#u213_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:22px;
+    height:20px;
+}
+
+.u214 {
+    position:absolute;
+    left:2px;
+    top:-1px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u216_normal {
+    background-image: url('../页头_files/u55_normal.png');
+}
+
+.u216_container {
+    position:absolute;
+    left:42px;
+    top:0px;
+    width:1196px;
+    height:35px;
+}
+
+#u216_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1202px;
+    height:41px;
+}
+
+.u217 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:1192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u218 {
+    position:absolute;
+    left:1169px;
+    top:10px;
+    width:50px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u219 {
+    position:absolute;
+    left:65px;
+    top:10px;
+    width:102px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u220_normal {
+    background-image: url('../页头_files/u59_normal.png');
+}
+
+.u220_container {
+    position:absolute;
+    left:42px;
+    top:35px;
+    width:1196px;
+    height:80px;
+}
+
+#u220_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1202px;
+    height:86px;
+}
+
+.u221 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:1192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u222 {
+    position:absolute;
+    left:484px;
+    top:63px;
+    width:311px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

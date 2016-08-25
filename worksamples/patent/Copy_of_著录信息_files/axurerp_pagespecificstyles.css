@@ -1,0 +1,737 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../Copy_of_著录信息_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:300px;
+    top:300px;
+    width:1200px;
+    height:835px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:841px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:410px;
+    width:1196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../Copy_of_著录信息_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:300px;
+    top:300px;
+    width:1200px;
+    height:50px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:56px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:1196px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../Copy_of_著录信息_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:1236px;
+    top:306px;
+    width:70px;
+    height:36px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:42px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../Copy_of_著录信息_files/u4_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:1316px;
+    top:306px;
+    width:70px;
+    height:36px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:42px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../Copy_of_著录信息_files/u4_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:1396px;
+    top:306px;
+    width:70px;
+    height:36px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:42px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:405px;
+    top:424px;
+    width:110px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:336px;
+    top:374px;
+    width:150px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_line {
+    background-image: url('../Copy_of_著录信息_files/u12_line.png');
+}
+
+.u12_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:177px;
+}
+
+.u12 {
+    position:absolute;
+    left:372px;
+    top:436px;
+    width:10px;
+    height:177px;
+    
+}
+
+.u13_normal {
+    background-image: url('../Copy_of_著录信息_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:374px;
+    top:431px;
+    width:5px;
+    height:5px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:405px;
+    top:601px;
+    width:110px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../Copy_of_著录信息_files/u13_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:374px;
+    top:608px;
+    width:5px;
+    height:5px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:405px;
+    top:542px;
+    width:110px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../Copy_of_著录信息_files/u13_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:374px;
+    top:549px;
+    width:5px;
+    height:5px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:405px;
+    top:483px;
+    width:110px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../Copy_of_著录信息_files/u13_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:374px;
+    top:490px;
+    width:5px;
+    height:5px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:11px;
+    height:11px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:525px;
+    top:601px;
+    width:114px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25 {
+    position:absolute;
+    left:625px;
+    top:601px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:525px;
+    top:542px;
+    width:114px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:625px;
+    top:542px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:525px;
+    top:483px;
+    width:114px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:625px;
+    top:483px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:525px;
+    top:424px;
+    width:114px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:625px;
+    top:424px;
+    width:681px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../Copy_of_著录信息_files/u32_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:300px;
+    top:641px;
+    width:1200px;
+    height:35px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:41px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:1196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../Copy_of_著录信息_files/u34_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:300px;
+    top:641px;
+    width:175px;
+    height:35px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:171px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../Copy_of_著录信息_files/u34_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:475px;
+    top:641px;
+    width:175px;
+    height:35px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:171px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../Copy_of_著录信息_files/u34_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:650px;
+    top:641px;
+    width:175px;
+    height:35px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:171px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../Copy_of_著录信息_files/u34_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:825px;
+    top:641px;
+    width:175px;
+    height:35px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:171px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../Copy_of_著录信息_files/u34_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:1000px;
+    top:641px;
+    width:175px;
+    height:35px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:171px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
