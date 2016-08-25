@@ -1,0 +1,174 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../公共_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:113px;
+    top:120px;
+    width:17px;
+    height:22px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:17px;
+    height:22px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:13px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../公共_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:169px;
+    top:118px;
+    width:111px;
+    height:24px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:117px;
+    height:30px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:107px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:180px;
+    top:122px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../公共_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:259px;
+    top:124px;
+    width:12px;
+    height:6px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:12px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:-5px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../公共_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:262px;
+    top:130px;
+    width:6px;
+    height:6px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:12px;
+    height:12px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:-5px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

@@ -1,0 +1,1714 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../页头-表格搜索_files/u69_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:364px;
+    top:180px;
+    width:1196px;
+    height:35px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1202px;
+    height:41px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:1192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../页头-表格搜索_files/u71_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:473px;
+    top:180px;
+    width:79px;
+    height:35px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:85px;
+    height:41px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../页头-表格搜索_files/u73_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:552px;
+    top:180px;
+    width:79px;
+    height:35px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:85px;
+    height:41px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../页头-表格搜索_files/u73_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:631px;
+    top:180px;
+    width:79px;
+    height:35px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:85px;
+    height:41px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../页头-表格搜索_files/u73_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:710px;
+    top:180px;
+    width:79px;
+    height:35px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:85px;
+    height:41px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../页头-表格搜索_files/u73_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:789px;
+    top:180px;
+    width:79px;
+    height:35px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:85px;
+    height:41px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../页头-表格搜索_files/u73_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:868px;
+    top:180px;
+    width:79px;
+    height:35px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:85px;
+    height:41px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14 {
+    position:absolute;
+    left:642px;
+    top:236px;
+    width:118px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:849px;
+    top:236px;
+    width:118px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:1055px;
+    top:236px;
+    width:118px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_line {
+    background-image: url('../页头-表格搜索_files/u86_line.png');
+}
+
+.u17_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:1130px;
+    height:3px;
+}
+
+.u17 {
+    position:absolute;
+    left:407px;
+    top:272px;
+    width:1130px;
+    height:10px;
+    
+}
+
+.u18_normal {
+    background-image: url('../页头-表格搜索_files/u87_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:631px;
+    top:273px;
+    width:141px;
+    height:4px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:147px;
+    height:10px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:137px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../页头-表格搜索_files/u89_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:364px;
+    top:180px;
+    width:109px;
+    height:35px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:115px;
+    height:41px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:105px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../页头-表格搜索_files/u91_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:1467px;
+    top:180px;
+    width:93px;
+    height:35px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:99px;
+    height:41px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:89px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../字段选择弹窗-1_files/u27_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:364px;
+    top:180px;
+    width:1197px;
+    height:1238px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1203px;
+    height:1244px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:611px;
+    width:1193px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../字段选择弹窗-1_files/u29_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:462px;
+    top:471px;
+    width:1002px;
+    height:707px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1008px;
+    height:713px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:346px;
+    width:998px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../字段选择弹窗-1_files/u31_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:462px;
+    top:471px;
+    width:1002px;
+    height:48px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1008px;
+    height:54px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:998px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:1400px;
+    top:484px;
+    width:47px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../字段选择弹窗-1_files/u34_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:462px;
+    top:1043px;
+    width:1002px;
+    height:83px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1008px;
+    height:89px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:998px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../字段选择弹窗-1_files/u36_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:462px;
+    top:519px;
+    width:1002px;
+    height:45px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1008px;
+    height:51px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:998px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../字段选择弹窗-1_files/u38_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:1410px;
+    top:529px;
+    width:26px;
+    height:26px;
+}
+
+#u36_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:26px;
+    height:26px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:22px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../字段选择弹窗-1_files/u40_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:462px;
+    top:1126px;
+    width:1002px;
+    height:52px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1008px;
+    height:58px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:998px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../字段选择弹窗-1_files/u42_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:1273px;
+    top:1135px;
+    width:82px;
+    height:36px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:42px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../字段选择弹窗-1_files/u42_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:1365px;
+    top:1135px;
+    width:82px;
+    height:36px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:42px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../字段选择弹窗-1_files/u46_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:1452px;
+    top:564px;
+    width:12px;
+    height:479px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:485px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:232px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../字段选择弹窗-1_files/u48_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:1452px;
+    top:574px;
+    width:12px;
+    height:146px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:152px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:65px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_line {
+    background-image: url('../字段选择弹窗-1_files/u50_line.png');
+}
+
+.u48_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:1002px;
+    height:3px;
+}
+
+.u48 {
+    position:absolute;
+    left:462px;
+    top:1038px;
+    width:1002px;
+    height:10px;
+    
+}
+
+.u50 {
+    position:absolute;
+    left:479px;
+    top:484px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51_normal {
+    background-image: url('../国省代码_files/u51_normal.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:462px;
+    top:564px;
+    width:1002px;
+    height:32px;
+}
+
+#u51_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1008px;
+    height:38px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:998px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_normal {
+    background-image: url('../国省代码_files/u55_normal.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:462px;
+    top:564px;
+    width:990px;
+    height:32px;
+}
+
+#u55_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:462px;
+    top:596px;
+    width:990px;
+    height:32px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:462px;
+    top:628px;
+    width:990px;
+    height:32px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:462px;
+    top:660px;
+    width:990px;
+    height:32px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:462px;
+    top:692px;
+    width:990px;
+    height:32px;
+}
+
+#u65_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:462px;
+    top:724px;
+    width:990px;
+    height:32px;
+}
+
+#u67_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:462px;
+    top:820px;
+    width:990px;
+    height:32px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:224px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:224px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:402px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:462px;
+    top:852px;
+    width:990px;
+    height:32px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u83_container {
+    position:absolute;
+    left:462px;
+    top:884px;
+    width:990px;
+    height:32px;
+}
+
+#u83_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u84 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:462px;
+    top:916px;
+    width:990px;
+    height:32px;
+}
+
+#u85_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u86 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u87_container {
+    position:absolute;
+    left:462px;
+    top:948px;
+    width:990px;
+    height:32px;
+}
+
+#u87_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u88 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:462px;
+    top:980px;
+    width:990px;
+    height:32px;
+}
+
+#u89_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:462px;
+    top:1012px;
+    width:990px;
+    height:32px;
+}
+
+#u91_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u93_container {
+    position:absolute;
+    left:462px;
+    top:756px;
+    width:990px;
+    height:32px;
+}
+
+#u93_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u94 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u95_container {
+    position:absolute;
+    left:462px;
+    top:788px;
+    width:990px;
+    height:32px;
+}
+
+#u95_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u96 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:380px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:222px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u101_normal {
+    background-image: url('../国省代码_files/u59_normal.png');
+}
+
+.u101_container {
+    position:absolute;
+    left:462px;
+    top:1044px;
+    width:990px;
+    height:32px;
+}
+
+#u101_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:996px;
+    height:38px;
+}
+
+.u102 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:986px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u104 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:174px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105_normal {
+    background-image: url('../国省代码_files/u105_normal.png');
+}
+
+.u105_container {
+    position:absolute;
+    left:462px;
+    top:1059px;
+    width:1002px;
+    height:67px;
+}
+
+#u105_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1008px;
+    height:73px;
+}
+
+.u106 {
+    position:absolute;
+    left:2px;
+    top:26px;
+    width:998px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u107 {
+    position:absolute;
+    left:488px;
+    top:1084px;
+    width:297px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:214px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:214px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u113 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:214px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u115 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:312px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:402px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:380px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:222px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

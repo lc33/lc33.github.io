@@ -9,18 +9,23 @@
     <!--    <link rel="stylesheet" href="stylesheets/fonts.css">-->
     <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="../stylesheets/umu.css">
+    <link type="text/css" href="//assets.iu.edu/web/3.x/css/iu-framework.min.css">
 
     <!--opne in new window-->
     <!--    <base target="_blank">-->
 
 
+    <!-- Font awesome -->
+    <script src="https://use.fontawesome.com/4d0892714c.js"></script>
+    <script src="http://assets.iu.edu/web/1.5/libs/modernizr.min.js"></script>
+
+    
     <!--   import jquery-->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-    <!-- Font awesome -->
-    <script src="https://use.fontawesome.com/4d0892714c.js"></script>
-
+    <script src="//assets.iu.edu/web/3.x/js/iu-framework.min.js"></script>
+    
+    
 
     <style>
         .col-md-12 .col-md-offset-1 .col-md-5 {
@@ -69,6 +74,23 @@
 
 <body>
 
+   <header>
+       <div id="branding-bar" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
+           <div class="row pad">
+               <img src="//assets.iu.edu/brand/3.x/trident-large.png" alt="IU" />
+               <p id="iu-campus">
+                   <a href="https://www.indiana.edu" title="Indiana University Bloomington">
+                       <span id="campus-name" class="show-on-desktop" itemprop="name">Indiana University Bloomington</span>
+                       <span class="show-on-tablet" itemprop="name">Indiana University Bloomington</span>
+                       <span class="show-on-mobile" itemprop="name">IU Bloomington</span>
+                   </a>
+               </p>
+           </div>
+       </div>
+   </header>
+    
+   
+   
     <!--CONTENT-->
     <section class="container-fluid text-center">
 
@@ -109,6 +131,35 @@
 
     </section>
 
+
+
+<!--
+    * Initialize IU JS
+-->
+    <script type="text/javascript">
+    (function($, window, document, undefined) {
+
+    $(document).ready(function() {
+
+    Foundation.OffCanvas.defaults.transitionTime = 500;
+    Foundation.OffCanvas.defaults.forceTop = false;
+    Foundation.OffCanvas.defaults.positiong = 'right';
+
+    Foundation.Accordion.defaults.multiExpand = true;
+    Foundation.Accordion.defaults.allowAllClosed = true;
+
+    // Initialize Foundation
+    $(document).foundation();
+
+    var IU = window.IU || {};
+
+    // Delete modules if necessary
+    // delete IU.uiModules['accordion'];
+
+    IU.init && IU.init();
+    });
+    })(jQuery, window, window.document);
+    </script>
 
 </body>
 

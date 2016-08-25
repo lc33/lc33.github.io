@@ -1,0 +1,3248 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../专利相关数据_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:300px;
+    top:245px;
+    width:1200px;
+    height:3493px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:3499px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:1738px;
+    width:1196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../专利相关数据_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:300px;
+    top:280px;
+    width:1200px;
+    height:158px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:164px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:70px;
+    width:1196px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../专利相关数据_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:300px;
+    top:236px;
+    width:1200px;
+    height:44px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1206px;
+    height:50px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:1196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../专利相关数据_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:366px;
+    top:401px;
+    width:175px;
+    height:36px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:42px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:171px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../专利相关数据_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:584px;
+    top:402px;
+    width:175px;
+    height:35px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:171px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../专利相关数据_files/u8_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:803px;
+    top:402px;
+    width:175px;
+    height:35px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:171px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:644px;
+    top:309px;
+    width:429px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:784px;
+    top:346px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../专利相关数据_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:1021px;
+    top:402px;
+    width:175px;
+    height:35px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:181px;
+    height:41px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:171px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../up_files/u64_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:1440px;
+    top:1359px;
+    width:47px;
+    height:40px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:53px;
+    height:46px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:43px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:336px;
+    top:523px;
+    width:157px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:483px;
+    top:605px;
+    width:396px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_line {
+    background-image: url('../专利相关数据_files/u21_line.png');
+}
+
+.u21_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:1200px;
+    height:3px;
+}
+
+.u21 {
+    position:absolute;
+    left:300px;
+    top:485px;
+    width:1200px;
+    height:10px;
+    
+}
+
+.u22_normal {
+    background-image: url('../专利相关数据_files/u22_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:324px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../专利相关数据_files/u24_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:438px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../专利相关数据_files/u22_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:551px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../专利相关数据_files/u22_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:665px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../专利相关数据_files/u22_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:779px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../专利相关数据_files/u22_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:892px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../专利相关数据_files/u22_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:1006px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:453px;
+    top:580px;
+    width:463px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37 {
+    position:absolute;
+    left:483px;
+    top:672px;
+    width:396px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:453px;
+    top:647px;
+    width:463px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:483px;
+    top:740px;
+    width:396px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:453px;
+    top:715px;
+    width:463px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:483px;
+    top:808px;
+    width:396px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:453px;
+    top:783px;
+    width:463px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43 {
+    position:absolute;
+    left:483px;
+    top:875px;
+    width:396px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:453px;
+    top:850px;
+    width:463px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:336px;
+    top:951px;
+    width:157px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:453px;
+    top:531px;
+    width:226px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:453px;
+    top:959px;
+    width:266px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:453px;
+    top:1024px;
+    width:138px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:471px;
+    top:1061px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50 {
+    position:absolute;
+    left:471px;
+    top:1099px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:471px;
+    top:1136px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:471px;
+    top:1174px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53 {
+    position:absolute;
+    left:471px;
+    top:1212px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:763px;
+    top:1061px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55 {
+    position:absolute;
+    left:763px;
+    top:1099px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56 {
+    position:absolute;
+    left:763px;
+    top:1136px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57 {
+    position:absolute;
+    left:763px;
+    top:1174px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58 {
+    position:absolute;
+    left:755px;
+    top:1212px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59 {
+    position:absolute;
+    left:1050px;
+    top:1061px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u60 {
+    position:absolute;
+    left:1050px;
+    top:1099px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:1050px;
+    top:1136px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62 {
+    position:absolute;
+    left:1050px;
+    top:1174px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:1050px;
+    top:1212px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64 {
+    position:absolute;
+    left:463px;
+    top:1272px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:463px;
+    top:1305px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66 {
+    position:absolute;
+    left:453px;
+    top:1371px;
+    width:171px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:471px;
+    top:1406px;
+    width:616px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68 {
+    position:absolute;
+    left:471px;
+    top:1434px;
+    width:642px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69 {
+    position:absolute;
+    left:471px;
+    top:1463px;
+    width:616px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70 {
+    position:absolute;
+    left:471px;
+    top:1491px;
+    width:642px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71 {
+    position:absolute;
+    left:471px;
+    top:1520px;
+    width:642px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:453px;
+    top:1588px;
+    width:171px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73 {
+    position:absolute;
+    left:471px;
+    top:1632px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74 {
+    position:absolute;
+    left:471px;
+    top:1670px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75 {
+    position:absolute;
+    left:471px;
+    top:1707px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76 {
+    position:absolute;
+    left:471px;
+    top:1745px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77 {
+    position:absolute;
+    left:471px;
+    top:1783px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78 {
+    position:absolute;
+    left:763px;
+    top:1632px;
+    width:200px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79 {
+    position:absolute;
+    left:336px;
+    top:2347px;
+    width:157px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80 {
+    position:absolute;
+    left:453px;
+    top:2355px;
+    width:266px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81 {
+    position:absolute;
+    left:453px;
+    top:2458px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u82_normal {
+    background-image: url('../专利相关数据_files/u82_normal.png');
+}
+
+.u82_container {
+    position:absolute;
+    left:936px;
+    top:2446px;
+    width:122px;
+    height:45px;
+}
+
+#u82_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:122px;
+    height:45px;
+}
+
+.u83 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:118px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84 {
+    position:absolute;
+    left:453px;
+    top:2408px;
+    width:122px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85 {
+    position:absolute;
+    left:716px;
+    top:2408px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86 {
+    position:absolute;
+    left:936px;
+    top:2408px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87 {
+    position:absolute;
+    left:1181px;
+    top:2408px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88 {
+    position:absolute;
+    left:716px;
+    top:2458px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89 {
+    position:absolute;
+    left:1181px;
+    top:2447px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90 {
+    position:absolute;
+    left:453px;
+    top:2524px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../专利相关数据_files/u82_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:936px;
+    top:2512px;
+    width:122px;
+    height:45px;
+}
+
+#u91_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:122px;
+    height:45px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:118px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93 {
+    position:absolute;
+    left:716px;
+    top:2524px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94 {
+    position:absolute;
+    left:1181px;
+    top:2513px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95 {
+    position:absolute;
+    left:453px;
+    top:2591px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96_normal {
+    background-image: url('../专利相关数据_files/u82_normal.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:936px;
+    top:2579px;
+    width:122px;
+    height:45px;
+}
+
+#u96_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:122px;
+    height:45px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:118px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98 {
+    position:absolute;
+    left:716px;
+    top:2591px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u99 {
+    position:absolute;
+    left:1181px;
+    top:2581px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100 {
+    position:absolute;
+    left:336px;
+    top:2687px;
+    width:89px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u101 {
+    position:absolute;
+    left:453px;
+    top:2695px;
+    width:266px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102 {
+    position:absolute;
+    left:453px;
+    top:2788px;
+    width:331px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u103 {
+    position:absolute;
+    left:453px;
+    top:2748px;
+    width:122px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u104 {
+    position:absolute;
+    left:833px;
+    top:2748px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105 {
+    position:absolute;
+    left:1050px;
+    top:2748px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106 {
+    position:absolute;
+    left:1181px;
+    top:2748px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u107 {
+    position:absolute;
+    left:833px;
+    top:2788px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108 {
+    position:absolute;
+    left:1181px;
+    top:2788px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109 {
+    position:absolute;
+    left:1050px;
+    top:2788px;
+    width:108px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u110 {
+    position:absolute;
+    left:453px;
+    top:2858px;
+    width:331px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111 {
+    position:absolute;
+    left:833px;
+    top:2858px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112 {
+    position:absolute;
+    left:1181px;
+    top:2858px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u113 {
+    position:absolute;
+    left:1050px;
+    top:2858px;
+    width:108px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114 {
+    position:absolute;
+    left:453px;
+    top:2928px;
+    width:331px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u115 {
+    position:absolute;
+    left:833px;
+    top:2928px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u116 {
+    position:absolute;
+    left:1181px;
+    top:2928px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117 {
+    position:absolute;
+    left:1050px;
+    top:2928px;
+    width:108px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118 {
+    position:absolute;
+    left:336px;
+    top:1860px;
+    width:89px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119 {
+    position:absolute;
+    left:453px;
+    top:1868px;
+    width:266px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u120 {
+    position:absolute;
+    left:453px;
+    top:1960px;
+    width:396px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121 {
+    position:absolute;
+    left:453px;
+    top:1920px;
+    width:122px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u122 {
+    position:absolute;
+    left:870px;
+    top:1920px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u123 {
+    position:absolute;
+    left:1050px;
+    top:1920px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u124 {
+    position:absolute;
+    left:1181px;
+    top:1920px;
+    width:96px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125 {
+    position:absolute;
+    left:870px;
+    top:1960px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u126 {
+    position:absolute;
+    left:1181px;
+    top:1960px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u127 {
+    position:absolute;
+    left:1050px;
+    top:1960px;
+    width:96px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u128 {
+    position:absolute;
+    left:453px;
+    top:2022px;
+    width:396px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129 {
+    position:absolute;
+    left:870px;
+    top:2022px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u130 {
+    position:absolute;
+    left:1181px;
+    top:2022px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u131 {
+    position:absolute;
+    left:1050px;
+    top:2022px;
+    width:96px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u132 {
+    position:absolute;
+    left:453px;
+    top:2084px;
+    width:407px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133 {
+    position:absolute;
+    left:870px;
+    top:2084px;
+    width:152px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u134 {
+    position:absolute;
+    left:1181px;
+    top:2084px;
+    width:297px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u135 {
+    position:absolute;
+    left:1050px;
+    top:2084px;
+    width:96px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u136 {
+    position:absolute;
+    left:336px;
+    top:3035px;
+    width:89px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u137 {
+    position:absolute;
+    left:453px;
+    top:3043px;
+    width:266px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u138 {
+    position:absolute;
+    left:583px;
+    top:3087px;
+    width:200px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u139 {
+    position:absolute;
+    left:649px;
+    top:3091px;
+    width:200px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140 {
+    position:absolute;
+    left:583px;
+    top:3131px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u141 {
+    position:absolute;
+    left:583px;
+    top:3158px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142 {
+    position:absolute;
+    left:583px;
+    top:3185px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u143 {
+    position:absolute;
+    left:905px;
+    top:3131px;
+    width:80px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u144 {
+    position:absolute;
+    left:905px;
+    top:3158px;
+    width:80px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145 {
+    position:absolute;
+    left:905px;
+    top:3185px;
+    width:80px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u146 {
+    position:absolute;
+    left:655px;
+    top:3131px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u147 {
+    position:absolute;
+    left:655px;
+    top:3158px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u148 {
+    position:absolute;
+    left:655px;
+    top:3185px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149 {
+    position:absolute;
+    left:995px;
+    top:3131px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u150 {
+    position:absolute;
+    left:995px;
+    top:3158px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u151 {
+    position:absolute;
+    left:995px;
+    top:3185px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u152 {
+    position:absolute;
+    left:583px;
+    top:3227px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u153 {
+    position:absolute;
+    left:705px;
+    top:3227px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u154 {
+    position:absolute;
+    left:828px;
+    top:3227px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u155_normal {
+    background-image: url('../专利相关数据_files/u155_normal.png');
+}
+
+.u155_container {
+    position:absolute;
+    left:453px;
+    top:3087px;
+    width:102px;
+    height:43px;
+}
+
+#u155_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:102px;
+    height:43px;
+}
+
+.u156 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:98px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u157 {
+    position:absolute;
+    left:336px;
+    top:3378px;
+    width:89px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u158 {
+    position:absolute;
+    left:453px;
+    top:3386px;
+    width:195px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u159_normal {
+    background-image: url('../专利相关数据_files/u159_normal.png');
+}
+
+.u159_container {
+    position:absolute;
+    left:453px;
+    top:3438px;
+    width:87px;
+    height:93px;
+}
+
+#u159_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:87px;
+    height:93px;
+}
+
+.u160 {
+    position:absolute;
+    left:2px;
+    top:38px;
+    width:83px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u161 {
+    position:absolute;
+    left:583px;
+    top:3438px;
+    width:200px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u162 {
+    position:absolute;
+    left:583px;
+    top:3482px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u163 {
+    position:absolute;
+    left:583px;
+    top:3509px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u164 {
+    position:absolute;
+    left:970px;
+    top:3482px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u165 {
+    position:absolute;
+    left:752px;
+    top:3482px;
+    width:80px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u166 {
+    position:absolute;
+    left:670px;
+    top:3482px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u167 {
+    position:absolute;
+    left:670px;
+    top:3509px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u168 {
+    position:absolute;
+    left:1057px;
+    top:3482px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u169 {
+    position:absolute;
+    left:842px;
+    top:3482px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u170 {
+    position:absolute;
+    left:583px;
+    top:3550px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u171 {
+    position:absolute;
+    left:705px;
+    top:3550px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u172 {
+    position:absolute;
+    left:828px;
+    top:3550px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u173 {
+    position:absolute;
+    left:583px;
+    top:3277px;
+    width:200px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u174_line {
+    background-image: url('../专利相关数据_files/u174_line.png');
+}
+
+.u174_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:631px;
+    height:3px;
+}
+
+.u174 {
+    position:absolute;
+    left:583px;
+    top:3257px;
+    width:631px;
+    height:10px;
+    
+}
+
+.u175 {
+    position:absolute;
+    left:583px;
+    top:3303px;
+    width:522px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u176_normal {
+    background-image: url('../专利相关数据_files/u159_normal.png');
+}
+
+.u176_container {
+    position:absolute;
+    left:453px;
+    top:3614px;
+    width:87px;
+    height:93px;
+}
+
+#u176_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:87px;
+    height:93px;
+}
+
+.u177 {
+    position:absolute;
+    left:2px;
+    top:38px;
+    width:83px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u178 {
+    position:absolute;
+    left:583px;
+    top:3614px;
+    width:200px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u179 {
+    position:absolute;
+    left:583px;
+    top:3658px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u180 {
+    position:absolute;
+    left:583px;
+    top:3685px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u181 {
+    position:absolute;
+    left:970px;
+    top:3658px;
+    width:72px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u182 {
+    position:absolute;
+    left:752px;
+    top:3658px;
+    width:80px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u183 {
+    position:absolute;
+    left:670px;
+    top:3658px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u184 {
+    position:absolute;
+    left:670px;
+    top:3685px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u185 {
+    position:absolute;
+    left:1057px;
+    top:3658px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u186 {
+    position:absolute;
+    left:842px;
+    top:3658px;
+    width:157px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u187 {
+    position:absolute;
+    left:583px;
+    top:3726px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u188 {
+    position:absolute;
+    left:705px;
+    top:3726px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u189 {
+    position:absolute;
+    left:828px;
+    top:3726px;
+    width:114px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u190 {
+    position:absolute;
+    left:336px;
+    top:2193px;
+    width:157px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u191 {
+    position:absolute;
+    left:453px;
+    top:2263px;
+    width:102px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u192 {
+    position:absolute;
+    left:582px;
+    top:2263px;
+    width:132px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u193 {
+    position:absolute;
+    left:741px;
+    top:2263px;
+    width:132px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u194 {
+    position:absolute;
+    left:901px;
+    top:2263px;
+    width:132px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u195 {
+    position:absolute;
+    left:1060px;
+    top:2263px;
+    width:132px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u196_normal {
+    background-image: url('../专利相关数据_files/u22_normal.png');
+}
+
+.u196_container {
+    position:absolute;
+    left:1123px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u196_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u197 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u198_normal {
+    background-image: url('../专利相关数据_files/u198_normal.png');
+}
+
+.u198_container {
+    position:absolute;
+    left:1547px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u198_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u199 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u200 {
+    position:absolute;
+    left:1547px;
+    top:421px;
+    width:237px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u201_normal {
+    background-image: url('../专利相关数据_files/u198_normal.png');
+}
+
+.u201_container {
+    position:absolute;
+    left:1664px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u201_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u202 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u203_normal {
+    background-image: url('../专利相关数据_files/u198_normal.png');
+}
+
+.u203_container {
+    position:absolute;
+    left:1781px;
+    top:453px;
+    width:107px;
+    height:24px;
+}
+
+#u203_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:113px;
+    height:30px;
+}
+
+.u204 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:103px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u205_normal {
+    background-image: url('../专利相关数据_files/u205_normal.png');
+}
+
+.u205_container {
+    position:absolute;
+    left:1409px;
+    top:244px;
+    width:57px;
+    height:29px;
+}
+
+#u205_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:63px;
+    height:35px;
+}
+
+.u206 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:53px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u207_normal {
+    background-image: url('../专利相关数据_files/u207_normal.png');
+}
+
+.u207_container {
+    position:absolute;
+    left:1325px;
+    top:244px;
+    width:74px;
+    height:29px;
+}
+
+#u207_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:80px;
+    height:35px;
+}
+
+.u208 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:70px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u209_normal {
+    background-image: url('../专利相关数据_files/u205_normal.png');
+}
+
+.u209_container {
+    position:absolute;
+    left:1258px;
+    top:244px;
+    width:57px;
+    height:29px;
+}
+
+#u209_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:63px;
+    height:35px;
+}
+
+.u210 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:53px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u211_normal {
+    background-image: url('../专利相关数据_files/u205_normal.png');
+}
+
+.u211_container {
+    position:absolute;
+    left:1190px;
+    top:244px;
+    width:57px;
+    height:29px;
+}
+
+#u211_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:63px;
+    height:35px;
+}
+
+.u212 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:53px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u213_normal {
+    background-image: url('../专利相关数据_files/u205_normal.png');
+}
+
+.u213_container {
+    position:absolute;
+    left:1123px;
+    top:244px;
+    width:57px;
+    height:29px;
+}
+
+#u213_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:63px;
+    height:35px;
+}
+
+.u214 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:53px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u215_normal {
+    background-image: url('../专利相关数据_files/u215_normal.png');
+}
+
+.u215_container {
+    position:absolute;
+    left:1466px;
+    top:244px;
+    width:22px;
+    height:29px;
+}
+
+#u215_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:28px;
+    height:35px;
+}
+
+.u216 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:18px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
