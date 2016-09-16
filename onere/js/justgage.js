@@ -144,11 +144,12 @@ JustGage = function(config) {
 
     // levelColors : string[]
     // colors of indicator, from lower to upper, in RGB format
-    levelColors: kvLookup('levelColors', config, dataset, ["#a9d70b", "#f9c802", "#ff0000"], 'array', ','),
+    // levelColors: kvLookup('levelColors', config, dataset, ["#a9d70b", "#f9c802", "#FCB904"], 'array', ','),
+    levelColors: kvLookup('levelColors', config, dataset, [], 'array', ','),
 
     // startAnimationTime : int
     // length of initial animation
-    startAnimationTime: kvLookup('startAnimationTime', config, dataset, 700),
+    startAnimationTime: kvLookup('startAnimationTime', config, dataset, 2000),
 
     // startAnimationType : string
     // type of initial animation (linear, >, <,  <>, bounce)
@@ -156,7 +157,7 @@ JustGage = function(config) {
 
     // refreshAnimationTime : int
     // length of refresh animation
-    refreshAnimationTime: kvLookup('refreshAnimationTime', config, dataset, 700),
+    refreshAnimationTime: kvLookup('refreshAnimationTime', config, dataset, 2000),
 
     // refreshAnimationType : string
     // type of refresh animation (linear, >, <,  <>, bounce)
@@ -164,7 +165,7 @@ JustGage = function(config) {
 
     // donutStartAngle : int
     // angle to start from when in donut mode
-    donutStartAngle: kvLookup('donutStartAngle', config, dataset, 90),
+    donutStartAngle: kvLookup('donutStartAngle', config, dataset, 270),
 
     // valueMinFontSize : int
     // absolute minimum font size for the value

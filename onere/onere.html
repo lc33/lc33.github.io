@@ -25,15 +25,23 @@
 
     <!-- Font awesome -->
     <script src="https://use.fontawesome.com/4d0892714c.js"></script>
+    
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
     <!-- Plugin JavaScript -->
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+    
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.6.1/less.min.js"></script>
     <script src="js/raphael-2.1.4.min.js"></script>
     <script src="js/justgage.js"></script>
+    
+    
+    
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -56,7 +64,7 @@
 
             <div id="avator">
 
-                <img src="images/photo.png" alt="">
+                <img src="images/franpest.png" alt="">
                 <p>Franco</p>
 
             </div>
@@ -72,11 +80,11 @@
 
 
             <!--search bar-->
-            <div class="col-md-12">
+            <div class="col-md-12 animated fadeInUp delay-02s">
 
                 <div class="input-group input-group-lg stylish-input-group">
                     <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
-                    <input type="text" id="system-search" placeholder="Search" onkeyup="searchKeyUp()" required>
+                    <input type="text" id="system-search" placeholder="Search" onkeyup="searchKeyUp()" name="initial" required>
 
                 </div>
 
@@ -89,7 +97,7 @@
             <div class="col-md-12">
 
 
-                <div class="card">
+                <div class="card animated fadeInUp delay-06s">
 
                     <div class="circle-container">
                         <!--circle-->
@@ -106,9 +114,10 @@
                                     min: 0,
                                     max: 200,
                                     donut: true,
-                                    gaugeWidthScale: 0.2,
+                                    gaugeWidthScale: 0.3,
                                     counter: true,
                                     hideInnerShadow: true,
+                                    levelColors:["#1089F5"],
                                 });
 
                             });
@@ -151,7 +160,7 @@
 
 
 
-                <div class="card">
+                <div class="card animated fadeInUp delay-1s">
 
                     <div class=" circle-container">
                         <!--circle-->
@@ -167,9 +176,10 @@
                                     min: 0,
                                     max: 74,
                                     donut: true,
-                                    gaugeWidthScale: 0.2,
+                                    gaugeWidthScale: 0.3,
                                     counter: true,
-                                    hideInnerShadow: true
+                                    hideInnerShadow: true,
+                                    levelColors:["#FF4644"],
                                 });
 
                             });
@@ -221,7 +231,7 @@
 
                 </div>
 
-                <div class="card">
+                <div class="card animated fadeInUp delay-14s">
 
 
                     <div class="circle-container">
@@ -237,9 +247,10 @@
                                     min: 0,
                                     max: 1000,
                                     donut: true,
-                                    gaugeWidthScale: 0.2,
+                                    gaugeWidthScale: 0.3,
                                     counter: true,
-                                    hideInnerShadow: true
+                                    hideInnerShadow: true,
+                                    levelColors:["#FCB904"]
                                 });
 
                             });
@@ -275,7 +286,7 @@
 
                 </div>
 
-                <div class="card">
+                <div class="card animated fadeInUp delay-18s">
 
 
                     <div class="circle-container">
@@ -293,9 +304,10 @@
                                     min: 0,
                                     max: 300,
                                     donut: true,
-                                    gaugeWidthScale: 0.2,
+                                    gaugeWidthScale: 0.3,
                                     counter: true,
-                                    hideInnerShadow: true
+                                    hideInnerShadow: true,
+                                    levelColors:["#4CAF50"]
                                 });
 
                             });
@@ -333,109 +345,114 @@
 
                 </div>
 
-
-
-
-                <!--user card-->
-
-
             </div>
         </div>
     </div>
 
-    <!--map-->
-    <div>
-        <img src="images/map.png" class="img-responsive" alt="">
-    </div>
 
-    <footer>
-        <p id="social-icon">t i n g f</p>
+        <!--map-->
+        <div>
+            <img src="images/map.png" class="img-responsive" alt="">
+        </div>
 
-        <p style="color:#969696; margin-top:60px; font-size:12px; letter-spacing:1px;">Copyright © 2016 ONERE | IU Network Science Institute | Contact Us</p>
+        <footer>
+            <p id="social-icon">t i n g f</p>
 
-    </footer>
+            <p style="color:#969696; margin-top:60px; font-size:12px; letter-spacing:1px;">Copyright © 2016 ONERE | IU Network Science Institute | Contact Us</p>
 
-
-    <!--search-->
-    <script>
-        $(document).ready(function () {
-            var activeSystemClass = $('.list-group-item.active');
-
-            //something is entered in search form
-            $('#system-search').keyup(function () {
-                var that = this;
-                // affect all table rows on in systems table
-                var tableBody = $('.table-list-search tbody');
-                var tableRowsClass = $('.table-list-search tbody tr');
-                $('.search-sf').remove();
-
-                tableRowsClass.each(function (i, val) {
-
-                    //Lower text for case insensitive
-                    var rowText = $(val).text().toLowerCase();
-                    var inputText = $(that).val().toLowerCase();
-
-                    if (rowText.indexOf(inputText) == -1) {
-                        //hide rows
-                        tableRowsClass.eq(i).hide();
-
-                    } else {
-                        $('.search-sf').remove();
-                        tableRowsClass.eq(i).show();
-                    }
-                });
-                //all tr elements are hidden
-                if (tableRowsClass.children(':visible').length == 0) {
-                    tableBody.append('<tr class="search-sf"><td class="text-muted" colspan="6">No entries found.</td></tr>');
-                }
-            });
-        });
-    </script>
+        </footer>
 
 
-    <!--Circle fill-->
-    <script>
-        (function () {
+        <!--search-->
+        <script>
             $(document).ready(function () {
-                var animPolice, animTime;
-                animTime = 3000;
-                animPolice = false;
-                $('.fillBtn').click(function () {
-                    if (animPolice) {
-                        return;
+                var activeSystemClass = $('.list-group-item.active');
+
+                //something is entered in search form
+                $('#system-search').keyup(function () {
+                    var that = this;
+                    // affect all table rows on in systems table
+                    var tableBody = $('.table-list-search tbody');
+                    var tableRowsClass = $('.table-list-search tbody tr');
+                    $('.search-sf').remove();
+
+                    tableRowsClass.each(function (i, val) {
+
+                        //Lower text for case insensitive
+                        var rowText = $(val).text().toLowerCase();
+                        var inputText = $(that).val().toLowerCase();
+
+                        if (rowText.indexOf(inputText) == -1) {
+                            //hide rows
+                            tableRowsClass.eq(i).hide();
+
+                        } else {
+                            $('.search-sf').remove();
+                            tableRowsClass.eq(i).show();
+                        }
+                    });
+                    //all tr elements are hidden
+                    if (tableRowsClass.children(':visible').length == 0) {
+                        tableBody.append('<tr class="search-sf"><td class="text-muted" colspan="6">No entries found.</td></tr>');
                     }
-                    animPolice = true;
-                    $('.circleFill').attr('class', 'circleFill filled');
-                    return setTimeout(function () {
-                        return animPolice = false;
-                    }, animTime);
-                });
-                return $('.unfillBtn').click(function () {
-                    if (animPolice) {
-                        return;
-                    }
-                    animPolice = true;
-                    $('.circleFill').attr('class', 'circleFill');
-                    return setTimeout(function () {
-                        return animPolice = false;
-                    }, animTime);
                 });
             });
-        }.call(this));
-    </script>
+        </script>
 
-    <script>
-        function searchKeyUp() {
-            var enteredSoFar = document.getElementById("system-search").value;
-            if (enteredSoFar.length > 2) {
-                document.getElementById("system-search").value = "LiFE";
-                g1.refresh(getRandomInt(2, 10));
-                g2.refresh(getRandomInt(3, 10));
-                g3.refresh(getRandomInt(2, 10));
-                g4.refresh(getRandomInt(3, 10));
+
+        <!--Circle fill-->
+        <script>
+            (function () {
+                $(document).ready(function () {
+                    var animPolice, animTime;
+                    animTime = 3000;
+                    animPolice = false;
+                    $('.fillBtn').click(function () {
+                        if (animPolice) {
+                            return;
+                        }
+                        animPolice = true;
+                        $('.circleFill').attr('class', 'circleFill filled');
+                        return setTimeout(function () {
+                            return animPolice = false;
+                        }, animTime);
+                    });
+                    return $('.unfillBtn').click(function () {
+                        if (animPolice) {
+                            return;
+                        }
+                        animPolice = true;
+                        $('.circleFill').attr('class', 'circleFill');
+                        return setTimeout(function () {
+                            return animPolice = false;
+                        }, animTime);
+                    });
+                });
+            }.call(this));
+        </script>
+
+        <script>
+            function searchKeyUp() {
+                var enteredSoFar = document.getElementById("system-search").value;
+                enteredSoFar = enteredSoFar.toLowerCase();
+                var inputStatus = document.getElementById("system-search").name;
+                if ((enteredSoFar.length < 1) && (inputStatus == "loaded")) {
+                    location.reload();
+                    document.getElementById("system-search").value = enteredSoFar;
+                }                
+                if ((enteredSoFar.length > 2) && (inputStatus == "initial")) {
+                    if (enteredSoFar.startsWith("lif"))
+                        {
+                            document.getElementById("system-search").value = "life";
+                            document.getElementById("system-search").name = "loaded"; 
+                        }
+                    g1.refresh(getRandomInt(2, 10));
+                    g2.refresh(getRandomInt(3, 10));
+                    g3.refresh(getRandomInt(2, 10));
+                    g4.refresh(getRandomInt(3, 10));
+                }
             }
-        }
-    </script>
+        </script>
 
 </body>
 

@@ -174,7 +174,7 @@ input[type="text"]
 }
 
 .user-box p {
-
+    text-align: center;
     margin-top: 10px;
     font-size: 12px;
     font-weight: 300;
@@ -220,3 +220,36 @@ footer {
     color: #C8C8C8;
     padding-top: 70px;
 }
+
+
+/* Animation Timers
+---------------------------------*/
+.delay-02s { 
+    animation-delay: 0.2s; 
+    -webkit-animation-delay: 0.2s; 
+}
+
+
+.delay-06s { 
+    animation-delay: 0.6s; 
+    -webkit-animation-delay: 0.6s; 
+}
+
+.delay-1s { 
+    animation-delay: 1s; 
+    -webkit-animation-delay: 1s; 
+}
+
+.delay-14s { 
+    animation-delay: 1.4s; 
+    -webkit-animation-delay: 1.4s; 
+}
+.delay-18s { 
+    animation-delay: 1.8s; 
+    -webkit-animation-delay: 1.8s; 
+}
+.delay-22s { 
+    animation-delay: 2.2s; 
+    -webkit-animation-delay: 2.2s; 
+}
+
