@@ -224,25 +224,27 @@ header h1 {
 
 header h2 {
 /*    font-family: "Fredericka the Great";*/
-    font-family: "Fredericka the Great", "source serif pro", serif;
+/*    font-family: "Fredericka the Great", "source serif pro", serif;*/
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     color: #262626;
-    letter-spacing: 2px;
-    margin-top: 60px;
-    margin-bottom: 5px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 header p {
     font-family: Raleway, "source serif pro", serif;
 
 /*    margin-bottom: 150px;*/
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
-    color: #262626;
+    color: #969696;
     letter-spacing: 1px;
     line-height: 18px;
+    width: 520px;
+    margin: auto;
 
 
 }
@@ -251,7 +253,7 @@ header p {
 
 /* Portfolio */
 #portfolio, #contact, #footer{
-    padding-top: 80px;
+/*    padding-top: 80px;*/
     padding-bottom: 150px;
 }
 .section-title{
@@ -380,6 +382,134 @@ header p {
     margin-bottom: 20px;
 }
 
+
+/*hover animation Sep.18, 2016*/
+/******************************/
+.col-md-4 {
+    padding: 0;
+}
+
+
+
+div.ctas {
+/*    width: 50%;*/
+}
+
+div.ctas h4, p{
+    
+    font-family: Raleway, serif;
+}
+
+div.ctas div {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+/*
+    background: -webkit-linear-gradient(45deg, #008183 0%, #000 40%, #d87d33 100%);
+    background: linear-gradient(45deg, #008183 0%,#000 40%,#d87d33 100%);
+*/
+}
+
+div.ctas a {
+    color:#fff;
+    display: block;
+    background: rgba(0,0,0,1);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+div.ctas a:hover {
+    color:#fff;
+/*    background: rgba(0,0,0,0.1);*/
+}
+
+div.ctas img {
+    display: block;
+/*    opacity: 0.5;*/
+    max-width: 100%;
+/*    -webkit-filter: grayscale(10%);*/
+    height: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+div.ctas h4 {
+    position: absolute;
+    top: 70px;
+
+/*    padding-left: 10px;*/
+/*    text-transform: uppercase;*/
+    left: 0;
+    font-size: 32px;
+    font-weight: 800;
+    width: 100%;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+div.ctas h4 b {
+    font-size: 14px;
+    display: block;
+    font-weight: 200;
+    margin-top: 10px;
+    color: #FAFAFA;
+}
+
+div.ctas p {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    padding: 0 50px;
+    font-size: 18px;
+    color: #e3e3e3;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+div.ctas p span.more {
+    display: block;
+    font-weight: 900;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+div.ctas a:hover img {
+    opacity: 0.25;
+    transform: scale(1.1);
+    -webkit-filter: grayscale(100%);
+}
+
+div.ctas a:hover h4 {
+    top: 60px;
+}
+
+div.ctas a:hover p {
+    opacity: 1;
+    top: 220px;
+}
+
+/*END*/
+
+
+
+
 /****************************      footer      ***************************r*/
 
 #copyright {
@@ -414,6 +544,8 @@ header p {
     margin-right: 30px;
     
 }
+
+
 /****************** scroll down btn ********************/
 @-webkit-keyframes ani-mouse {
     0% {
@@ -477,7 +609,7 @@ header p {
     right: 0;
 */
     text-align: center;
-    padding-top: 400px;
+    padding-top: 250px;
 }
 .scroll-btn > * {
     display: inline-block;
