@@ -508,6 +508,38 @@ div.ctas a:hover p {
 /*END*/
 
 
+/* Animation Timers
+---------------------------------*/
+.delay-02s { 
+    animation-delay: 0.2s; 
+    -webkit-animation-delay: 0.2s; 
+}
+
+
+.delay-06s { 
+    animation-delay: 0.6s; 
+    -webkit-animation-delay: 0.6s; 
+}
+
+.delay-1s { 
+    animation-delay: 1s; 
+    -webkit-animation-delay: 1s; 
+}
+
+.delay-14s { 
+    animation-delay: 1.4s; 
+    -webkit-animation-delay: 1.4s; 
+}
+.delay-18s { 
+    animation-delay: 1.8s; 
+    -webkit-animation-delay: 1.8s; 
+}
+.delay-22s { 
+    animation-delay: 2.2s; 
+    -webkit-animation-delay: 2.2s; 
+}
+
+
 
 
 /****************************      footer      ***************************r*/
