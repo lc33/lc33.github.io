@@ -1,353 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Onere Website">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Onere Website">
 
 
-    <title>Onere</title>
+        <title>Onere</title>
 
-    <!-- CSS  -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/onere.css">
+        <!-- CSS  -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/onere.css">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+            rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-
-
-    <!-- Favicon -->
-    <!--    <link rel="shortcut icon" href="../favicon.ico" />-->
-
-    <!-- Font awesome -->
-    <script src="https://use.fontawesome.com/4d0892714c.js"></script>
-    
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
-    <!-- Plugin JavaScript -->
-    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-
-    
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.6.1/less.min.js"></script>
-    <script src="js/raphael-2.1.4.min.js"></script>
-    <script src="js/justgage.js"></script>
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
-    <script  type="text/javascript" src="js/typeahead.bundle.js"></script>
-
-</head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
 
-<body>
+        <!-- Favicon -->
+        <!--    <link rel="shortcut icon" href="../favicon.ico" />-->
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default">
+        <!-- Font awesome -->
+        <script src="https://use.fontawesome.com/4d0892714c.js"></script>
 
-        <div class="container-fluid text-left">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-            <div id="top-name">
-                <a href="onere.html">
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.6.1/less.min.js"></script>
+        <script src="js/raphael-2.1.4.min.js"></script>
+        <script src="js/justgage.js"></script>
+        <link href="css/animate.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/typeahead.bundle.js"></script>
+
+        <script type="text/javascript">
+            // (function($) {
+            //
+            //     $.fn.shuffle = function() {
+            //
+            //         var allElems = this.get(),
+            //             getRandom = function(max) {
+            //                 return Math.floor(Math.random() * max);
+            //             },
+            //             shuffled = $.map(allElems, function() {
+            //                 var random = getRandom(allElems.length),
+            //                     randEl = $(allElems[random]).clone(
+            //                         true)[0];
+            //                 allElems.splice(random, 1);
+            //                 return randEl;
+            //             });
+            //
+            //         this.each(function(i) {
+            //             $(this).replaceWith($(shuffled[i]));
+            //         });
+            //
+            //         return $(shuffled);
+            //
+            //     };
+            //
+            // })(jQuery);
+
+        </script>
+
+    </head>
+
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default">
+
+            <div class="container-fluid text-left">
+
+                <div id="top-name">
+                    <a href="onere.html">
                     ONERE
                 </a>
 
+                </div>
+
+
+                <div id="avator">
+
+                    <img src="images/franpest.png" alt="">
+                    <p>Franco</p>
+
+                </div>
+
             </div>
 
+        </nav>
 
 
-            <div id="avator">
+        <!-- Main body -->
+        <div class="container-fluid ">
+            <div class="row bg-fa">
 
-                <img src="images/franpest.png" alt="">
-                <p>Franco</p>
+
+                <!--search bar-->
+                <div class="container-fluid">
+                    <div class="animated fadeInUp delay-02s container col-xs-12">
+
+                        <div class="input-group input-group-lg stylish-input-group container col-xs-12" id="searchbox">
+                            <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+                            <!-- typeahead is turned off now for cosmetic reasons, drop down is not formatted -->
+                            <input type="text" placeholder="Search" id="search_input" class="system-search typeahead col-xs-8 col-xs-offset-2"
+                                name="initial" required autofocus>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <!--user card-->
+                <div class="container-fluid">
+
+                    <!--
+##     ##  ######  ######## ########   ######
+##     ## ##    ## ##       ##     ## ##    ##
+##     ## ##       ##       ##     ## ##
+##     ##  ######  ######   ########   ######
+##     ##       ## ##       ##   ##         ##
+##     ## ##    ## ##       ##    ##  ##    ##
+ #######   ######  ######## ##     ##  ###### -->
+
+
+                    <div class="animated fadeInUp delay-06s container col-md-6">
+                        <div class="card container col-md-12">
+                            <div class="circle-container col-xs-4 col-lg-3">
+                                <!--circle-->
+                                <div id="g1" class="gauge"></div>
+                                <p>USERS</p>
+
+                                <script>
+
+
+                                </script>
+                                <!--circle end-->
+                            </div>
+
+                            <div id="user_list" class="data-container col-xs-8 col-lg-9">
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--
+########  ########  ######   #######  ##     ## ########   ######  ########  ######
+##     ## ##       ##    ## ##     ## ##     ## ##     ## ##    ## ##       ##    ##
+##     ## ##       ##       ##     ## ##     ## ##     ## ##       ##       ##
+########  ######    ######  ##     ## ##     ## ########  ##       ######    ######
+##   ##   ##             ## ##     ## ##     ## ##   ##   ##       ##             ##
+##    ##  ##       ##    ## ##     ## ##     ## ##    ##  ##    ## ##       ##    ##
+##     ## ########  ######   #######   #######  ##     ##  ######  ########  ###### -->
+
+
+                    <div class="animated fadeInUp delay-06s container col-md-6">
+                        <div class="card container col-md-12">
+
+                            <div class=" circle-container col-xs-4 col-lg-3">
+                                <!--circle-->
+                                <div id="g2" class="gauge"></div>
+                                <p>RESOURCES</p>
+
+                                <script>
+
+
+                                </script>
+                                <!--circle end-->
+                            </div>
+
+                            <div id="resource-data-container" class="data-container col-xs-8 col-lg-9">
+
+                                <div class="resource-data-box">
+                                    <ul id="resourceList1">
+                                        <li>IU Karst</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                    </ul>
+                                </div>
+
+                                <div class="resource-data-box">
+
+                                    <ul id="resourceList2">
+                                        <li>IU Karst</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="resource-data-box">
+
+                                    <ul id="resourceList3">
+                                        <li>IU Karst</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <!--
+########     ###    ########    ###
+##     ##   ## ##      ##      ## ##
+##     ##  ##   ##     ##     ##   ##
+##     ## ##     ##    ##    ##     ##
+##     ## #########    ##    #########
+##     ## ##     ##    ##    ##     ##
+########  ##     ##    ##    ##     ## -->
+
+                    <div class="animated fadeInUp delay-06s container col-md-6">
+                        <div class="card container col-md-12">
+                            <div class="circle-container col-xs-4 col-lg-3">
+                                <div id="g3" class="gauge"></div>
+                                <p>DATA</p>
+
+                                <script>
+
+
+                                </script>
+                            </div>
+
+                            <div id="data-data-container" class="data-container col-xs-8 col-lg-9">
+                                <div class="resource-data-box">
+
+                                    <ul id="dataList1">
+                                        <li>IU Karst</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="resource-data-box no-border">
+
+                                    <ul id="dataList2">
+                                        <li>IU Karst</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                        <li>IU Big Red II</li>
+                                        <li>Amazon AWS</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!--
+ ######  ######## ########  ##     ## ####  ######  ########  ######
+##    ## ##       ##     ## ##     ##  ##  ##    ## ##       ##    ##
+##       ##       ##     ## ##     ##  ##  ##       ##       ##
+ ######  ######   ########  ##     ##  ##  ##       ######    ######
+      ## ##       ##   ##    ##   ##   ##  ##       ##             ##
+##    ## ##       ##    ##    ## ##    ##  ##    ## ##       ##    ##
+ ######  ######## ##     ##    ###    ####  ######  ########  ###### -->
+
+                    <div class="animated fadeInUp delay-06s container col-md-6">
+                        <div class="card container col-md-12">
+                            <div class="circle-container col-xs-4 col-lg-3">
+                                <!--circle-->
+
+                                <div id="g4" class="gauge"></div>
+                                <p>SERVICES</p>
+
+                                <script>
+
+
+                                </script>
+                                <!--circle end-->
+                            </div>
+
+                            <div id="service-data-container" class="data-container col-xs-8 col-lg-9">
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="floating-button">
+                    +
+                </div>
 
             </div>
 
         </div>
-
-    </nav>
-
-
-    <!-- Main body -->
-    <div class="container-fluid ">
-        <div class="row bg-fa">
-
-
-            <!--search bar-->
-            <div class="col-md-12 animated fadeInUp delay-02s">
-
-                <div class="input-group input-group-lg stylish-input-group" id="the-basicx">
-                    <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
-                    <!-- typeahead is turned off now for cosmetic reasons, drop down is not formatted -->
-                    <input type="text" id="system-search" placeholder="Search" onkeyup="searchKeyUp()" 
-                           class="typeahead" name="initial" required autofocus>
-
-                </div>
-
-
-            </div>
-
-
-
-            <!--user card-->
-            <div class="col-md-12">
-
-
-                <div class="card animated fadeInUp delay-06s">
-
-                    <div class="circle-container">
-                        <!--circle-->
-
-                        <div id="g1" class="gauge"></div>
-                        <p>USERS</p>
-
-                        <script>
-                            var g1;
-                            document.addEventListener("DOMContentLoaded", function (event) {
-                                g1 = new JustGage({
-                                    id: "g1",
-                                    value: 125,
-                                    min: 0,
-                                    max: 200,
-                                    donut: true,
-                                    gaugeWidthScale: 0.3,
-                                    counter: true,
-                                    hideInnerShadow: true,
-                                    levelColors:["#1089F5"],
-                                });
-
-                            });
-                        </script>
-                        <!--circle end-->
-                    </div>
-
-                    <div class="data-container">
-
-
-                        <div class="user-box">
-                            <img src="images/user1.png" class="img-responsive" alt="">
-                            <p>Gregory White</p>
-                        </div>
-                        <div class="user-box">
-                            <img src="images/user2.png" class="img-responsive" alt="">
-                            <p>Jeffrey Lane</p>
-                        </div>
-                        <div class="user-box">
-                            <img src="images/user3.png" class="img-responsive" alt="">
-                            <p>Teresa Martin</p>
-                        </div>
-                        <div class="user-box">
-                            <img src="images/user4.png" class="img-responsive" alt="">
-                            <p>Jeremy Green</p>
-                        </div>
-                        <div class="user-box">
-                            <img src="images/user5.png" class="img-responsive" alt="">
-                            <p>Janet Reed</p>
-                        </div>
-                        <div class="user-box">
-                            <img src="images/user6.png" class="img-responsive" alt="">
-                            <p>Ashley Hicks</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-
-                <div class="card animated fadeInUp delay-1s">
-
-                    <div class=" circle-container">
-                        <!--circle-->
-                        <div id="g2" class="gauge"></div>
-                        <p>RESOURCES</p>
-
-                        <script>
-                            var g2;
-                            document.addEventListener("DOMContentLoaded", function (event) {
-                                g2 = new JustGage({
-                                    id: "g2",
-                                    value: 20,
-                                    min: 0,
-                                    max: 74,
-                                    donut: true,
-                                    gaugeWidthScale: 0.3,
-                                    counter: true,
-                                    hideInnerShadow: true,
-                                    levelColors:["#FF4644"],
-                                });
-
-                            });
-                        </script>
-                        <!--circle end-->
-                    </div>
-
-                    <div class="data-container">
-
-                        <div class="resource-data-box">
-
-                            <ul id="resourceList1">
-                                <li>IU Karst</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                            </ul>
-
-                        </div>
-
-                        <div class="resource-data-box">
-
-                            <ul id="resourceList2">
-                                <li>IU Karst</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                            </ul>
-
-                        </div>
-
-                        <div class="resource-data-box no-border">
-
-                            <ul id="resourceList3">
-                                <li>IU Karst</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-
-                <div class="card animated fadeInUp delay-14s">
-
-
-                    <div class="circle-container">
-                        <div id="g3" class="gauge"></div>
-                        <p>DATA</p>
-
-                        <script>
-                            var g3;
-                            document.addEventListener("DOMContentLoaded", function (event) {
-                                g3 = new JustGage({
-                                    id: "g3",
-                                    value: 851,
-                                    min: 0,
-                                    max: 1000,
-                                    donut: true,
-                                    gaugeWidthScale: 0.3,
-                                    counter: true,
-                                    hideInnerShadow: true,
-                                    levelColors:["#FCB904"]
-                                });
-
-                            });
-                        </script>
-                    </div>
-
-                    <div class="data-container">
-                        <div class="resource-data-box">
-
-                            <ul id="dataList1">
-                                <li>IU Karst</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                            </ul>
-
-                        </div>
-
-                        <div class="resource-data-box no-border">
-
-                            <ul id="dataList2">
-                                <li>IU Karst</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <div class="card animated fadeInUp delay-18s">
-
-
-                    <div class="circle-container">
-                        <!--circle-->
-
-                        <div id="g4" class="gauge"></div>
-                        <p>SERVICES</p>
-
-                        <script>
-                            var g4;
-                            document.addEventListener("DOMContentLoaded", function (event) {
-                                g4 = new JustGage({
-                                    id: "g4",
-                                    value: 150,
-                                    min: 0,
-                                    max: 300,
-                                    donut: true,
-                                    gaugeWidthScale: 0.3,
-                                    counter: true,
-                                    hideInnerShadow: true,
-                                    levelColors:["#4CAF50"]
-                                });
-
-                            });
-                        </script>
-                        <!--circle end-->
-                    </div>
-
-                    <div class="data-container">
-                        <div class="resource-data-box">
-
-                            <ul id="serviceList1">
-                                <li>IU Karst</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                            </ul>
-
-                        </div>
-
-                        <div class="resource-data-box no-border">
-
-                            <ul id="serviceList2">
-                                <li>IU Karst</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                                <li>IU Big Red II</li>
-                                <li>Amazon AWS</li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-            </div>
-        </div>
-    </div>
 
 
         <!--map-->
@@ -362,143 +330,649 @@
 
         </footer>
 
-        <!--Circle fill-->
-        <script>
-            (function () {
-                $(document).ready(function () {
-                    var animPolice, animTime;
-                    animTime = 3000;
-                    animPolice = false;
-                    $('.fillBtn').click(function () {
-                        if (animPolice) {
-                            return;
-                        }
-                        animPolice = true;
-                        $('.circleFill').attr('class', 'circleFill filled');
-                        return setTimeout(function () {
-                            return animPolice = false;
-                        }, animTime);
-                    });
-                    return $('.unfillBtn').click(function () {
-                        if (animPolice) {
-                            return;
-                        }
-                        animPolice = true;
-                        $('.circleFill').attr('class', 'circleFill');
-                        return setTimeout(function () {
-                            return animPolice = false;
-                        }, animTime);
-                    });
-                });
-            }.call(this));
-        </script>
+
+<!--
+ ######   ######  ########  #### ########  ########  ######
+##    ## ##    ## ##     ##  ##  ##     ##    ##    ##    ##
+##       ##       ##     ##  ##  ##     ##    ##    ##
+ ######  ##       ########   ##  ########     ##     ######
+      ## ##       ##   ##    ##  ##           ##          ##
+##    ## ##    ## ##    ##   ##  ##           ##    ##    ##
+ ######   ######  ##     ## #### ##           ##     ###### -->
+
+        <!-- Plugin JavaScript -->
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
 
         <script>
-            var resourceChoices = ['IU Karst', 'IU Big Red', 'Amazon AWS', 'JetStream', 'Quarry',
-                                   'Blue Waters', 'TACC Stampede', 'SDSC Comet', 'LSU SeperMIC', 
-                                   'PSC Bridges', 'SDSC Gordon', 'TACC Wrangler', 'PSC Greenfield',
-                                   'OSG', 'ONERE Condor', 'ONERE Cluster'                                   
-                                  ];
-            function searchKeyUp() {
-                var enteredSoFar = document.getElementById("system-search").value;
-                enteredSoFar = enteredSoFar.toLowerCase();
-                var inputStatus = document.getElementById("system-search").name;
-                if ((enteredSoFar.length < 1)) {
-                    location.reload();
-                    document.getElementById("system-search").value = enteredSoFar;
-                }                
-                if ((enteredSoFar.length > 2) && (inputStatus == "initial")) {
-                    if (enteredSoFar.startsWith("lif"))
-                        {
-                            document.getElementById("system-search").value = "life";
-                            document.getElementById("system-search").name = "loaded"; 
-                        }
-                    g1.refreshAnimationTime = 0;
-                    g2.refreshAnimationTime = 0;
-                    g3.refreshAnimationTime = 0;
-                    g4.refreshAnimationTime = 0;
-                    var peopleCount = getRandomInt(6, 25);
-                    var resouceCount = getRandomInt(3, 15);
-                    var dataCount = getRandomInt(2, 10);
-                    var serviceCount = getRandomInt(2, 10);
-                    g1.refresh(peopleCount);
-                    g2.refresh(resouceCount);
-                    g3.refresh(dataCount);
-                    g4.refresh(serviceCount);
-                    document.getElementById("resourceList1").innerHTML = "";
-                    document.getElementById("resourceList2").innerHTML = "";
-                    document.getElementById("resourceList3").innerHTML = "";
-                    document.getElementById("dataList1").innerHTML = "";
-                    document.getElementById("dataList2").innerHTML = "";
-                    document.getElementById("serviceList1").innerHTML = "";
-                    document.getElementById("serviceList2").innerHTML = "";
-                    for (i = 0; i < resouceCount; i++) { 
-                        var updateResource = "resourceList1";
-                        if (i > 4) {updateResource = "resourceList2"};
-                        if (i > 9) {updateResource = "resourceList3"};
-                        var node = document.createElement("LI");
-                        var rx = getRandomInt(0,resourceChoices.length-1);
-                        var textnode = document.createTextNode(resourceChoices[rx]);
-                        node.appendChild(textnode);
-                        document.getElementById(updateResource).appendChild(node);
-                    }                                        
-                    for (i = 0; i < dataCount; i++) { 
-                        var updateResource = "dataList1";
-                        if (i > 4) {updateResource = "dataList2"};
-                        var node = document.createElement("LI");
-                        var textnode = document.createTextNode("Data Source " + (i+1).toString());
-                        node.appendChild(textnode);
-                        document.getElementById(updateResource).appendChild(node);
-                    }                                        
-                    for (i = 0; i < serviceCount; i++) { 
-                        var updateResource = "serviceList1";
-                        if (i > 4) {updateResource = "serviceList2"};
-                        var node = document.createElement("LI");
-                        var textnode = document.createTextNode("Service " + (i+1).toString());
-                        node.appendChild(textnode);
-                        document.getElementById(updateResource).appendChild(node);
-                    }                                        
-                }
-            }            
-            
-            var substringMatcher = function(strs) {
-            return function findMatches(q, cb) {
-            var matches, substringRegex;
+            var g1, g2, g3, g4;
 
-            // an array that will be populated with substring matches
-            matches = [];
+            $('#user_list').mixItUp();
+            $('#service-data-container').mixItUp();
+            $('#resource-data-container').mixItUp();
+            $('#data-data-container').mixItUp();
 
-            // regex used to determine if a string contains the substring `q`
-            substrRegex = new RegExp(q, 'i');
+            // document.addEventListener("DOMContentLoaded",
+            //     function(){
+            //         $(window).resize();
+            //     }
+            // );
 
-            // iterate through the pool of strings and for any string that
-            // contains the substring `q`, add it to the `matches` array
-            $.each(strs, function(i, str) {
-                if (substrRegex.test(str)) {
-                    matches.push(str);
-                }
-            });
+            var resourceChoices = [
+                'IU Karst',
+                'IU Big Red',
+                'Amazon AWS',
+                'JetStream',
+                'Quarry',
+                'Blue Waters',
+                'TACC Stampede',
+                'SDSC Comet',
+                'LSU SeperMIC',
+                'PSC Bridges',
+                'SDSC Gordon',
+                'TACC Wrangler',
+                'PSC Greenfield',
+                'OSG',
+                'ONERE Condor',
+                'ONERE Cluster',
 
-            cb(matches);
-            };
-            };
+            ];
+            for (var i = 0, x = 1; i < x; i++) {
+                var tmp = resourceChoices.map(function(val) {
+                    return val + " II"
+                })
+                resourceChoices = resourceChoices.concat(tmp);
+            }
+            var userChoices = [
+                ["Scott McCaulay", "images/userPhotos/Scott McCaulay.png"],
+                ["Valentin Pentchev",
+                    "images/userPhotos/Valentin Pentchev.png"
+                ],
+                ["Franco Pestilli", "images/franpest.png"],
+                ["Soichi Hayashi", "images/userPhotos/Soichi Hayashi.png"],
+                ["Olaf Sporns", "images/userPhotos/Olaf Sporns.png"],
+                ["Richard Gonzalez",
+                    "images/userPhotos/Richard Gonzalez.png"
+                ],
+                // ["Lei Wang", "images/userPhotos/Lei Wang.png"],
+                // ["Daniel Marcus", "images/userPhotos/Daniel Marcus.png"],
+                ["Andrew J Saykin", "images/userPhotos/Andrew J Saykin.png"],
+                ["Ivo Dinov", "images/userPhotos/Ivo Dinov.png"],
+                // ["George Alter", "images/userPhotos/George Alter.png"],
+                ["Arvind Gopu", "images/userPhotos/Arvind Gopu.png"],
+                // ["Caiafa, Cesar Federico", "images/userPhotos/Caiafa, Cesar Federico.png"],
+                // ["John D. West", "images/userPhotos/John D. West.png"],
+                ["Dan Bullock", "images/userPhotos/Dan Bullock.png"],
+                ["Brent McPherson", "images/userPhotos/Brent McPherson.png"],
+                // ["Bradley Caron", "images/userPhotos/Bradley Caron.png"],
+                // ["Josh Faskowitz", "images/userPhotos/Josh Faskowitz.png"],
+                ["Sam Ling", "images/userPhotos/Sam Ling.png"],
+                ["Bas Rokers", "images/userPhotos/Bas Rokers.png"],
+                ["Hiromasa Takemura",
+                    "images/userPhotos/Hiromasa Takemura.png"
+                ],
+                // ["Shumpei Ogawa", "images/userPhotos/Shumpei Ogawa.png"],
+                ["Satya Sahoo", "images/userPhotos/Satya Sahoo.png"],
+                // ["Dhabaleswar K. Panda", "images/userPhotos/Dhabaleswar K. Panda.png"],
+                ["Xiaoran Yan", "images/userPhotos/Xiaoran Yan.png"],
+                ["Ben Serrette", "images/userPhotos/Ben Serrette.png"],
+                ["Chathuri Peli Kankanamalage",
+                    "images/userPhotos/Chathuri Peli Kankanamalage.png"
+                ],
+                ["Matthew Hutchinson",
+                    "images/userPhotos/Matthew Hutchinson.png"
+                ]
+
+            ];
+
+            for (var i = 0, x = 1; i < x; i++) {
+                // var tmp = resourceChoices.map(function(val){ return val + " II"})
+                // resourceChoices = resourceChoices.concat(tmp);
+            }
+
+            var dataChoices = [
+                // "purl cs392kv3054",
+                // "purl ys894ky3579",
+                // "purl yx282xq2090"
+                "Roldan Pozo's",
+                "BarabásiLab's",
+                "Cx-Nets",
+                "Pajek ",
+                "TAGora project",
+                "Weizmann Institute",
+                "ApplMath-group",
+                "Dataverse",
+                "Facebook data",
+                "Pajek networks",
+                "Mark Newman's network",
+
+                "Social networks",
+                "Networks with ground-truth communities",
+                "Communication networks",
+                "Citation networks",
+                "Collaboration networks",
+                "Web graphs",
+                "Amazon networks",
+                "Internet networks ",
+                "Road networks",
+                "Autonomous systems",
+                "Signed networks",
+                "Location-based online social networks ",
+                "Wikipedia networks, articles, and metadata ",
+                "Twitter and Memetracker",
+                "UCINet data sets",
+                "Pajek data sets",
+                "Indiana University data sets",
+                "Duncan Watts' data sets",
+                "Laszlo Barabasi's data sets",
+                "Alex Arenas's data sets",
+                "Stanford Large Network Dataset Collection",
+
+                "Yeas",
+                "US Patent Citations",
+                "Computational Geometry collaborations",
+                "US Corporate Ownership:",
+                "Erdös Collaborations",
+                "Contains email data",
+                "Pajek datasets",
+                "network databases at CCNR",
+                "Matrix Market",
+                "Email database from Enron",
+                "linkgroup",
+                "The Stanford WebBase Project",
+                "KDD 2003 Challenge"
+
+            ];
+
+            for (var i = 0, x = 2; i < x; i++) {
+                var tmp = dataChoices.map(function(val) {
+                    return val + " " + (i + 1)
+                })
+                dataChoices = dataChoices.concat(tmp);
+            }
+
+            var serviceChoices = [
+                "https://github.com/soichih/sca-service-bash",
+                "https://github.com/soichih/sca-wf-conneval",
+                "https://github.com/soichih/sca-service-neuro-tracking",
+                "https://github.com/soichih/life-1",
+                "https://github.com/soichih/sca-wf-freesurfer",
+                "https://github.com/soichih/sca-product-life"
+            ];
+
+            for (var i = 0, x = 2; i < x; i++) {
+                var tmp = serviceChoices.map(function(val) {
+                    return val + "_" + (i + 1)
+                })
+                serviceChoices = serviceChoices.concat(tmp);
+            }
 
             var topics = ['life', 'dipy', 'afni', 'connectome', 'fsl',
                 'neurodebian', 'nifti', 'haxby'
-                         ];
+            ];
 
-            $('#the-basics .typeahead').typeahead({
-                hint: false,
+            var topic_content = {};
+
+            var maxStats = [
+                (getRandomInt(4, userChoices.length)),
+                (getRandomInt(1, resourceChoices.length)),
+                (getRandomInt(1, dataChoices.length)),
+                (getRandomInt(1, serviceChoices.length))
+            ];
+
+            function calcMaxStats() {
+                maxStats = [
+                    (getRandomInt(4, userChoices.length)),
+                    (getRandomInt(1, resourceChoices.length)),
+                    (getRandomInt(1, dataChoices.length)),
+                    (getRandomInt(1, serviceChoices.length))
+                ];
+
+                topic_content = {
+                    'life': [
+                        getRandomInt(1, maxStats[0]),
+                        getRandomInt(1, maxStats[1]),
+                        getRandomInt(1, maxStats[2]),
+                        getRandomInt(1, maxStats[3])
+                    ],
+                    'dipy': [
+                        getRandomInt(1, maxStats[0]),
+                        getRandomInt(1, maxStats[1]),
+                        getRandomInt(1, maxStats[2]),
+                        getRandomInt(1, maxStats[3])
+                    ],
+                    'afni': [
+                        getRandomInt(1, maxStats[0]),
+                        getRandomInt(1, maxStats[1]),
+                        getRandomInt(1, maxStats[2]),
+                        getRandomInt(1, maxStats[3])
+                    ],
+                    'connectome': [
+                        getRandomInt(1, maxStats[0]),
+                        getRandomInt(1, maxStats[1]),
+                        getRandomInt(1, maxStats[2]),
+                        getRandomInt(1, maxStats[3])
+                    ],
+                    'fsl': [
+                        getRandomInt(1, maxStats[0]),
+                        getRandomInt(1, maxStats[1]),
+                        getRandomInt(1, maxStats[2]),
+                        getRandomInt(1, maxStats[3])
+                    ],
+                    'neurodebian': [
+                        getRandomInt(1, maxStats[0]),
+                        getRandomInt(1, maxStats[1]),
+                        getRandomInt(1, maxStats[2]),
+                        getRandomInt(1, maxStats[3])
+                    ],
+                    'nifti': [
+                        getRandomInt(1, maxStats[0]),
+                        getRandomInt(1, maxStats[1]),
+                        getRandomInt(1, maxStats[2]),
+                        getRandomInt(1, maxStats[3])
+                    ],
+                    'haxby': [
+                        getRandomInt(1, maxStats[0]),
+                        getRandomInt(1, maxStats[1]),
+                        getRandomInt(1, maxStats[2]),
+                        getRandomInt(1, maxStats[3])
+                    ],
+                    undefined: [0, 0, 0, 0]
+                }
+            }
+
+            $(window).on("resize",
+                function(event) {
+
+                    $("#g1, #g2, #g3, #g4").empty();
+
+                    g1 = new JustGage({
+                        id: "g1",
+                        value: userChoices.length,
+                        min: 0,
+                        max: userChoices.length,
+                        donut: true,
+                        gaugeWidthScale: 0.3,
+                        counter: true,
+                        hideInnerShadow: true,
+                        levelColors: ["#1089F5"],
+                    });
+
+                    g2 = new JustGage({
+                        id: "g2",
+                        value: resourceChoices.length,
+                        min: 0,
+                        max: resourceChoices.length,
+                        donut: true,
+                        gaugeWidthScale: 0.3,
+                        counter: true,
+                        hideInnerShadow: true,
+                        levelColors: ["#FF4644"],
+                    });
+
+                    g3 = new JustGage({
+                        id: "g3",
+                        value: dataChoices.length,
+                        min: 0,
+                        max: dataChoices.length,
+                        donut: true,
+                        gaugeWidthScale: 0.3,
+                        counter: true,
+                        hideInnerShadow: true,
+                        levelColors: ["#FCB904"]
+                    });
+                    g4 = new JustGage({
+                        id: "g4",
+                        value: serviceChoices.length,
+                        min: 0,
+                        max: serviceChoices.length,
+                        donut: true,
+                        gaugeWidthScale: 0.3,
+                        counter: true,
+                        hideInnerShadow: true,
+                        levelColors: ["#4CAF50"]
+                    });
+
+                    populate_users(getRandomInt(1, userChoices.length));
+                    populate_resources(getRandomInt(1, resourceChoices.length));
+                    populate_data(getRandomInt(1, dataChoices.length));
+                    populate_services(getRandomInt(1, serviceChoices.length));
+
+                });
+
+            // (function() {
+            $(window).on("resize", function() {
+                var animPolice, animTime;
+                animTime = 3000;
+                animPolice = false;
+                $('.fillBtn').click(function() {
+                    if (animPolice) {
+                        return;
+                    }
+                    animPolice = true;
+                    $('.circleFill').attr('class',
+                        'circleFill filled');
+                    return setTimeout(function() {
+                        return animPolice =
+                            false;
+                    }, animTime);
+                });
+                return $('.unfillBtn').click(function() {
+                    if (animPolice) {
+                        return;
+                    }
+                    animPolice = true;
+                    $('.circleFill').attr('class',
+                        'circleFill');
+                    return setTimeout(function() {
+                        return animPolice =
+                            false;
+                    }, animTime);
+                });
+            });
+
+            $(document).ready(function() {
+                $(window).resize();
+                // searchKeyUp();
+                //
+                populate_users(maxStats[0]);
+                populate_resources(maxStats[1]);
+                populate_data(maxStats[2]);
+                populate_services(maxStats[3]);
+            });
+
+            function searchKeyUp() {
+                var inputStatus = document.getElementById("search_input").name;
+                $(".tt-menu").css({
+                    "position": "relative"
+                });
+                var enteredSoFar = $('#search_input').typeahead("val");
+                var autocompleted = $('#searchbox .tt-hint').val();
+
+                // var value = "";
+
+                var value = autocompleted || enteredSoFar;
+
+                // var peopleCount = getRandomInt(1, userChoices.length);
+                // var resourceCount = getRandomInt(1, resourceChoices.length);
+                // var dataCount = getRandomInt(1, dataChoices.length);
+                // var serviceCount = getRandomInt(1, serviceChoices.length);
+                if (!value) {
+                    calcMaxStats();
+                    populate_users(maxStats[0]);
+                    populate_resources(maxStats[1]);
+                    populate_data(maxStats[2]);
+                    populate_services(maxStats[3]);
+                } else {
+
+                    value = value.toLowerCase();
+                    if (!topic_content[value] && value.length > 2) {
+                        value = undefined;
+                    }
+                    var peopleCount = topic_content[value][0] || 0;
+                    var resourceCount = topic_content[value][1] || 0
+                    var dataCount = topic_content[value][2] || 0;
+                    var serviceCount = topic_content[value][3] || 0;
+
+                    populate_users(peopleCount, (value === "life"));
+                    populate_resources(resourceCount);
+                    populate_data(dataCount);
+                    populate_services(serviceCount);
+                }
+
+            }
+
+            function populate_users(userCount, life) {
+                if (life) userCount = 4;
+
+                if (userCount === undefined) userCount = userChoices.length;
+                life = life || false;
+
+                g1.refreshAnimationTime = 0;
+                g1.refresh(userCount);
+
+                $("#user_list").empty();
+
+                var sample = [];
+
+                if (!life) {
+                    var choices_copy = userChoices.slice(0);
+                    for (i = 0; i < userCount; i++) {
+                        var rx = getRandomInt(0, choices_copy.length - 1);
+                        sample = sample.concat(choices_copy.splice(rx, 1));
+                    }
+                } else {
+                    sample = [
+                        userChoices[0],
+                        userChoices[1],
+                        userChoices[2],
+                        userChoices[3]
+                    ];
+                }
+
+                $('#user_list').mixItUp("destroy");
+                for (i = 0; i < userCount; i++) {
+                    var user = sample.pop();
+                    var userbox = $("<div class='user-box mix'></div>");
+                    userbox.append("<img src='" + user[1] +
+                        "' class='img-responsive' alt='' />");
+                    userbox.append($("<p>" + user[0] + "</p>"));
+                    $("#user_list").append(userbox);
+
+                    if (i > 30) {
+                        break;
+                    }
+                }
+                $('#user_list').mixItUp();
+                // $('#user_list').mixItUp('sort', 'random');
+
+            }
+
+            function populate_resources(resourceCount) {
+                if (resourceCount === undefined) resourceCount =
+                    resourceChoices.length;
+                g2.refreshAnimationTime = 0;
+                g2.refresh(resourceCount);
+
+                $("#resource-data-container").empty();
+
+                var choices_copy = resourceChoices.slice(0);
+                var sample = [];
+                for (i = 0; i < resourceCount; i++) {
+                    var rx = getRandomInt(0, choices_copy.length - 1);
+                    sample = sample.concat(choices_copy.splice(rx, 1));
+                }
+
+                var resourceBox = null;
+                var updateResource = null;
+                $("#resource-data-container").mixItUp("destroy");
+                for (i = 0; i < resourceCount; i++) {
+                    if (i % 5 == 0) {
+                        resourceBox = $(
+                            "<div class='resource-data-box  col-lg-6 col-md-12 col-sm-6 col-xs-12  mix'></div>"
+                        );
+                        updateResource = $("<ul></ul>");
+                        resourceBox.append(updateResource);
+                        $("#resource-data-container").append(resourceBox);
+                    }
+
+                    var node = document.createElement("LI");
+                    var textnode = document.createTextNode(sample.pop());
+                    node.appendChild(textnode);
+                    updateResource.append(node);
+
+                    if (i > 30) {
+                        break;
+                    }
+                }
+                $("#resource-data-container").mixItUp();
+            }
+
+            function populate_data(dataCount) {
+                if (dataCount === undefined) dataCount = dataChoices.length;
+
+                g3.refreshAnimationTime = 0;
+                g3.refresh(dataCount);
+
+                $("#data-data-container").empty();
+
+                var choices_copy = dataChoices.slice(0);
+                var sample = [];
+                for (i = 0; i < dataCount; i++) {
+                    var rx = getRandomInt(0, choices_copy.length - 1);
+                    sample = sample.concat(choices_copy.splice(rx, 1));
+                }
+
+                var dataBox = null;
+                var updateData = null;
+                $("#data-data-container").mixItUp("destroy");
+                for (i = 0; i < dataCount; i++) {
+                    if (i % 5 == 0) {
+                        dataBox = $(
+                            "<div class='resource-data-box  col-lg-6 col-md-12 col-sm-6 col-xs-12 mix'></div>"
+                        );
+                        updatedata = $("<ul></ul>");
+                        dataBox.append(updatedata);
+                        $("#data-data-container").append(dataBox);
+                    }
+
+                    var node = document.createElement("LI");
+                    var textnode = document.createTextNode(sample.pop());
+                    node.appendChild(textnode);
+                    updatedata.append(node);
+
+                    if (i > 30) {
+                        break;
+                    }
+                }
+                $("#data-data-container").mixItUp();
+            }
+
+            function populate_services(serviceCount) {
+                if (serviceCount === undefined) serviceCount = serviceChoices.length;
+
+                g4.refreshAnimationTime = 0;
+                g4.refresh(serviceCount);
+
+                $("#service-data-container").empty();
+
+                var choices_copy = serviceChoices.slice(0);
+                var sample = [];
+                for (i = 0; i < serviceCount; i++) {
+                    var rx = getRandomInt(0, choices_copy.length - 1);
+                    sample = sample.concat(choices_copy.splice(rx, 1));
+                }
+
+                var serviceBox = null;
+                var updateservice = null;
+                $("#service-data-container").mixItUp("destroy");
+                for (i = 0; i < serviceCount; i++) {
+                    if (i % 5 == 0) {
+                        serviceBox = $(
+                            "<div class='resource-data-box mix'></div>");
+                        updateservice = $("<ul></ul>");
+                        serviceBox.append(updateservice);
+                        $("#service-data-container").append(serviceBox);
+                    }
+
+                    var node = document.createElement("LI");
+                    var rx = getRandomInt(1, serviceChoices.length - 1);
+                    var textnode = document.createTextNode(sample.pop());
+                    node.appendChild(textnode);
+                    updateservice.append(node);
+
+                    if (i > 30) {
+                        break;
+                    }
+                }
+                $("#service-data-container").mixItUp();
+            }
+
+            var substringMatcher = function(strs) {
+                return function findMatches(q, cb) {
+                    var matches, substringRegex;
+
+                    // an array that will be populated with substring matches
+                    matches = [];
+
+                    // regex used to determine if a string contains the substring `q`
+                    substrRegex = new RegExp(q, 'i');
+
+                    // iterate through the pool of strings and for any string that
+                    // contains the substring `q`, add it to the `matches` array
+                    $.each(strs, function(i, str) {
+                        if (substrRegex.test(str)) {
+                            matches.push(str);
+                        }
+                    });
+
+                    cb(matches);
+                };
+            };
+
+            $('#search_input').typeahead({
+                hint: true,
                 highlight: true,
-                minLength: 1
-            },
-            {
+                minLength: 1,
+                classNames: {
+                    menu: "col-xs-8 col-xs-offset-2 tt-menu card"
+                }
+            }, {
                 name: 'topics',
                 source: substringMatcher(topics)
-            });            
-            
+            });
+
+            $('#search_input').on("keyup", searchKeyUp);
+            $('#search_input').on("typeahead:select", searchKeyUp);
+            $('#search_input').on("typeahead:open", function() {
+                $(".tt-menu").css({
+                    "position": "relative"
+                });
+
+            });
+
+            $(function() {
+
+                $('.card')
+                    .on("mousedown", function() {
+                        // /alert("down");
+                        $(this).addClass("card_down");
+                    })
+                    .on("mouseup", function() {
+                        $(this).removeClass("card_down");
+                        // alert("up");
+                    });
+
+                    $('#floating-button')
+                        .on("mousedown", function() {
+                            // /alert("down");
+                            $(this).addClass("pressed");
+                        })
+                        .on("mouseup", function() {
+                            $(this).removeClass("pressed");
+                            // alert("up");
+                        })
+
+            });
+            setInterval(function() {
+                $('#user_list').mixItUp('sort', 'random');
+            }, 5000 * 2);
+
+            setInterval(function() {
+                $('#service-data-container').mixItUp('sort',
+                    'random');
+            }, 4500 * 2);
+
+            setInterval(function() {
+                $('#resource-data-container').mixItUp(
+                    'sort', 'random');
+            }, 5600 * 2);
+            setInterval(function() {
+                $('#data-data-container').mixItUp('sort',
+                    'random');
+            }, 6000 * 2);
+
         </script>
 
-</body>
+    </body>
 
 </html>
